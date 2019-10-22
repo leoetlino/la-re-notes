@@ -1,0 +1,46 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mUpIndex, type_name: ItemMenuCursorIndex, type: 2, flags: 16, fields: null}
+- {name: mDownIndex, type_name: ItemMenuCursorIndex, type: 2, flags: 16, fields: null}
+- {name: mRightIndex, type_name: ItemMenuCursorIndex, type: 2, flags: 16, fields: null}
+- {name: mLeftUpIndex, type_name: ItemMenuCursorIndex, type: 2, flags: 16, fields: null}
+contents:
+  0: {mUpIndex: 39, mDownIndex: 4, mRightIndex: 1, mLeftUpIndex: 12}
+  1: {mUpIndex: 39, mDownIndex: 5, mRightIndex: 2, mLeftUpIndex: 0}
+  2: {mUpIndex: 39, mDownIndex: 6, mRightIndex: 3, mLeftUpIndex: 1}
+  3: {mUpIndex: 39, mDownIndex: 7, mRightIndex: 39, mLeftUpIndex: 2}
+  4: {mUpIndex: 0, mDownIndex: 8, mRightIndex: 5, mLeftUpIndex: 13}
+  5: {mUpIndex: 1, mDownIndex: 9, mRightIndex: 6, mLeftUpIndex: 4}
+  6: {mUpIndex: 2, mDownIndex: 10, mRightIndex: 7, mLeftUpIndex: 5}
+  7: {mUpIndex: 3, mDownIndex: 11, mRightIndex: 39, mLeftUpIndex: 6}
+  8: {mUpIndex: 4, mDownIndex: 39, mRightIndex: 9, mLeftUpIndex: 15}
+  9: {mUpIndex: 5, mDownIndex: 39, mRightIndex: 10, mLeftUpIndex: 8}
+  10: {mUpIndex: 6, mDownIndex: 39, mRightIndex: 11, mLeftUpIndex: 9}
+  11: {mUpIndex: 7, mDownIndex: 39, mRightIndex: 39, mLeftUpIndex: 10}
+  12: {mUpIndex: 39, mDownIndex: 13, mRightIndex: 0, mLeftUpIndex: 17}
+  13: {mUpIndex: 12, mDownIndex: 14, mRightIndex: 0, mLeftUpIndex: 18}
+  14: {mUpIndex: 13, mDownIndex: 15, mRightIndex: 4, mLeftUpIndex: 19}
+  15: {mUpIndex: 14, mDownIndex: 16, mRightIndex: 8, mLeftUpIndex: 20}
+  16: {mUpIndex: 15, mDownIndex: 39, mRightIndex: 8, mLeftUpIndex: 29}
+  17: {mUpIndex: 39, mDownIndex: 18, mRightIndex: 12, mLeftUpIndex: 24}
+  18: {mUpIndex: 17, mDownIndex: 19, mRightIndex: 13, mLeftUpIndex: 23}
+  19: {mUpIndex: 18, mDownIndex: 20, mRightIndex: 14, mLeftUpIndex: 22}
+  20: {mUpIndex: 19, mDownIndex: 28, mRightIndex: 15, mLeftUpIndex: 21}
+  21: {mUpIndex: 22, mDownIndex: 26, mRightIndex: 20, mLeftUpIndex: 35}
+  22: {mUpIndex: 23, mDownIndex: 21, mRightIndex: 19, mLeftUpIndex: 35}
+  23: {mUpIndex: 24, mDownIndex: 22, mRightIndex: 18, mLeftUpIndex: 33}
+  24: {mUpIndex: 39, mDownIndex: 23, mRightIndex: 17, mLeftUpIndex: 31}
+  25: {mUpIndex: 22, mDownIndex: 39, mRightIndex: 26, mLeftUpIndex: 37}
+  26: {mUpIndex: 21, mDownIndex: 39, mRightIndex: 27, mLeftUpIndex: 25}
+  27: {mUpIndex: 20, mDownIndex: 39, mRightIndex: 28, mLeftUpIndex: 26}
+  28: {mUpIndex: 20, mDownIndex: 39, mRightIndex: 29, mLeftUpIndex: 27}
+  29: {mUpIndex: 19, mDownIndex: 39, mRightIndex: 16, mLeftUpIndex: 28}
+  30: {mUpIndex: 38, mDownIndex: 32, mRightIndex: 31, mLeftUpIndex: 39}
+  31: {mUpIndex: 39, mDownIndex: 33, mRightIndex: 24, mLeftUpIndex: 30}
+  32: {mUpIndex: 30, mDownIndex: 34, mRightIndex: 33, mLeftUpIndex: 39}
+  33: {mUpIndex: 31, mDownIndex: 35, mRightIndex: 23, mLeftUpIndex: 32}
+  34: {mUpIndex: 32, mDownIndex: 36, mRightIndex: 35, mLeftUpIndex: 39}
+  35: {mUpIndex: 33, mDownIndex: 37, mRightIndex: 22, mLeftUpIndex: 34}
+  36: {mUpIndex: 34, mDownIndex: 39, mRightIndex: 37, mLeftUpIndex: 39}
+  37: {mUpIndex: 35, mDownIndex: 39, mRightIndex: 25, mLeftUpIndex: 36}
+  38: {mUpIndex: 39, mDownIndex: 30, mRightIndex: 39, mLeftUpIndex: 39}

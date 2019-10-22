@@ -1,0 +1,259 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mTitleLabel, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mTalkerLabel, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mMessageLabel_0, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mMessageLabel_1, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mMessageLabel_2, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mMessageLabel_3, type_name: string, type: 4, flags: 0, fields: null}
+- name: conditions
+  type_name: __inline_struct_UiMemory_conditions
+  type: 0
+  flags: 2
+  fields:
+  - {name: category, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+  - {name: parameter, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  0:
+    mTitleLabel: UI:MemoryTitle1_1
+    mTalkerLabel: Talker:NpcMarin
+    mMessageLabel_0: Scenario:Lv1FirstMarin1
+    mMessageLabel_1: Scenario:Lv1FirstMarin2
+    mMessageLabel_2: Scenario:Lv1FirstMarin3
+    mMessageLabel_3: Scenario:Lv1FirstMarin4
+    conditions:
+    - {category: 1, parameter: ShieldGet}
+  1:
+    mTitleLabel: UI:MemoryTitle1_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv1Owl1_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: FirstClear}
+  2:
+    mTitleLabel: UI:MemoryTitle1_3
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv1Owl2_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: SecondClear}
+  3:
+    mTitleLabel: UI:MemoryTitle1_4
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv1Owl3_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: ThirdClear}
+  4:
+    mTitleLabel: UI:MemoryTitle2_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv1Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: FullMoonCello}
+  5:
+    mTitleLabel: UI:MemoryTitle2_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv2Owl1_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: FourthClear}
+  6:
+    mTitleLabel: UI:MemoryTitle2_3
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv2Owl2_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: FifthClear}
+  7:
+    mTitleLabel: UI:MemoryTitle3_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv2Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: ConchHorn}
+  8:
+    mTitleLabel: UI:MemoryTitle3_2
+    mTalkerLabel: Talker:NpcRichard
+    mMessageLabel_0: Scenario:Lv3QuestRichardForMemory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: GoldenLeafCount}
+  9:
+    mTitleLabel: UI:MemoryTitle4_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv3Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: FullMoonCello}
+  10:
+    mTitleLabel: UI:MemoryTitle4_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv4Owl1_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: SixthClear}
+  11:
+    mTitleLabel: UI:MemoryTitle4_3
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv4Owl2_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: SeventhClear}
+  12:
+    mTitleLabel: UI:MemoryTitle5_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv4Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: SurfHarp}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: FullMoonCello}
+  13:
+    mTitleLabel: UI:MemoryTitle5_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv5Owl1_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: EighthClear}
+  14:
+    mTitleLabel: UI:MemoryTitle6_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv5Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: SurfHarp}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: FullMoonCello}
+  15:
+    mTitleLabel: UI:MemoryTitle6_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv6Owl1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: NinthClear}
+  16:
+    mTitleLabel: UI:MemoryTitle6_3
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv6Owl2_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: TenthClear}
+  17:
+    mTitleLabel: UI:MemoryTitle7_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv6Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: CoralTriangle}
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: SurfHarp}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: FullMoonCello}
+  18:
+    mTitleLabel: UI:MemoryTitle7_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv7Owl1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: EleventhClear}
+  19:
+    mTitleLabel: UI:MemoryTitle8_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv7Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: EveningCalmOrgan}
+    - {category: 2, parameter: CoralTriangle}
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: SurfHarp}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: FullMoonCello}
+  20:
+    mTitleLabel: UI:MemoryTitle8_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:Lv8Owl1_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: ThirteenClear}
+  21:
+    mTitleLabel: UI:MemoryTitleLast_1
+    mTalkerLabel: ''
+    mMessageLabel_0: Scenario:Lv8Clear_Memory
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 2, parameter: ThunderDrum}
+    - {category: 2, parameter: EveningCalmOrgan}
+    - {category: 2, parameter: CoralTriangle}
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: SurfHarp}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: FullMoonCello}
+  22:
+    mTitleLabel: UI:MemoryTitleLast_2
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:LastOwl1_1
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: FourteenClear}
+  23:
+    mTitleLabel: UI:MemoryTitleLast_3
+    mTalkerLabel: Talker:NpcOwl
+    mMessageLabel_0: Scenario:LastOwl2
+    mMessageLabel_1: ''
+    mMessageLabel_2: ''
+    mMessageLabel_3: ''
+    conditions:
+    - {category: 1, parameter: FiveteenClear}

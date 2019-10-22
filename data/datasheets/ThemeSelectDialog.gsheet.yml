@@ -1,0 +1,141 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mThemeLabel, type_name: string, type: 4, flags: 1, fields: null}
+- {name: mInfoLabel, type_name: string, type: 4, flags: 0, fields: null}
+- name: mSpeechBubbles
+  type_name: __inline_struct_ThemeSelectDialog_mSpeechBubbles
+  type: 0
+  flags: 2
+  fields:
+  - {name: mTextLabel, type_name: string, type: 4, flags: 1, fields: null}
+  - {name: mPosX, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mPosY, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mIsUpper, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  0:
+    mThemeLabel: System:PanelTheme1_1
+    mInfoLabel: System:PanelExplanation1_1
+    mSpeechBubbles:
+    - {mTextLabel: 'System:PanelElement_Start', mPosX: 4, mPosY: 5, mIsUpper: false}
+    - {mTextLabel: 'System:PanelElement_Boss', mPosX: 5, mPosY: 2, mIsUpper: false}
+  1:
+    mThemeLabel: System:PanelTheme1_2
+    mInfoLabel: System:PanelExplanation1_2
+    mSpeechBubbles:
+    - {mTextLabel: 'System:PanelElement_Treasure', mPosX: 3, mPosY: 3, mIsUpper: false}
+    - {mTextLabel: 'System:PanelElement_Lock', mPosX: 4, mPosY: 3, mIsUpper: true}
+  2:
+    mThemeLabel: System:PanelTheme1_3
+    mInfoLabel: System:PanelExplanation1_3
+    mSpeechBubbles:
+    - {mTextLabel: 'System:PanelElement_Block', mPosX: 5, mPosY: 2, mIsUpper: true}
+  3:
+    mThemeLabel: System:PanelTheme1_4
+    mInfoLabel: System:PanelExplanation1_4
+    mSpeechBubbles:
+    - {mTextLabel: 'System:PanelElement_Fill', mPosX: 4, mPosY: 5, mIsUpper: true}
+  4:
+    mThemeLabel: System:PanelTheme2_1
+    mInfoLabel: System:PanelExplanation2_1
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  5:
+    mThemeLabel: System:PanelTheme2_2
+    mInfoLabel: System:PanelExplanation2_2
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  6:
+    mThemeLabel: System:PanelTheme2_3
+    mInfoLabel: System:PanelExplanation2_3
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  7:
+    mThemeLabel: System:PanelTheme2_4
+    mInfoLabel: System:PanelExplanation2_4
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  8:
+    mThemeLabel: System:PanelTheme3_1
+    mInfoLabel: System:PanelExplanation3_1
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  9:
+    mThemeLabel: System:PanelTheme3_2
+    mInfoLabel: System:PanelExplanation3_2
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  10:
+    mThemeLabel: System:PanelTheme3_3
+    mInfoLabel: System:PanelExplanation3_3
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  11:
+    mThemeLabel: System:PanelTheme3_4
+    mInfoLabel: System:PanelExplanation3_4
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  12:
+    mThemeLabel: System:PanelTheme4_1
+    mInfoLabel: System:PanelExplanation4_1
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  13:
+    mThemeLabel: System:PanelTheme4_2
+    mInfoLabel: System:PanelExplanation4_2
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  14:
+    mThemeLabel: System:PanelTheme4_3
+    mInfoLabel: System:PanelExplanation4_3
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  15:
+    mThemeLabel: System:PanelTheme4_4
+    mInfoLabel: System:PanelExplanation4_4
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  16:
+    mThemeLabel: System:PanelTheme4_5
+    mInfoLabel: System:PanelExplanation4_5
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  17:
+    mThemeLabel: System:PanelTheme4_6
+    mInfoLabel: System:PanelExplanation4_6
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  18:
+    mThemeLabel: System:PanelTheme4_7
+    mInfoLabel: System:PanelExplanation4_7
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  19:
+    mThemeLabel: System:PanelTheme4_8
+    mInfoLabel: System:PanelExplanation4_8
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  20:
+    mThemeLabel: System:PanelTheme4_9
+    mInfoLabel: System:PanelExplanation4_9
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  21:
+    mThemeLabel: System:PanelTheme4_10
+    mInfoLabel: System:PanelExplanation4_10
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  22:
+    mThemeLabel: System:PanelTheme4_11
+    mInfoLabel: System:PanelExplanation4_11
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  23:
+    mThemeLabel: System:PanelTheme4_12
+    mInfoLabel: System:PanelExplanation4_12
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}
+  48:
+    mThemeLabel: UI:PnlMenuNewEdit
+    mInfoLabel: System:PanelExplanationFree
+    mSpeechBubbles:
+    - {mTextLabel: dummy, mPosX: 0, mPosY: 0, mIsUpper: false}

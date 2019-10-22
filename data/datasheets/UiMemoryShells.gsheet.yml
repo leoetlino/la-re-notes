@@ -1,0 +1,56 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mPosX, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosY, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosZ, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  0: {mPosX: 53.25, mPosY: 10.5, mPosZ: 120.0}
+  1: {mPosX: 23.25, mPosY: 10.5, mPosZ: 124.5}
+  2: {mPosX: 54.75, mPosY: 8.25, mPosZ: 158.25}
+  3: {mPosX: 21.75, mPosY: 12.75, mPosZ: 92.25}
+  4: {mPosX: 69.75, mPosY: 12.0, mPosZ: 89.25}
+  5: {mPosX: 36.75, mPosY: 12.75, mPosZ: 66.75}
+  6: {mPosX: 83.25, mPosY: 12.0, mPosZ: 126.75}
+  7: {mPosX: 125.25, mPosY: 9.749999046325684, mPosZ: 128.25}
+  8: {mPosX: 141.75, mPosY: 7.5, mPosZ: 137.25}
+  9: {mPosX: 171.75, mPosY: 9.75, mPosZ: 102.75}
+  10: {mPosX: 75.75, mPosY: 3.75, mPosZ: 186.75}
+  11: {mPosX: 138.75, mPosY: 7.5, mPosZ: 177.75}
+  12: {mPosX: 95.25, mPosY: 8.25, mPosZ: 150.375}
+  13: {mPosX: 36.0, mPosY: 8.25, mPosZ: 163.5}
+  14: {mPosX: 70.5, mPosY: 9.75, mPosZ: 124.5}
+  15: {mPosX: 155.25, mPosY: 7.5, mPosZ: 161.25}
+  16: {mPosX: 233.25, mPosY: 9.75, mPosZ: 188.25}
+  17: {mPosX: 216.75, mPosY: 9.0, mPosZ: 123.75}
+  18: {mPosX: 99.75, mPosY: 9.75, mPosZ: 126.75}
+  19: {mPosX: 126.75, mPosY: 7.5, mPosZ: 185.25}
+  20: {mPosX: 99.75, mPosY: 7.5, mPosZ: 185.25}
+  21: {mPosX: 192.75, mPosY: 25.5, mPosZ: 11.25}
+  22: {mPosX: 203.25, mPosY: 21.0, mPosZ: 21.75}
+  23: {mPosX: 185.25, mPosY: 10.5, mPosZ: 75.75}
+  24: {mPosX: 123.75, mPosY: 8.75, mPosZ: 92.5}
+  25: {mPosX: 219.0, mPosY: 24.75, mPosZ: 12.75}
+  26: {mPosX: 7.25, mPosY: 12.75, mPosZ: 50.0}
+  27: {mPosX: 26.25, mPosY: 13.5, mPosZ: 32.25}
+  28: {mPosX: 116.25, mPosY: 13.5, mPosZ: 59.25}
+  29: {mPosX: 195.0, mPosY: 14.75, mPosZ: 32.5}
+  30: {mPosX: 113.25, mPosY: 9.75, mPosZ: 116.25}
+  31: {mPosX: 148.0, mPosY: 26.5, mPosZ: 14.0}
+  32: {mPosX: 84.75, mPosY: 12.75, mPosZ: 29.0}
+  33: {mPosX: 227.25, mPosY: 7.5, mPosZ: 104.25}
+  34: {mPosX: 230.25, mPosY: 9.0, mPosZ: 150.75}
+  35: {mPosX: 198.75, mPosY: 10.5, mPosZ: 148.0}
+  36: {mPosX: 203.75, mPosY: 10.5, mPosZ: 148.0}
+  37: {mPosX: 189.5, mPosY: 19.0, mPosZ: 22.0}
+  38: {mPosX: 128.25, mPosY: 4.5, mPosZ: 38.25}
+  39: {mPosX: 208.0, mPosY: 8.5, mPosZ: 186.25}
+  40: {mPosX: 84.75, mPosY: 24.0, mPosZ: 12.75}
+  41: {mPosX: 41.25, mPosY: 24.0, mPosZ: 20.25}
+  42: {mPosX: 50.0, mPosY: 15.0, mPosZ: 137.5}
+  43: {mPosX: 55.0, mPosY: 15.0, mPosZ: 137.5}
+  44: {mPosX: 20.75, mPosY: 13.5, mPosZ: 102.5}
+  45: {mPosX: 25.75, mPosY: 13.5, mPosZ: 102.5}
+  46: {mPosX: 215.25, mPosY: 10.5, mPosZ: 66.75}
+  47: {mPosX: 229.0, mPosY: 17.0, mPosZ: 36.25}
+  48: {mPosX: 111.5, mPosY: 16.25, mPosZ: 38.75}
+  49: {mPosX: 14.75, mPosY: 9.75, mPosZ: 180.75}

@@ -1,0 +1,23 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mSpot, type_name: FishingSpot, type: 2, flags: 16, fields: null}
+- {name: mWeightTbl, type_name: int, type: 2, flags: 2, fields: null}
+contents:
+  0:
+    mSpot: 0
+    mWeightTbl: [10, 0, 1, 0, 0, 0]
+  1:
+    mSpot: 0
+    mWeightTbl: [15, 0, 5, 0, 0, 0]
+  2:
+    mSpot: 1
+    mWeightTbl: [10, 10, 0, 5, 0, 0]
+  3:
+    mSpot: 1
+    mWeightTbl: [10, 5, 0, 1, 0, 0]
+  4:
+    mSpot: 2
+    mWeightTbl: [0, 25, 0, 0, 5, 0]
+  5:
+    mSpot: 3
+    mWeightTbl: [0, 0, 0, 0, 0, 1]

@@ -1,0 +1,65 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mHidButtonName, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mButtonType, type_name: PhysicalButton, type: 2, flags: 16, fields: null}
+contents:
+  0: {mHidButtonName: Decide, mButtonType: 0}
+  1: {mHidButtonName: Cancel, mButtonType: 1}
+  2: {mHidButtonName: ItemSlot1, mButtonType: 0}
+  3: {mHidButtonName: ItemSlot2, mButtonType: 1}
+  4: {mHidButtonName: ItemSetX, mButtonType: 2}
+  5: {mHidButtonName: ItemSetY, mButtonType: 3}
+  6: {mHidButtonName: FishingRod, mButtonType: 13}
+  7: {mHidButtonName: Move, mButtonType: 13}
+  8: {mHidButtonName: MoveLeft, mButtonType: 17}
+  9: {mHidButtonName: MoveUp, mButtonType: 14}
+  10: {mHidButtonName: MoveRight, mButtonType: 16}
+  11: {mHidButtonName: MoveDown, mButtonType: 15}
+  12: {mHidButtonName: Dash, mButtonType: 5}
+  13: {mHidButtonName: Shield, mButtonType: 4}
+  14: {mHidButtonName: OpenSubItem, mButtonType: 10}
+  15: {mHidButtonName: OpenSubMap, mButtonType: 11}
+  16: {mHidButtonName: PanelTabLeft, mButtonType: 5}
+  17: {mHidButtonName: PanelTabRight, mButtonType: 4}
+  18: {mHidButtonName: Back, mButtonType: 1}
+  19: {mHidButtonName: Space, mButtonType: 2}
+  20: {mHidButtonName: BackSpace, mButtonType: 3}
+  21: {mHidButtonName: Pin, mButtonType: 0}
+  22: {mHidButtonName: Memory, mButtonType: 2}
+  23: {mHidButtonName: LocationName, mButtonType: 3}
+  24: {mHidButtonName: DungeonInfo, mButtonType: 3}
+  25: {mHidButtonName: PanelDelete, mButtonType: 2}
+  26: {mHidButtonName: PuzzleMenu, mButtonType: 10}
+  27: {mHidButtonName: Zoom, mButtonType: 12}
+  28: {mHidButtonName: DungeonFloor, mButtonType: 14}
+  29: {mHidButtonName: PanelRetire, mButtonType: 2}
+  30: {mHidButtonName: MemoryTabRight, mButtonType: 16}
+  31: {mHidButtonName: MemoryTabLeft, mButtonType: 17}
+  32: {mHidButtonName: MemoryMessage, mButtonType: 0}
+  33: {mHidButtonName: PanelCategoryRight, mButtonType: 6}
+  34: {mHidButtonName: PanelCategoryLeft, mButtonType: 7}
+  35: {mHidButtonName: PanelLevelRight, mButtonType: 4}
+  36: {mHidButtonName: PanelLevelLeft, mButtonType: 5}
+  37: {mHidButtonName: PanelReceiveDelete, mButtonType: 2}
+  38: {mHidButtonName: PanelReceiveInfo, mButtonType: 3}
+  39: {mHidButtonName: PanelHold, mButtonType: 0}
+  40: {mHidButtonName: PanelRelease, mButtonType: 1}
+  41: {mHidButtonName: PanelEditInfo, mButtonType: 3}
+  42: {mHidButtonName: PanelStart, mButtonType: 0}
+  43: {mHidButtonName: WarpLocationOff, mButtonType: 3}
+  44: {mHidButtonName: SubItemToSystem, mButtonType: 4}
+  45: {mHidButtonName: PanelSet, mButtonType: 0}
+  46: {mHidButtonName: Dive, mButtonType: 1}
+  47: {mHidButtonName: Sword, mButtonType: 1}
+  48: {mHidButtonName: HoldBomb, mButtonType: 0}
+  49: {mHidButtonName: DeleteX, mButtonType: 2}
+  50: {mHidButtonName: DeleteL, mButtonType: 5}
+  51: {mHidButtonName: DeleteR, mButtonType: 4}
+  52: {mHidButtonName: DungeonFloorDown, mButtonType: 15}
+  53: {mHidButtonName: CraneOperationX, mButtonType: 2}
+  54: {mHidButtonName: CraneOperationA, mButtonType: 0}
+  55: {mHidButtonName: FastSwim, mButtonType: 0}
+  56: {mHidButtonName: GameStartL, mButtonType: 19}
+  57: {mHidButtonName: GameStartR, mButtonType: 18}
+  58: {mHidButtonName: FishingReel, mButtonType: 0}
+  59: {mHidButtonName: PanelHint, mButtonType: 0}

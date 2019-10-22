@@ -1,0 +1,37 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mItemMenuCount, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  0: {mItemMenuCount: false}
+  1: {mItemMenuCount: false}
+  2: {mItemMenuCount: false}
+  3: {mItemMenuCount: true}
+  4: {mItemMenuCount: true}
+  5: {mItemMenuCount: false}
+  6: {mItemMenuCount: false}
+  7: {mItemMenuCount: false}
+  8: {mItemMenuCount: true}
+  9: {mItemMenuCount: false}
+  10: {mItemMenuCount: true}
+  11: {mItemMenuCount: true}
+  12: {mItemMenuCount: true}
+  13: {mItemMenuCount: true}
+  14: {mItemMenuCount: false}
+  15: {mItemMenuCount: false}
+  16: {mItemMenuCount: false}
+  17: {mItemMenuCount: false}
+  18: {mItemMenuCount: false}
+  19: {mItemMenuCount: false}
+  20: {mItemMenuCount: true}
+  21: {mItemMenuCount: true}
+  22: {mItemMenuCount: true}
+  23: {mItemMenuCount: true}
+  24: {mItemMenuCount: true}
+  25: {mItemMenuCount: true}
+  26: {mItemMenuCount: true}
+  27: {mItemMenuCount: false}
+  28: {mItemMenuCount: false}
+  29: {mItemMenuCount: false}
+  30: {mItemMenuCount: false}
+  31: {mItemMenuCount: false}
+  32: {mItemMenuCount: false}

@@ -1,0 +1,45 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- name: mLotTbl
+  type_name: __inline_struct_PanelTreasureBox_mLotTbl
+  type: 0
+  flags: 2
+  fields:
+  - {name: mType, type_name: Items, type: 4, flags: 9, fields: null}
+  - {name: mWeight, type_name: int, type: 2, flags: 0, fields: null}
+contents:
+  0:
+    mLotTbl:
+    - {mType: Rupee50, mWeight: 5}
+    - {mType: Rupee20, mWeight: 10}
+    - {mType: Rupee5, mWeight: 20}
+    - {mType: Rupee1, mWeight: 35}
+    - {mType: '', mWeight: 0}
+  1:
+    mLotTbl:
+    - {mType: Rupee50, mWeight: 5}
+    - {mType: Rupee20, mWeight: 10}
+    - {mType: Rupee5, mWeight: 35}
+    - {mType: Rupee1, mWeight: 20}
+    - {mType: '', mWeight: 30}
+  2:
+    mLotTbl:
+    - {mType: Rupee50, mWeight: 0}
+    - {mType: Rupee20, mWeight: 0}
+    - {mType: Rupee5, mWeight: 0}
+    - {mType: Rupee1, mWeight: 0}
+    - {mType: '', mWeight: 100}
+  3:
+    mLotTbl:
+    - {mType: Rupee50, mWeight: 25}
+    - {mType: Rupee20, mWeight: 35}
+    - {mType: Rupee5, mWeight: 10}
+    - {mType: Rupee1, mWeight: 0}
+    - {mType: '', mWeight: 0}
+  4:
+    mLotTbl:
+    - {mType: Rupee50, mWeight: 25}
+    - {mType: Rupee20, mWeight: 35}
+    - {mType: Rupee5, mWeight: 10}
+    - {mType: Rupee1, mWeight: 0}
+    - {mType: '', mWeight: 30}

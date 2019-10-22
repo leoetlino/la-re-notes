@@ -1,0 +1,79 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: actorID, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mOpenItem, type_name: Items, type: 4, flags: 9, fields: null}
+- {name: mSizeMax, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mScaleMax, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mSizeBase, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mScaleBase, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mSizeMin, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mScaleMin, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mMoreSizeTbl, type_name: int, type: 2, flags: 2, fields: null}
+- {name: mMoreRupeeTbl, type_name: int, type: 2, flags: 2, fields: null}
+contents:
+  0:
+    actorID: 525
+    mOpenItem: ''
+    mSizeMax: 40
+    mScaleMax: 1.2000000476837158
+    mSizeBase: 25
+    mScaleBase: 1.0
+    mSizeMin: 10
+    mScaleMin: 0.800000011920929
+    mMoreSizeTbl: [40, 30, 20, 0]
+    mMoreRupeeTbl: [15, 13, 11, 9]
+  1:
+    actorID: 526
+    mOpenItem: ''
+    mSizeMax: 90
+    mScaleMax: 1.285714030265808
+    mSizeBase: 70
+    mScaleBase: 1.0
+    mSizeMin: 50
+    mScaleMin: 0.714285671710968
+    mMoreSizeTbl: [80, 70, 60, 1]
+    mMoreRupeeTbl: [26, 23, 20, 17]
+  2:
+    actorID: 556
+    mOpenItem: SurfHarp
+    mSizeMax: 80
+    mScaleMax: 1.3333330154418945
+    mSizeBase: 60
+    mScaleBase: 1.0
+    mSizeMin: 40
+    mScaleMin: 0.6666666865348816
+    mMoreSizeTbl: [70, 60, 50, 2]
+    mMoreRupeeTbl: [40, 35, 30, 25]
+  3:
+    actorID: 557
+    mOpenItem: WindMarimba
+    mSizeMax: 120
+    mScaleMax: 1.2000000476837158
+    mSizeBase: 100
+    mScaleBase: 1.0
+    mSizeMin: 80
+    mScaleMin: 0.800000011920929
+    mMoreSizeTbl: [110, 100, 90, 3]
+    mMoreRupeeTbl: [60, 55, 50, 45]
+  4:
+    actorID: 558
+    mOpenItem: CoralTriangle
+    mSizeMax: 170
+    mScaleMax: 2.266666889190674
+    mSizeBase: 150
+    mScaleBase: 2.0
+    mSizeMin: 130
+    mScaleMin: 1.7333329916000366
+    mMoreSizeTbl: [160, 150, 140, 4]
+    mMoreRupeeTbl: [120, 110, 100, 90]
+  5:
+    actorID: 559
+    mOpenItem: ''
+    mSizeMax: 40
+    mScaleMax: 1.0
+    mSizeBase: 40
+    mScaleBase: 1.0
+    mSizeMin: 40
+    mScaleMin: 1.0
+    mMoreSizeTbl: [40, 30, 20, 5]
+    mMoreRupeeTbl: [0, 0, 0, 0]

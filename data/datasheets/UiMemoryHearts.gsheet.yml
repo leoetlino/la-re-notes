@@ -1,0 +1,38 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mPosX, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosY, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosZ, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  0: {mPosX: 7.5, mPosY: 9.345999717712402, mPosZ: 128.07000732421875}
+  1: {mPosX: 20.75, mPosY: 13.5, mPosZ: 102.5}
+  2: {mPosX: 66.75, mPosY: 13.5, mPosZ: 54.75}
+  3: {mPosX: 12.75, mPosY: 12.75, mPosZ: 63.75}
+  4: {mPosX: 92.25, mPosY: 9.75, mPosZ: 100.875}
+  5: {mPosX: 233.25, mPosY: 9.0, mPosZ: 146.25}
+  6: {mPosX: 135.75, mPosY: 4.756999969482422, mPosZ: 87.75}
+  7: {mPosX: 218.25, mPosY: 12.0, mPosZ: 25.875}
+  8: {mPosX: 207.75, mPosY: 7.5, mPosZ: 144.375}
+  9: {mPosX: 80.25, mPosY: 12.0, mPosZ: 89.25}
+  10: {mPosX: 110.0, mPosY: 26.0, mPosZ: 14.0}
+  11: {mPosX: 6.75, mPosY: 28.5, mPosZ: 8.25}
+  12: {mPosX: 113.25, mPosY: 13.5, mPosZ: 50.25}
+  13: {mPosX: 110.0, mPosY: 21.0, mPosZ: 20.0}
+  14: {mPosX: 74.25, mPosY: 9.75, mPosZ: 103.875}
+  15: {mPosX: 111.75, mPosY: 9.122422218322754, mPosZ: 141.75}
+  16: {mPosX: 179.25, mPosY: 7.5, mPosZ: 146.25}
+  17: {mPosX: 144.75, mPosY: 4.5, mPosZ: 177.75}
+  18: {mPosX: 162.75, mPosY: 7.5, mPosZ: 126.75}
+  19: {mPosX: 35.25, mPosY: 12.75, mPosZ: 53.25}
+  20: {mPosX: 225.4499969482422, mPosY: 12.75, mPosZ: 96.0}
+  21: {mPosX: 27.75, mPosY: 18.75, mPosZ: 24.75}
+  22: {mPosX: 158.25, mPosY: 12.75, mPosZ: 101.25}
+  23: {mPosX: 114.75, mPosY: 7.5, mPosZ: 170.25}
+  24: {mPosX: 52.0, mPosY: 13.5, mPosZ: 113.25}
+  25: {mPosX: 50.75, mPosY: 15.0, mPosZ: 137.5}
+  26: {mPosX: 55.75, mPosY: 15.0, mPosZ: 137.5}
+  27: {mPosX: 25.75, mPosY: 13.5, mPosZ: 102.5}
+  28: {mPosX: 187.5, mPosY: 10.5, mPosZ: 61.5}
+  29: {mPosX: 228.5, mPosY: 18.299999237060547, mPosZ: 40.0}
+  30: {mPosX: 111.0, mPosY: 16.25, mPosZ: 38.75}
+  31: {mPosX: 116.0, mPosY: 16.25, mPosZ: 38.75}

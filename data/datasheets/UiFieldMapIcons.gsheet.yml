@@ -1,0 +1,64 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mNameLabel, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mType, type_name: FieldMapIconType, type: 2, flags: 16, fields: null}
+- {name: mFirstShowFlagName, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- {name: mPosX, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosY, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosZ, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mArg00, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  0: {mNameLabel: ToolShop_map, mType: 1, mFirstShowFlagName: UI_FieldMapIcon_Shop,
+    mPosX: 51.75, mPosY: 10.5, mPosZ: 109.19999694824219, mArg00: ''}
+  1: {mNameLabel: TracyHouse_map, mType: 1, mFirstShowFlagName: UI_FieldMapIcon_TracyHouse,
+    mPosX: 87.75, mPosY: 13.5, mPosZ: 47.25, mArg00: ''}
+  2: {mNameLabel: WitchHouse_map, mType: 1, mFirstShowFlagName: UI_FieldMapIcon_WitchHouse,
+    mPosX: 81.75, mPosY: 13.5, mPosZ: 69.75, mArg00: ''}
+  3: {mNameLabel: Lv1Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv01Dungeon,
+    mPosX: 54.75, mPosY: 9.0, mPosZ: 152.25, mArg00: ''}
+  4: {mNameLabel: Lv2Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv02Dungeon,
+    mPosX: 65.25, mPosY: 13.125, mPosZ: 20.25, mArg00: ''}
+  5: {mNameLabel: Lv3Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv03Dungeon,
+    mPosX: 84.75, mPosY: 9.0, mPosZ: 127.69999694824219, mArg00: ''}
+  6: {mNameLabel: Lv4Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv04Dungeon,
+    mPosX: 171.75, mPosY: 12.0, mPosZ: 18.75, mArg00: ''}
+  7: {mNameLabel: Lv5Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv05Dungeon,
+    mPosX: 143.25, mPosY: 6.75, mPosZ: 154.68800354003906, mArg00: ''}
+  8: {mNameLabel: Lv6Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv06Dungeon,
+    mPosX: 185.25, mPosY: 11.25, mPosZ: 95.25, mArg00: ''}
+  9: {mNameLabel: Lv7Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv07Dungeon,
+    mPosX: 218.5, mPosY: 26.25, mPosZ: 6.75, mArg00: ''}
+  10: {mNameLabel: Lv8Dungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv08Dungeon,
+    mPosX: 8.25, mPosY: 24.75, mPosZ: 9.375, mArg00: ''}
+  11: {mNameLabel: LastDungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv09Dungeon,
+    mPosX: 98.25, mPosY: 32.68000030517578, mPosZ: 1.5, mArg00: ''}
+  12: {mNameLabel: ClothesDungeon_map, mType: 3, mFirstShowFlagName: UI_FieldMapIcon_Lv10Dungeon,
+    mPosX: 116.25, mPosY: 14.25, mPosZ: 80.25, mArg00: ''}
+  13: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox1,
+    mPosX: 38.28200149536133, mPosY: 10.5, mPosZ: 132.75, mArg00: ''}
+  14: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox2,
+    mPosX: 23.899999618530273, mPosY: 13.5, mPosZ: 36.75, mArg00: ''}
+  15: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox3,
+    mPosX: 128.17999267578125, mPosY: 7.5, mPosZ: 96.75, mArg00: ''}
+  16: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox4,
+    mPosX: 24.75, mPosY: 24.0, mPosZ: 12.75, mArg00: ''}
+  17: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox5,
+    mPosX: 65.0770034790039, mPosY: 9.75, mPosZ: 119.25, mArg00: ''}
+  18: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox6,
+    mPosX: 125.25, mPosY: 7.5, mPosZ: 168.75, mArg00: ''}
+  19: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox7,
+    mPosX: 176.25, mPosY: 7.5, mPosZ: 156.75, mArg00: ''}
+  20: {mNameLabel: TelephoneBox_map, mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox8,
+    mPosX: 171.76199340820312, mPosY: 7.5, mPosZ: 44.25, mArg00: ''}
+  21: {mNameLabel: FishingPond_map, mType: 0, mFirstShowFlagName: UI_FieldMapIcon_FishingPond,
+    mPosX: 24.75, mPosY: 12.75, mPosZ: 96.75, mArg00: ''}
+  22: {mNameLabel: RaftShop_map, mType: 0, mFirstShowFlagName: UI_FieldMapIcon_RapidsRide,
+    mPosX: 228.75, mPosY: 12.75, mPosZ: 33.75, mArg00: ''}
+  23: {mNameLabel: GameShop_map, mType: 0, mFirstShowFlagName: UI_FieldMapIcon_GameShop,
+    mPosX: 53.25, mPosY: 10.5, mPosZ: 132.0, mArg00: ''}
+  24: {mNameLabel: DanpeiShack_map, mType: 0, mFirstShowFlagName: UI_FieldMapIcon_DanpeiShack,
+    mPosX: 111.75, mPosY: 13.5, mPosZ: 35.25, mArg00: ''}
+  25: {mNameLabel: ShellMansion_map, mType: 0, mFirstShowFlagName: UI_FieldMapIcon_ShellMansion,
+    mPosX: 158.25, mPosY: 10.5, mPosZ: 95.25, mArg00: ''}
+  26: {mNameLabel: Library_map, mType: 0, mFirstShowFlagName: UI_FieldMapIcon_Library,
+    mPosX: 5.25, mPosY: 11.25, mPosZ: 129.3800048828125, mArg00: ''}

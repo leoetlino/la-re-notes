@@ -1,0 +1,856 @@
+fields:
+- {name: symbol, type_name: string, type: 4, flags: 4, fields: null}
+- {name: itemID, type_name: int, type: 2, flags: 0, fields: null}
+- {name: actorID, type_name: int, type: 2, flags: 0, fields: null}
+- {name: npcKey, type_name: Npc, type: 4, flags: 8, fields: null}
+- name: tailor
+  type_name: __inline_struct_Items_tailor
+  type: 0
+  flags: 0
+  fields:
+  - {name: pop, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: ground, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: getting, type_name: string, type: 4, flags: 0, fields: null}
+- {name: jingle, type_name: string, type: 4, flags: 0, fields: null}
+- {name: keepAsset, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: eventPause, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: gettingFlag, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- name: autoSave
+  type_name: __inline_struct_Items_autoSave
+  type: 0
+  flags: 0
+  fields:
+  - {name: enabled, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: category, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+  - {name: parameter, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  SwordLv1:
+    itemID: 0
+    actorID: 113
+    npcKey: ItemSwordLv1
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_SWORD
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SwordLv2:
+    itemID: 1
+    actorID: 114
+    npcKey: ItemSwordLv2
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Shield:
+    itemID: 2
+    actorID: 115
+    npcKey: ItemShield
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  MirrorShield:
+    itemID: 3
+    actorID: 116
+    npcKey: ItemMirrorShield
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Bomb:
+    itemID: 4
+    actorID: 117
+    npcKey: ItemBomb
+    tailor: {pop: '', ground: '', getting: Item_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 1, parameter: '!ShopBuyBomb'}
+  Bow:
+    itemID: 5
+    actorID: 118
+    npcKey: ItemBow
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  HookShot:
+    itemID: 6
+    actorID: 119
+    npcKey: ItemHookShot
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: false
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Boomerang:
+    itemID: 7
+    actorID: 120
+    npcKey: ItemBoomerang
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  MagicRod:
+    itemID: 8
+    actorID: 121
+    npcKey: ItemMagicRod
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Shovel:
+    itemID: 9
+    actorID: 122
+    npcKey: ItemShovel
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SleepyMushroom:
+    itemID: 10
+    actorID: 123
+    npcKey: ItemSleepyMushroom
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  MagicPowder:
+    itemID: 11
+    actorID: 124
+    npcKey: ItemMagicPowder
+    tailor: {pop: '', ground: '', getting: Item_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: GetMagicPowder
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  RocsFeather:
+    itemID: 12
+    actorID: 125
+    npcKey: ItemRocsFeather
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  PowerBraceletLv1:
+    itemID: 13
+    actorID: 126
+    npcKey: ItemPowerBraceletLv1
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  PowerBraceletLv2:
+    itemID: 14
+    actorID: 127
+    npcKey: ItemPowerBraceletLv2
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  PegasusBoots:
+    itemID: 15
+    actorID: 128
+    npcKey: ItemPegasusBoots
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Ocarina:
+    itemID: 16
+    actorID: 129
+    npcKey: ItemOcarina
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_OCARINA
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  ClothesGreen:
+    itemID: 17
+    actorID: 130
+    npcKey: ItemClothesGreen
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  ClothesRed:
+    itemID: 18
+    actorID: 131
+    npcKey: ItemClothesRed
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  ClothesBlue:
+    itemID: 19
+    actorID: 132
+    npcKey: ItemClothesBlue
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Flippers:
+    itemID: 20
+    actorID: 133
+    npcKey: ItemFlippers
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SecretMedicine:
+    itemID: 21
+    actorID: 134
+    npcKey: ItemSecretMedicine
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Seashell:
+    itemID: 22
+    actorID: 135
+    npcKey: ItemSecretSeashell
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_SEASHELL
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  GoldenLeaf:
+    itemID: 23
+    actorID: 136
+    npcKey: ItemGoldenLeaf
+    tailor: {pop: '', ground: Goldenleaf_land, getting: ''}
+    jingle: BGM_FANFARE_GOLDLEAF
+    keepAsset: false
+    eventPause: false
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  TailKey:
+    itemID: 24
+    actorID: 137
+    npcKey: ItemTailKey
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SlimeKey:
+    itemID: 25
+    actorID: 138
+    npcKey: ItemSlimeKey
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  AnglerKey:
+    itemID: 26
+    actorID: 139
+    npcKey: ItemAnglerKey
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: false
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  FaceKey:
+    itemID: 27
+    actorID: 140
+    npcKey: ItemFaceKey
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: false
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  BirdKey:
+    itemID: 28
+    actorID: 141
+    npcKey: ItemBirdKey
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  YoshiDoll:
+    itemID: 29
+    actorID: 142
+    npcKey: ItemYoshiDoll
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Ribbon:
+    itemID: 30
+    actorID: 143
+    npcKey: ItemRibbon
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  DogFood:
+    itemID: 31
+    actorID: 144
+    npcKey: ItemDogFood
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Bananas:
+    itemID: 32
+    actorID: 145
+    npcKey: ItemBananas
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Stick:
+    itemID: 33
+    actorID: 146
+    npcKey: ItemStick
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Honeycomb:
+    itemID: 34
+    actorID: 147
+    npcKey: ItemHoneycomb
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Pineapple:
+    itemID: 35
+    actorID: 148
+    npcKey: ItemPineapple
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Hibiscus:
+    itemID: 36
+    actorID: 149
+    npcKey: ItemHibiscus
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: false
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Letter:
+    itemID: 37
+    actorID: 150
+    npcKey: ItemLetter
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Broom:
+    itemID: 38
+    actorID: 151
+    npcKey: ItemBroom
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  FishingHook:
+    itemID: 39
+    actorID: 152
+    npcKey: ItemFishingHook
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  PinkBra:
+    itemID: 40
+    actorID: 153
+    npcKey: ItemPinkBra
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  MermaidsScale:
+    itemID: 42
+    actorID: 155
+    npcKey: ItemMermaidsScale
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  MagnifyingLens:
+    itemID: 43
+    actorID: 156
+    npcKey: ItemMagnifyingLens
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Compass:
+    itemID: 44
+    actorID: 165
+    npcKey: ItemCompass
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  DungeonMap:
+    itemID: 45
+    actorID: 166
+    npcKey: ItemDungeonMap
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  StoneBeak:
+    itemID: 47
+    actorID: 168
+    npcKey: ItemStoneBeak
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SmallKey:
+    itemID: 48
+    actorID: 169
+    npcKey: ItemSmallKey
+    tailor: {pop: Skey_Pop, ground: Skey_Land, getting: Skey_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: SmallKeyFirstGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  NightmareKey:
+    itemID: 49
+    actorID: 170
+    npcKey: ItemNightmareKey
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  FullMoonCello:
+    itemID: 50
+    actorID: 157
+    npcKey: ItemFullMoonCello
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv1InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  ConchHorn:
+    itemID: 51
+    actorID: 158
+    npcKey: ItemConchHorn
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv2InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SeaLilysBell:
+    itemID: 52
+    actorID: 159
+    npcKey: ItemSeaLilysBell
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv3InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  SurfHarp:
+    itemID: 53
+    actorID: 160
+    npcKey: ItemSurfHarp
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv4InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  WindMarimba:
+    itemID: 54
+    actorID: 161
+    npcKey: ItemWindMarimba
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv5InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  CoralTriangle:
+    itemID: 55
+    actorID: 162
+    npcKey: ItemCoralTriangle
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv6InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  EveningCalmOrgan:
+    itemID: 56
+    actorID: 163
+    npcKey: ItemEveningCalmOrgan
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv7InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  ThunderDrum:
+    itemID: 57
+    actorID: 164
+    npcKey: ItemThunderDrum
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_INST_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: Lv8InstrumentGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  HeartPiece:
+    itemID: 58
+    actorID: 176
+    npcKey: ItemHeartPiece
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  HeartContainer:
+    itemID: 59
+    actorID: 177
+    npcKey: ItemHeartContainer
+    tailor: {pop: HeartCont_Pop, ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: false
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Arrow:
+    itemID: 60
+    actorID: 180
+    npcKey: ItemArrow
+    tailor: {pop: '', ground: '', getting: Item_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  Heart:
+    itemID: 100
+    actorID: 174
+    npcKey: ItemRecoveryHeart
+    tailor: {pop: '', ground: '', getting: Heart_Get}
+    jingle: ''
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  Rupee1:
+    itemID: 101
+    actorID: 172
+    npcKey: ItemRupeeGreen
+    tailor: {pop: '', ground: Rupee_land, getting: Rupee_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: OpTalked
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  Rupee5:
+    itemID: 102
+    actorID: 171
+    npcKey: ItemRupeeBlue
+    tailor: {pop: '', ground: Rupee_land, getting: Rupee_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: OpTalked
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  Rupee20:
+    itemID: 104
+    actorID: 173
+    npcKey: ItemRupeeRed
+    tailor: {pop: '', ground: Rupee_land, getting: Rupee_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Rupee50:
+    itemID: 105
+    actorID: 315
+    npcKey: ItemRupeePurple
+    tailor: {pop: '', ground: Rupee_land, getting: Rupee_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Rupee100:
+    itemID: 106
+    actorID: 318
+    npcKey: ItemRupeeSilver
+    tailor: {pop: '', ground: Rupee_land, getting: Rupee_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Rupee300:
+    itemID: 108
+    actorID: 321
+    npcKey: ItemRupeeGold
+    tailor: {pop: '', ground: Rupee_land, getting: Rupee_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Fairy:
+    itemID: 110
+    actorID: 175
+    npcKey: ItemFairy
+    tailor: {pop: '', ground: '', getting: Fairy_Get}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: true
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  DefenceUp:
+    itemID: 111
+    actorID: 179
+    npcKey: ItemGuardianAcorn
+    tailor: {pop: '', ground: '', getting: Guard_Get}
+    jingle: ''
+    keepAsset: true
+    eventPause: true
+    gettingFlag: GuardianAcornPieceGetEventDone
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  PowerUp:
+    itemID: 112
+    actorID: 178
+    npcKey: ItemPowerPiece
+    tailor: {pop: '', ground: '', getting: Power_Get}
+    jingle: ''
+    keepAsset: true
+    eventPause: true
+    gettingFlag: PowerPieceGetEventDone
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  Apple:
+    itemID: 61
+    actorID: 310
+    npcKey: ItemApple
+    tailor: {pop: '', ground: Apple_land, getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: AppleFirstGet
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  GreenApple:
+    itemID: 62
+    actorID: 309
+    npcKey: ItemGreenApple
+    tailor: {pop: '', ground: Apple_land, getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: GreenAppleFirstGet
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  Bottle:
+    itemID: 113
+    actorID: 506
+    npcKey: ItemBottle
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Song_WindFish:
+    itemID: 120
+    actorID: -1
+    npcKey: ItemOcarina
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_OCARINA
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Song_Mambo:
+    itemID: 121
+    actorID: -1
+    npcKey: ItemOcarina
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_OCARINA
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Song_Soul:
+    itemID: 122
+    actorID: -1
+    npcKey: ItemOcarina
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_OCARINA
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  MagicPowder_MaxUp:
+    itemID: 123
+    actorID: -1
+    npcKey: ItemMagicPowder
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Bomb_MaxUp:
+    itemID: 124
+    actorID: -1
+    npcKey: ItemBomb
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  Arrow_MaxUp:
+    itemID: 125
+    actorID: -1
+    npcKey: ItemArrow
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  PanelDungeonPiece:
+    itemID: 114
+    actorID: 545
+    npcKey: ItemPanelDungeonPiece
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: PanelDungeonPieceGet
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  PanelDungeonPieceSet:
+    itemID: 115
+    actorID: 546
+    npcKey: ItemPanelDungeonPieceSet
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  ShellRader:
+    itemID: 116
+    actorID: 550
+    npcKey: ItemShellRader
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_BIGITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}
+  BottleFairy:
+    itemID: 126
+    actorID: 578
+    npcKey: ItemBottleFairy
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: false, category: 0, parameter: ''}
+  PanelDungeonPlusChip:
+    itemID: 117
+    actorID: 627
+    npcKey: ItemPanelDungeonPlusChip
+    tailor: {pop: '', ground: '', getting: ''}
+    jingle: BGM_FANFARE_ITEM_GET
+    keepAsset: false
+    eventPause: true
+    gettingFlag: ''
+    autoSave: {enabled: true, category: 0, parameter: ''}

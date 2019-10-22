@@ -1,0 +1,107 @@
+fields:
+- {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mIndex, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mIsPedastal, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: mLocator, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mNameLabel, type_name: string, type: 4, flags: 0, fields: null}
+- name: mPosition
+  type_name: __inline_struct_WarpPoint_mPosition
+  type: 0
+  flags: 0
+  fields:
+  - {name: mRow, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mColumn, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mPosX, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosY, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mPosZ, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  UkukuPrairie:
+    mIndex: 0
+    mIsPedastal: true
+    mLocator: Warp_UkukuPrairie
+    mNameLabel: WarpPoint_Ukuku
+    mPosition: {mRow: 9, mColumn: 5}
+    mPosX: 84.75
+    mPosY: 10.5
+    mPosZ: 114.75
+  TalTalMountain:
+    mIndex: 1
+    mIsPedastal: true
+    mLocator: Warp_TalTalMountain
+    mNameLabel: WarpPoint_Lv8dungeon
+    mPosition: {mRow: 0, mColumn: 1}
+    mPosX: 24.75
+    mPosY: 27.0
+    mPosZ: 11.25
+  TalTalHeights:
+    mIndex: 2
+    mIsPedastal: true
+    mLocator: Warp_TalTalHeights
+    mNameLabel: WarpPoint_TalTalHeights
+    mPosition: {mRow: 2, mColumn: 12}
+    mPosX: 189.75
+    mPosY: 13.5
+    mPosZ: 32.25
+  EastOfTheBay:
+    mIndex: 3
+    mIsPedastal: true
+    mLocator: Warp_EastOfTheBay
+    mNameLabel: WarpPoint_AnimalVillage
+    mPosition: {mRow: 14, mColumn: 12}
+    mPosX: 189.75
+    mPosY: 7.5
+    mPosZ: 173.25
+  MambogaPond:
+    mIndex: 4
+    mIsPedastal: false
+    mLocator: Warp_MambogaPond
+    mNameLabel: WarpPoint_MamboPond
+    mPosition: {mRow: 4, mColumn: 5}
+    mPosX: 81.0
+    mPosY: 12.75
+    mPosZ: 57.0
+  DanpeiHouse:
+    mIndex: 5
+    mIsPedastal: false
+    mLocator: Warp_DanpeiHouse
+    mNameLabel: WarpPoint_DanpeiShack
+    mPosition: {mRow: 2, mColumn: 7}
+    mPosX: 107.25
+    mPosY: 14.25
+    mPosZ: 32.25
+  ShellHouseEast:
+    mIndex: 6
+    mIsPedastal: false
+    mLocator: Warp_ShellHouseEast
+    mNameLabel: WarpPoint_ShellMansion
+    mPosition: {mRow: 8, mColumn: 11}
+    mPosX: 165.75
+    mPosY: 9.75
+    mPosZ: 101.25
+  TalTalMｔEast:
+    mIndex: 7
+    mIsPedastal: false
+    mLocator: Warp_TalTalMtEastEast
+    mNameLabel: WarpPoint_TalTalMtEast
+    mPosition: {mRow: 1, mColumn: 15}
+    mPosX: 234.75
+    mPosY: 18.75
+    mPosZ: 21.75
+  MarthasBayWest:
+    mIndex: 8
+    mIsPedastal: false
+    mLocator: Warp_MarthasBayWest
+    mNameLabel: WarpPoint_MarthasBay
+    mPosition: {mRow: 14, mColumn: 7}
+    mPosX: 109.5
+    mPosY: 7.5
+    mPosZ: 177.0
+  TalTalMｔWest:
+    mIndex: 9
+    mIsPedastal: false
+    mLocator: Warp_TalTalMtWest
+    mNameLabel: WarpPoint_TalTalMtWest
+    mPosition: {mRow: 1, mColumn: 3}
+    mPosX: 53.25
+    mPosY: 24.0
+    mPosZ: 14.25

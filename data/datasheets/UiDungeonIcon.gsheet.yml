@@ -1,0 +1,10 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mLeaName, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mActorID, type_name: int, type: 2, flags: 0, fields: null}
+- {name: posX, type_name: float, type: 3, flags: 0, fields: null}
+- {name: posZ, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  0: {mLeaName: Lv06FaceShrine_02A, mActorID: 502, posX: 11.25, posZ: 12.729999542236328}
+  2: {mLeaName: Lv08TurtleRock_03C, mActorID: 502, posX: 38.25, posZ: 24.25}
+  1: {mLeaName: Lv08TurtleRock_03F, mActorID: 502, posX: 83.25, posZ: 24.25}

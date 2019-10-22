@@ -1,0 +1,748 @@
+fields:
+- {name: key, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mass, type_name: float, type: 3, flags: 0, fields: null}
+- {name: drag, type_name: float, type: 3, flags: 0, fields: null}
+- {name: angularDamp, type_name: float, type: 3, flags: 0, fields: null}
+- {name: bounciness, type_name: float, type: 3, flags: 0, fields: null}
+- {name: staticFriction, type_name: float, type: 3, flags: 0, fields: null}
+- {name: dynamicFriction, type_name: float, type: 3, flags: 0, fields: null}
+- {name: bounceCombine, type_name: PhysicsCombineMethod, type: 2, flags: 16, fields: null}
+- {name: frictionCombine, type_name: PhysicsCombineMethod, type: 2, flags: 16, fields: null}
+- name: axisLock
+  type_name: __inline_struct_NpcPhysicsTraits_axisLock
+  type: 0
+  flags: 0
+  fields:
+  - {name: positionX, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: positionY, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: positionZ, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: rotationX, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: rotationY, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: rotationZ, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  SwordLv1:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SwordLv2:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Shield:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  MirrorShield:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Bomb:
+    mass: 1.0
+    drag: 0.5
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 1.0
+    dynamicFriction: 1.149999976158142
+    bounceCombine: 0
+    frictionCombine: 2
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Bow:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  HookShot:
+    mass: 1.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Boomerang:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  MagicRod:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Shovel:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SleepyMushroom:
+    mass: 1.0
+    drag: 0.5
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  MagicPowder:
+    mass: 1.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 1.0
+    dynamicFriction: 1.149999976158142
+    bounceCombine: 0
+    frictionCombine: 2
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  RocsFeather:
+    mass: 1.0
+    drag: 2.0
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  PowerBraceletLv1:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  PowerBraceletLv2:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  PegasusBoots:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Ocarina:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  ClothesGreen:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  ClothesRed:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  ClothesBlue:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Flippers:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SecretMedicine:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SecretSeashell:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  GoldenLeaf:
+    mass: 1.0
+    drag: 0.0
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  TailKey:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SlimeKey:
+    mass: 10.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 10.0
+    dynamicFriction: 10.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  AnglerKey:
+    mass: 10.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 10.0
+    dynamicFriction: 10.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  FaceKey:
+    mass: 10.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 10.0
+    dynamicFriction: 10.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  BirdKey:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  YoshiDoll:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 2
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Ribbon:
+    mass: 1.0
+    drag: 0.6000000238418579
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  DogFood:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Bananas:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Stick:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Honeycomb:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Pineapple:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Hibiscus:
+    mass: 1.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Letter:
+    mass: 1.0
+    drag: 1.5
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Broom:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  FishingHook:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  PinkBra:
+    mass: 1.0
+    drag: 2.0
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  MermaidsScale:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  MagnifyingLens:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  FullMoonCello:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  ConchHorn:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SeaLilysBell:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SurfHarp:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  WindMarimba:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  CoralTriangle:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  EveningCalmOrgan:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  ThunderDrum:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Compass:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  DungeonMap:
+    mass: 1.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  StoneBeak:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  SmallKey:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.4000000059604645
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  NightmareKey:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Rupee:
+    mass: 1.0
+    drag: 0.5
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 1.0
+    dynamicFriction: 0.800000011920929
+    bounceCombine: 0
+    frictionCombine: 2
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  RecoveryHeart:
+    mass: 1.0
+    drag: 2.0
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 1.0
+    dynamicFriction: 1.149999976158142
+    bounceCombine: 0
+    frictionCombine: 2
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Fairy:
+    mass: 1.0
+    drag: 0.10000000149011612
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  HeartPiece:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  HeartContainer:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}
+  PowerPiece:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 0.30000001192092896
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  GuardianAcorn:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 0.30000001192092896
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Arrow:
+    mass: 1.0
+    drag: 1.0
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 1.0
+    dynamicFriction: 1.149999976158142
+    bounceCombine: 0
+    frictionCombine: 2
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: true,
+      rotationY: true, rotationZ: true}
+  Apple:
+    mass: 8.0
+    drag: 0.5
+    angularDamp: 1.0
+    bounciness: 0.20000000298023224
+    staticFriction: 0.009999999776482582
+    dynamicFriction: 0.009999999776482582
+    bounceCombine: 0
+    frictionCombine: 0
+    axisLock: {positionX: false, positionY: false, positionZ: false, rotationX: false,
+      rotationY: false, rotationZ: false}
+  Bottle:
+    mass: 1.0
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.20000000298023224
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    bounceCombine: 0
+    frictionCombine: 3
+    axisLock: {positionX: true, positionY: false, positionZ: true, rotationX: true,
+      rotationY: true, rotationZ: true}

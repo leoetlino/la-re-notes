@@ -1,0 +1,16 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mSymbol, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mSecondSymbol, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  0: {mSymbol: Lv1DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  1: {mSymbol: Lv2DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  2: {mSymbol: Lv3DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  3: {mSymbol: Lv4DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  4: {mSymbol: Lv5DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  5: {mSymbol: Lv6DoorLight, mSecondSymbol: Lv6DarkDoorLight}
+  6: {mSymbol: Lv7DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  7: {mSymbol: Lv8DoorLight, mSecondSymbol: Lv8DarkDoorLight}
+  8: {mSymbol: Lv9DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  9: {mSymbol: Lv10DoorLight, mSecondSymbol: Lv2DarkDoorLight}
+  10: {mSymbol: Lv11DoorLight, mSecondSymbol: Lv2DarkDoorLight}

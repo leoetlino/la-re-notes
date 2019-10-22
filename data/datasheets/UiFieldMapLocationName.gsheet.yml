@@ -1,0 +1,26 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mNameLabel, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mFirstShowFlagName, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+contents:
+  0: {mNameLabel: KanaletCastle_map, mFirstShowFlagName: UI_FieldMapTraverse_KanaletCastle}
+  1: {mNameLabel: RapidsRide_map, mFirstShowFlagName: UI_FieldMapTraverse_RapidsRide}
+  2: {mNameLabel: SouthShrine_map, mFirstShowFlagName: UI_FieldMapTraverse_SouthShrine}
+  3: {mNameLabel: AnimalVillage_map, mFirstShowFlagName: UI_FieldMapTraverse_AnimalVillage}
+  4: {mNameLabel: YarnaDesert_map, mFirstShowFlagName: UI_FieldMapTraverse_YarnaDesert}
+  5: {mNameLabel: '', mFirstShowFlagName: UI_FieldMapTraverse_EastBay}
+  6: {mNameLabel: MarthasBay_map, mFirstShowFlagName: UI_FieldMapTraverse_MarthasBay}
+  7: {mNameLabel: PotholeField_map, mFirstShowFlagName: UI_FieldMapTraverse_PotholeField}
+  8: {mNameLabel: '', mFirstShowFlagName: UI_FieldMapTraverse_SignpostMaze}
+  9: {mNameLabel: '', mFirstShowFlagName: UI_FieldMapTraverse_SouthVillage}
+  10: {mNameLabel: MabeVillage_map, mFirstShowFlagName: UI_FieldMapTraverse_MabeVillage}
+  11: {mNameLabel: Forest_map, mFirstShowFlagName: UI_FieldMapTraverse_Forest}
+  12: {mNameLabel: GopongaSwamp_map, mFirstShowFlagName: UI_FieldMapTraverse_GopongaSwamp}
+  13: {mNameLabel: KoholintPrairie_map, mFirstShowFlagName: UI_FieldMapTraverse_KoholintPrairie}
+  14: {mNameLabel: TabahlWasteland_map, mFirstShowFlagName: UI_FieldMapTraverse_TabahlWasteland}
+  15: {mNameLabel: TalTalMountain_map, mFirstShowFlagName: UI_FieldMapTraverse_EastTalTalMountain}
+  16: {mNameLabel: MountTamaranch_map, mFirstShowFlagName: UI_FieldMapTraverse_MountTamaranch}
+  17: {mNameLabel: TalTalHeights_map, mFirstShowFlagName: UI_FieldMapTraverse_TalTalHeights}
+  18: {mNameLabel: ToronboShores_map, mFirstShowFlagName: UI_FieldMapTraverse_ToronboShores}
+  19: {mNameLabel: UkukuPrairie_map, mFirstShowFlagName: UI_FieldMapTraverse_UkukuPrairie}
+  20: {mNameLabel: Graveyard_map, mFirstShowFlagName: UI_FieldMapTraverse_Graveyard}

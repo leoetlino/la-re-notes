@@ -1,0 +1,368 @@
+fields:
+- {name: symbol, type_name: string, type: 4, flags: 4, fields: null}
+- name: getEvent
+  type_name: __inline_struct_CranePrize_getEvent
+  type: 0
+  flags: 0
+  fields:
+  - {name: messageEntry, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: jingle, type_name: string, type: 4, flags: 0, fields: null}
+- name: landingSe
+  type_name: __inline_struct_CranePrize_landingSe
+  type: 0
+  flags: 0
+  fields:
+  - {name: seInsideGameArea, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: seOutsideGameArea, type_name: string, type: 4, flags: 0, fields: null}
+- name: collision
+  type_name: __inline_struct_CranePrize_collision
+  type: 0
+  flags: 0
+  fields:
+  - {name: traits, type_name: CranePrizePhysicsTraits, type: 4, flags: 8, fields: null}
+  - name: centerOfGravity
+    type_name: __inline_struct_CranePrize_collision.centerOfGravity
+    type: 0
+    flags: 0
+    fields:
+    - {name: x, type_name: float, type: 3, flags: 0, fields: null}
+    - {name: y, type_name: float, type: 3, flags: 0, fields: null}
+    - {name: z, type_name: float, type: 3, flags: 0, fields: null}
+- {name: modelScale, type_name: float, type: 3, flags: 0, fields: null}
+- name: layouts
+  type_name: __inline_struct_CranePrize_layouts
+  type: 0
+  flags: 2
+  fields:
+  - {name: itemIndex, type_name: int, type: 2, flags: 0, fields: null}
+  - name: conditions
+    type_name: __inline_struct_CranePrize_layouts.conditions
+    type: 0
+    flags: 2
+    fields:
+    - {name: category, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+    - {name: parameter, type_name: string, type: 4, flags: 0, fields: null}
+  - name: place
+    type_name: __inline_struct_CranePrize_layouts.place
+    type: 0
+    flags: 0
+    fields:
+    - {name: type, type_name: CranePrizePlaceType, type: 2, flags: 16, fields: null}
+    - {name: index, type_name: int, type: 2, flags: 0, fields: null}
+- {name: getCount, type_name: int, type: 2, flags: 0, fields: null}
+- name: options
+  type_name: __inline_struct_CranePrize_options
+  type: 0
+  flags: 0
+  fields:
+  - {name: isFeatured, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: canGetButInsideGameArea, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: isAutoSave, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  RupeeRed:
+    getEvent: {messageEntry: UFORupee20, jingle: BGM_FANFARE_ITEM_GET}
+    landingSe: {seInsideGameArea: SE_SY_RUPY_APPEAR, seOutsideGameArea: SE_SY_RUPY_APPEAR}
+    collision:
+      traits: Rupee
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 0.800000011920929
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 1, index: 0}
+    - itemIndex: -1
+      conditions:
+      - {category: 1, parameter: '!GetMagicPowder'}
+      place: {type: 2, index: 0}
+    getCount: 1
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: true}
+  RupeePurple:
+    getEvent: {messageEntry: UFORupee50, jingle: BGM_FANFARE_ITEM_GET}
+    landingSe: {seInsideGameArea: SE_SY_RUPY_APPEAR, seOutsideGameArea: SE_SY_RUPY_APPEAR}
+    collision:
+      traits: Rupee
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 0.800000011920929
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 1, index: 2}
+    getCount: 1
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: true}
+  RupeeSilver:
+    getEvent: {messageEntry: UFORupee100, jingle: BGM_FANFARE_ITEM_GET}
+    landingSe: {seInsideGameArea: SE_SY_RUPY_APPEAR, seOutsideGameArea: SE_SY_RUPY_APPEAR}
+    collision:
+      traits: Rupee
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 0.800000011920929
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 0, index: 0}
+    getCount: 1
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: true}
+  RecoveryHeart:
+    getEvent: {messageEntry: UFOHeart, jingle: BGM_FANFARE_ITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_HEART, seOutsideGameArea: SE_MAP_CRANE_FALL_HEART}
+    collision:
+      traits: Heart
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 1.399999976158142
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 1, index: 1}
+    getCount: 20
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: false}
+  MagicPowder:
+    getEvent: {messageEntry: UFOMagicPowder, jingle: BGM_FANFARE_ITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_MAGIC, seOutsideGameArea: SE_MAP_CRANE_FALL_MAGIC}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.10000000149011612, z: 0.0}
+    modelScale: 1.0
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 2, index: 0}
+    getCount: 10
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: false}
+  Bomb:
+    getEvent: {messageEntry: UFOBomb, jingle: BGM_FANFARE_ITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_BOMB, seOutsideGameArea: SE_MAP_CRANE_FALL_BOMB}
+    collision:
+      traits: Bomb
+      centerOfGravity: {x: 0.0, y: -0.10000000149011612, z: 0.0}
+    modelScale: 1.0
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: SurfHarp}
+      place: {type: 2, index: 1}
+    getCount: 20
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: false}
+  Shield:
+    getEvent: {messageEntry: UFOShield, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_SHIELD, seOutsideGameArea: SE_MAP_CRANE_FALL_SHIELD}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 1.0
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: false, canGetButInsideGameArea: false, isAutoSave: true}
+  YoshiDoll:
+    getEvent: {messageEntry: UFOYoshiDoll, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_YOSSY_LAND1, seOutsideGameArea: SE_MAP_CRANE_YOSSY_LAND2}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 1.2000000476837158
+    layouts:
+    - itemIndex: -1
+      conditions: []
+      place: {type: 1, index: 0}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  HeartPiece:
+    getEvent: {messageEntry: UFOHeartPiece, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_HEARTPIECE, seOutsideGameArea: SE_MAP_CRANE_FALL_HEARTPIECE}
+    collision:
+      traits: Heart
+      centerOfGravity: {x: 0.0, y: -0.10000000149011612, z: 0.0}
+    modelScale: 1.399999976158142
+    layouts:
+    - itemIndex: 25
+      conditions: []
+      place: {type: 1, index: 1}
+    - itemIndex: 26
+      conditions:
+      - {category: 2, parameter: SeaLilysBell}
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  SecretSeashell:
+    getEvent: {messageEntry: UFOSeashell, jingle: BGM_FANFARE_SEASHELL}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_SHELL, seOutsideGameArea: SE_MAP_CRANE_FALL_SHELL}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 1.0
+    layouts:
+    - itemIndex: 42
+      conditions: []
+      place: {type: 1, index: 1}
+    - itemIndex: 43
+      conditions:
+      - {category: 2, parameter: SurfHarp}
+      place: {type: 2, index: 0}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  SmallBowWow:
+    getEvent: {messageEntry: UFOSmallBowWow, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_S, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_S}
+    collision:
+      traits: SmallBowWow
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.02500000037252903}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 1, parameter: HintYosshi}
+      place: {type: 1, index: 2}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  Kuribo:
+    getEvent: {messageEntry: UFOKuribo, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.5, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: FullMoonCello}
+      - {category: 1, parameter: SmallBowWowFigure}
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  Togezo:
+    getEvent: {messageEntry: UFOTogezo, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.6000000238418579, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: ConchHorn}
+      - {category: 1, parameter: KuriboFigure}
+      place: {type: 1, index: 2}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  Teresa:
+    getEvent: {messageEntry: UFOTeresa, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_S, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_S}
+    collision:
+      traits: Teresa
+      centerOfGravity: {x: 0.0, y: 0.4000000059604645, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: SeaLilysBell}
+      - {category: 1, parameter: TogezoFigure}
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  PukuPuku:
+    getEvent: {messageEntry: UFOPukuPuku, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_S, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_S}
+    collision:
+      traits: PukuPuku
+      centerOfGravity: {x: 0.0, y: 0.30000001192092896, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: SurfHarp}
+      - {category: 1, parameter: TeresaFigure}
+      place: {type: 1, index: 2}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  Gesso:
+    getEvent: {messageEntry: UFOGesso, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.5, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: WindMarimba}
+      - {category: 1, parameter: PukuPukuFigure}
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  Heiho:
+    getEvent: {messageEntry: UFOHeiho, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_M}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.5, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: CoralTriangle}
+      - {category: 1, parameter: GessoFigure}
+      place: {type: 1, index: 2}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  Pakkun:
+    getEvent: {messageEntry: UFOPakkun, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_L, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_L}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 1.2000000476837158, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: EveningCalmOrgan}
+      - {category: 1, parameter: HeihoFigure}
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: true, isAutoSave: true}
+  Pokey:
+    getEvent: {messageEntry: UFOPokey, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_L, seOutsideGameArea: SE_MAP_CRANE_PRIZE_LAND_L}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 1.0, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 2, parameter: ThunderDrum}
+      - {category: 1, parameter: PakkunFigure}
+      place: {type: 1, index: 2}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  BowWow:
+    getEvent: {messageEntry: UFOBowWow, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_PRIZE_LAND_MSE_MAP_CRANE_PRIZE_LAND_M,
+      seOutsideGameArea: ''}
+    collision:
+      traits: BowWow
+      centerOfGravity: {x: 0.0, y: 0.30000001192092896, z: 0.0}
+    modelScale: 0.699999988079071
+    layouts:
+    - itemIndex: -1
+      conditions:
+      - {category: 1, parameter: ShadowClear}
+      - {category: 1, parameter: PokeyFigure}
+      place: {type: 2, index: 1}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}
+  PanelDungeonPiece:
+    getEvent: {messageEntry: UFOPanelDungeonPiece, jingle: BGM_FANFARE_BIGITEM_GET}
+    landingSe: {seInsideGameArea: SE_MAP_CRANE_FALL_PANEL, seOutsideGameArea: SE_MAP_CRANE_FALL_PANEL}
+    collision:
+      traits: Sample
+      centerOfGravity: {x: 0.0, y: 0.0, z: 0.0}
+    modelScale: 1.0
+    layouts:
+    - itemIndex: 3
+      conditions:
+      - {category: 2, parameter: ConchHorn}
+      place: {type: 2, index: 0}
+    getCount: 1
+    options: {isFeatured: true, canGetButInsideGameArea: false, isAutoSave: true}

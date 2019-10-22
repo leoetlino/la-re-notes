@@ -1,0 +1,847 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mTitleSymbol, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mNumberOfHeart, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mTimeLimit, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mDifficulty, type_name: PanelThemeDifficulty, type: 2, flags: 16, fields: null}
+- {name: mRewardItem, type_name: Items, type: 4, flags: 9, fields: null}
+- {name: mRewardItemIndex, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mRewardItemEventEntry, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mOpenItem, type_name: Items, type: 4, flags: 9, fields: null}
+- {name: mOpenItemIndex, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mOpenFlag, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- {name: mClearFlag, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- {name: mFlag, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mMapArray, type_name: int, type: 2, flags: 2, fields: null}
+contents:
+  0:
+    mTitleSymbol: System:PanelTheme1_1
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 1
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ConchHorn
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear01
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54,
+      0, 0, 0, 0, 273, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  1:
+    mTitleSymbol: System:PanelTheme1_2
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 1
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ConchHorn
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear01
+    mClearFlag: PanelCharengeClear02
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 196608, 131072, 196608, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  2:
+    mTitleSymbol: System:PanelTheme1_3
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 1
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: SeaLilysBell
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear02
+    mClearFlag: PanelCharengeClear03
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 65536, 0, 196608, 0, 0, 0, 0, 0, 65536, 0, 0, 0, 0,
+      0, 0, 0, 65536, 65536, 65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  3:
+    mTitleSymbol: System:PanelTheme1_4
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 1
+    mRewardItem: HeartPiece
+    mRewardItemIndex: 30
+    mRewardItemEventEntry: HeartPieceForPanel
+    mOpenItem: SeaLilysBell
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear03
+    mClearFlag: PanelCharengeClear04
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536,
+      65536, 0, 65536, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 0, 0, 65536, 65536,
+      65536, 0, 0, 0, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 65536, 0, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536,
+      65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  4:
+    mTitleSymbol: System:PanelTheme2_1
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 2
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: SeaLilysBell
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear03
+    mClearFlag: PanelCharengeClear05
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196608, 0, 0,
+      0, 196608, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 566, 0, 0, 0, 0, 0, 196608,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  5:
+    mTitleSymbol: System:PanelTheme2_2
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 2
+    mRewardItem: PanelDungeonPiece
+    mRewardItemIndex: 7
+    mRewardItemEventEntry: GetGetEXBomb
+    mOpenItem: SurfHarp
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear04
+    mClearFlag: PanelCharengeClear06
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 0, 65536, 65536, 65536, 65536, 65536,
+      65536, 65536, 0, 65536, 65536, 65536, 65536, 65536, 65536, 81, 0, 0, 65536,
+      65536, 65536, 65536, 0, 65536, 0, 0, 0, 65536, 65536, 65536, 0, 305, 0, 0, 0,
+      65536, 65536, 65536, 0, 0, 0, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 65536,
+      65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  6:
+    mTitleSymbol: System:PanelTheme2_3
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 2
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: WindMarimba
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear03
+    mClearFlag: PanelCharengeClear07
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 65536, 0, 0, 65536, 196608, 196608, 196608, 196608, 65536, 0,
+      0, 65536, 196608, 196608, 196608, 196608, 65536, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  7:
+    mTitleSymbol: System:PanelTheme2_4
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 2
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: WindMarimba
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear07
+    mClearFlag: PanelCharengeClear08
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 65536, 196608, 1029, 0, 0, 0, 0, 0, 65536, 0, 0, 0,
+      0, 0, 1061, 0, 65536, 65536, 65536, 0, 0, 0, 131072, 0, 0, 0, 0, 0, 0, 0, 0,
+      131072, 0, 0, 0, 65536, 65536, 65536, 0, 80, 0, 0, 0, 1091, 196608, 65536, 0,
+      0, 0, 0, 0, 0, 0, 65536, 0, 0, 0, 0, 0]
+  8:
+    mTitleSymbol: System:PanelTheme3_1
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 3
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: CoralTriangle
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear07
+    mClearFlag: PanelCharengeClear09
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 262144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 787, 0,
+      0, 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 342, 0, 0,
+      306, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 262144, 0, 0, 0, 0, 0, 0, 0]
+  9:
+    mTitleSymbol: System:PanelTheme3_2
+    mNumberOfHeart: 3
+    mTimeLimit: 0
+    mDifficulty: 3
+    mRewardItem: Bottle
+    mRewardItemIndex: 2
+    mRewardItemEventEntry: Bottle
+    mOpenItem: CoralTriangle
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear09
+    mClearFlag: PanelCharengeClear10
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536,
+      0, 0, 0, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 65536, 65536, 65536, 65536,
+      0, 0, 0, 0, 0, 65536, 65536, 65536, 0, 65536, 65536, 65536, 0, 65536, 65536,
+      65536, 0, 65536, 0, 65536, 0, 65536, 65536, 65536, 0, 0, 0, 0, 0, 65536, 65536,
+      65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  10:
+    mTitleSymbol: System:PanelTheme3_3
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 3
+    mRewardItem: PanelDungeonPiece
+    mRewardItemIndex: 18
+    mRewardItemEventEntry: GetEXHeart
+    mOpenItem: EveningCalmOrgan
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear10
+    mClearFlag: PanelCharengeClear11
+    mFlag: 128
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 566, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1349, 0, 0, 0, 804, 0, 0, 0, 884, 1057,
+      99, 278, 582, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  11:
+    mTitleSymbol: System:PanelTheme3_4
+    mNumberOfHeart: 0
+    mTimeLimit: 300
+    mDifficulty: 3
+    mRewardItem: PanelDungeonPiece
+    mRewardItemIndex: 19
+    mRewardItemEventEntry: GetEXFallMaster
+    mOpenItem: ThunderDrum
+    mOpenItemIndex: 0
+    mOpenFlag: PanelCharengeClear11
+    mClearFlag: PanelCharengeClear12
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 305, 0, 99,
+      0, 788, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65536, 65536, 65536, 65536, 65536, 65536,
+      65536, 65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 565, 0, 1894, 0, 1364, 0, 0, 0,
+      0, 0, 0, 0, 0, 0]
+  12:
+    mTitleSymbol: System:PanelTheme4_1
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear13
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 65536, 65536, 0, 1029, 65536, 65536, 65536,
+      65536, 65536, 0, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 65536, 196608, 0,
+      65536, 0, 0, 0, 65536, 65536, 65536, 0, 0, 0, 0, 65536, 65536, 65536, 65536,
+      0, 65536, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 0, 0, 65536, 65536, 65536,
+      1077, 0, 65536, 65536, 196608, 65536, 65536, 65536]
+  13:
+    mTitleSymbol: System:PanelTheme4_2
+    mNumberOfHeart: 5
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear14
+    mFlag: 1
+    mMapArray: [65536, 0, 65536, 65536, 65536, 65536, 65536, 0, 65536, 0, 0, 0, 0,
+      0, 0, 0, 65536, 0, 0, 0, 65536, 0, 0, 0, 65536, 0, 131072, 65536, 65536, 65536,
+      131072, 0, 65536, 0, 0, 0, 65536, 0, 0, 0, 65536, 0, 0, 0, 65536, 0, 0, 0, 65536,
+      65536, 0, 0, 131072, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 65536, 65536]
+  14:
+    mTitleSymbol: System:PanelTheme4_3
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear15
+    mFlag: 129
+    mMapArray: [1872, 65536, 65536, 65536, 65536, 0, 0, 196608, 0, 0, 0, 65536, 65536,
+      65536, 0, 0, 65536, 65536, 0, 0, 0, 0, 65536, 0, 65536, 65536, 65536, 65536,
+      1344, 0, 65536, 65536, 65536, 65536, 0, 0, 65536, 0, 65536, 65536, 65536, 0,
+      0, 0, 65536, 0, 0, 65536, 0, 196608, 0, 65536, 65536, 65536, 0, 65536, 65536,
+      0, 65536, 65536, 65536, 65536, 0, 567]
+  15:
+    mTitleSymbol: System:PanelTheme4_4
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear16
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 0, 196608, 65536, 65536, 65536, 65536,
+      65536, 65536, 0, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 0, 0, 65536, 0,
+      0, 0, 0, 65536, 0, 0, 0, 0, 0, 65536, 0, 1395, 0, 0, 0, 65536, 0, 1091, 0, 0,
+      0, 65536, 0, 278, 0, 0, 0, 65536, 65536, 65536, 0, 0, 0, 65536, 65536, 65536,
+      65536, 65536]
+  16:
+    mTitleSymbol: System:PanelTheme4_5
+    mNumberOfHeart: 0
+    mTimeLimit: 180
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear17
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 305, 196608,
+      1874, 0, 0, 0, 0, 0, 0, 310, 0, 0, 0, 0, 0, 0, 370, 1584, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  17:
+    mTitleSymbol: System:PanelTheme4_6
+    mNumberOfHeart: 0
+    mTimeLimit: 300
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear18
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 625, 0, 0, 0, 0, 0, 0, 0, 0, 614, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 262144, 0, 0, 0, 0, 0, 0, 262144, 1831, 0, 0, 0, 0, 0, 0, 1904]
+  18:
+    mTitleSymbol: System:PanelTheme4_7
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear19
+    mFlag: 128
+    mMapArray: [0, 0, 0, 0, 0, 631, 1057, 1143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1078, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      373, 0, 0, 0, 1904, 371, 582, 884, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  19:
+    mTitleSymbol: System:PanelTheme4_8
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear20
+    mFlag: 1
+    mMapArray: [65536, 0, 0, 0, 0, 0, 0, 0, 65536, 0, 65536, 0, 65536, 0, 65536, 0,
+      65536, 0, 0, 0, 0, 0, 0, 0, 65536, 0, 65536, 0, 65536, 0, 65536, 0, 65536, 0,
+      0, 0, 0, 0, 0, 0, 65536, 0, 65536, 0, 65536, 0, 65536, 0, 65536, 0, 0, 0, 0,
+      0, 0, 0, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  20:
+    mTitleSymbol: System:PanelTheme4_9
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear21
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536,
+      65536, 65536, 65536, 262144, 0, 65536, 65536, 65536, 65536, 65536, 65536, 262144,
+      262144, 65536, 65536, 65536, 65536, 262144, 262144, 262144, 262144, 65536, 65536,
+      65536, 65536, 262144, 262144, 262144, 262144, 65536, 65536, 262144, 262144,
+      262144, 262144, 262144, 262144, 65536, 65536, 0, 262144, 262144, 262144, 262144,
+      262144, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  21:
+    mTitleSymbol: System:PanelTheme4_10
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear22
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 65536, 65536, 65536, 65536, 65536, 65536,
+      0, 0, 65536, 196608, 196608, 196608, 196608, 65536, 0, 0, 65536, 196608, 196608,
+      196608, 196608, 65536, 0, 0, 65536, 196608, 196608, 196608, 196608, 65536, 0,
+      0, 65536, 196608, 196608, 196608, 196608, 65536, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 65536, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  22:
+    mTitleSymbol: System:PanelTheme4_11
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear23
+    mFlag: 1
+    mMapArray: [65536, 196608, 0, 0, 0, 0, 196608, 65536, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 615, 114, 0, 0, 1893, 1042, 0, 0, 804, 65536, 0, 0, 65536, 1349, 0, 0, 1584,
+      1029, 0, 0, 1091, 1351, 0, 0, 0, 0, 196608, 196608, 0, 0, 0, 65536, 0, 0, 0,
+      0, 0, 0, 65536, 65536, 0, 65536, 0, 0, 65536, 0, 65536]
+  23:
+    mTitleSymbol: System:PanelTheme4_12
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 4
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: HeartContainer
+    mOpenItemIndex: 8
+    mOpenFlag: ''
+    mClearFlag: PanelCharengeClear24
+    mFlag: 1
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1907, 65536, 65536,
+      65536, 65536, 0, 0, 65536, 65536, 65536, 65536, 65536, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 0, 0, 65536, 65536, 65536, 65536, 65536, 0, 0, 65536, 65536, 65536,
+      1574, 65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  24:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  25:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 65536, 0, 0, 65536, 196608, 196608, 196608, 196608, 65536, 0,
+      0, 65536, 196608, 196608, 196608, 196608, 65536, 0, 0, 65536, 65536, 65536,
+      65536, 65536, 65536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  26:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54,
+      0, 0, 0, 0, 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 370, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  27:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196608,
+      0, 0, 0, 0, 0, 0, 131072, 0, 0, 0, 0, 0, 0, 196608, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  28:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 0,
+      0, 65536, 0, 0, 65536, 65536, 65536, 0, 0, 0, 0, 0, 65536, 65536, 65536, 0,
+      0, 0, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0, 65536, 65536, 65536, 65536,
+      65536, 65536, 0, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536,
+      65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  29:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 1
+    mMapArray: [196608, 1639, 65536, 65536, 65536, 65536, 1811, 196608, 0, 1301, 0,
+      0, 0, 0, 1540, 0, 65536, 65536, 0, 615, 1042, 0, 65536, 65536, 65536, 1091,
+      0, 0, 0, 0, 1029, 65536, 196608, 0, 65536, 1349, 55, 65536, 0, 196608, 1824,
+      0, 0, 0, 0, 0, 0, 1831, 65536, 1584, 0, 0, 0, 0, 86, 65536, 65536, 65536, 65536,
+      0, 0, 65536, 65536, 65536]
+  30:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 1
+    mMapArray: [65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 65536, 0,
+      0, 65536, 0, 0, 65536, 65536, 0, 0, 0, 0, 0, 0, 0, 65536, 0, 0, 65536, 0, 65536,
+      0, 0, 65536, 65536, 0, 0, 65536, 0, 0, 65536, 65536, 65536, 65536, 0, 0, 0,
+      65536, 65536, 65536, 65536, 65536, 65536, 0, 65536, 65536, 65536, 65536, 65536,
+      65536, 65536, 65536, 65536, 65536, 65536, 65536]
+  31:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 128
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  32:
+    mTitleSymbol: ''
+    mNumberOfHeart: 3
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  33:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 60
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  34:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 5
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  35:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  36:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  37:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  38:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  39:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  40:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  41:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  42:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  43:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  44:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  45:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  46:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  47:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  48:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 9
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  49:
+    mTitleSymbol: ''
+    mNumberOfHeart: 0
+    mTimeLimit: 0
+    mDifficulty: 0
+    mRewardItem: ''
+    mRewardItemIndex: 0
+    mRewardItemEventEntry: ''
+    mOpenItem: ''
+    mOpenItemIndex: 0
+    mOpenFlag: ''
+    mClearFlag: ''
+    mFlag: 0
+    mMapArray: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

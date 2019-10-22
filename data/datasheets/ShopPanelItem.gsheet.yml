@@ -1,0 +1,12 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mCondition, type_name: Conditions, type: 4, flags: 8, fields: null}
+- {name: mIndex, type_name: int, type: 2, flags: 0, fields: null}
+contents:
+  0: {mCondition: CoralTriangleGet, mIndex: 10}
+  1: {mCondition: ThunderDrumGet, mIndex: 20}
+  2: {mCondition: ThunderDrumGet, mIndex: 21}
+  3: {mCondition: ThunderDrumGet, mIndex: 22}
+  4: {mCondition: ThunderDrumGet, mIndex: 23}
+  5: {mCondition: Lv10DungeonClear, mIndex: 25}
+  6: {mCondition: Lv10DungeonClear, mIndex: 26}

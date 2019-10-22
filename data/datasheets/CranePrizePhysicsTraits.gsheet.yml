@@ -1,0 +1,99 @@
+fields:
+- {name: symbol, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mass, type_name: float, type: 3, flags: 0, fields: null}
+- {name: drag, type_name: float, type: 3, flags: 0, fields: null}
+- {name: angularDamp, type_name: float, type: 3, flags: 0, fields: null}
+- {name: bounciness, type_name: float, type: 3, flags: 0, fields: null}
+- {name: staticFriction, type_name: float, type: 3, flags: 0, fields: null}
+- {name: dynamicFriction, type_name: float, type: 3, flags: 0, fields: null}
+- {name: bounceCombine, type_name: PhysicsCombineMethod, type: 2, flags: 16, fields: null}
+- name: axisLock
+  type_name: __inline_struct_CranePrizePhysicsTraits_axisLock
+  type: 0
+  flags: 0
+  fields:
+  - {name: rotationX, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: rotationY, type_name: bool, type: 1, flags: 0, fields: null}
+  - {name: rotationZ, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  Sample:
+    mass: 0.30000001192092896
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  Rupee:
+    mass: 0.5
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  Heart:
+    mass: 1.2000000476837158
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  Bomb:
+    mass: 1.0
+    drag: 0.10000000149011612
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  SmallBowWow:
+    mass: 1.0
+    drag: 0.20000000298023224
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  Teresa:
+    mass: 0.20000000298023224
+    drag: 0.5
+    angularDamp: 0.699999988079071
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  PukuPuku:
+    mass: 0.30000001192092896
+    drag: 0.5
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  Pakkun:
+    mass: 0.699999988079071
+    drag: 0.30000001192092896
+    angularDamp: 0.5
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}
+  BowWow:
+    mass: 1.0
+    drag: 0.10000000149011612
+    angularDamp: 0.20000000298023224
+    bounciness: 0.10000000149011612
+    staticFriction: 0.6000000238418579
+    dynamicFriction: 0.6000000238418579
+    bounceCombine: 0
+    axisLock: {rotationX: false, rotationY: false, rotationZ: false}

@@ -1,0 +1,478 @@
+fields:
+- {name: symbol, type_name: string, type: 4, flags: 4, fields: null}
+- name: conditions
+  type_name: __inline_struct_Conditions_conditions
+  type: 0
+  flags: 2
+  fields:
+  - {name: category, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+  - {name: parameter, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  'false':
+    conditions: []
+  'true':
+    conditions:
+    - {category: 0, parameter: ''}
+  JoinBowWow:
+    conditions:
+    - {category: 3, parameter: BowWow}
+  JoinMarin:
+    conditions:
+    - {category: 3, parameter: Marin}
+  JoinGhost:
+    conditions:
+    - {category: 3, parameter: Ghost}
+  JoinFlyingCucco:
+    conditions:
+    - {category: 3, parameter: FlyingCucco}
+  Solo:
+    conditions:
+    - {category: 3, parameter: None}
+  Switch0:
+    conditions:
+    - {category: 8, parameter: '0'}
+  Switch1:
+    conditions:
+    - {category: 8, parameter: '1'}
+  Switch2:
+    conditions:
+    - {category: 8, parameter: '2'}
+  Switch3:
+    conditions:
+    - {category: 8, parameter: '3'}
+  HasShield:
+    conditions:
+    - {category: 2, parameter: Shield}
+  TarinBanana:
+    conditions:
+    - {category: 2, parameter: ConchHorn}
+    - {category: 1, parameter: '!StickDrop'}
+  TarinNoBag:
+    conditions:
+    - {category: 5, parameter: '!EventTarin'}
+    - {category: 5, parameter: '!EndingTarin'}
+  TarinBag:
+    conditions:
+    - {category: 9, parameter: '!TarinNoBag'}
+  TarinMushroom:
+    conditions:
+    - {category: 5, parameter: EndingTarin}
+  GhostHouseApproach:
+    conditions:
+    - {category: 3, parameter: Ghost}
+    - {category: 1, parameter: '!Ghost2_Clear'}
+    - {category: 1, parameter: '!Ghost3_Clear'}
+  Graveyard:
+    conditions:
+    - {category: 3, parameter: Ghost}
+    - {category: 1, parameter: Ghost3_Clear}
+    - {category: 1, parameter: '!Ghost4_Clear'}
+  EggPerformance:
+    conditions:
+    - {category: 1, parameter: '!Egg_Performance'}
+  CapeDate:
+    conditions:
+    - {category: 3, parameter: Marin}
+    - {category: 1, parameter: '!CapeDateClear'}
+  OpMarin:
+    conditions:
+    - {category: 1, parameter: '!OpTalked'}
+  MarinPinch:
+    conditions:
+    - {category: 1, parameter: '!MarineRescue'}
+  RescueBowWow:
+    conditions:
+    - {category: 2, parameter: FullMoonCello}
+    - {category: 1, parameter: '!BowWowEvent'}
+  TailKeyGet:
+    conditions:
+    - {category: 2, parameter: TailKey}
+  SlimeKeyGet:
+    conditions:
+    - {category: 2, parameter: SlimeKey}
+  AnglerKeyGet:
+    conditions:
+    - {category: 2, parameter: AnglerKey}
+  FaceKeyGet:
+    conditions:
+    - {category: 2, parameter: FaceKey}
+  BirdKeyGet:
+    conditions:
+    - {category: 2, parameter: BirdKey}
+  FullMoonCelloGet:
+    conditions:
+    - {category: 2, parameter: FullMoonCello}
+  ConchHornGet:
+    conditions:
+    - {category: 2, parameter: ConchHorn}
+  SeaLilysBellGet:
+    conditions:
+    - {category: 2, parameter: SeaLilysBell}
+  SurfHarpGet:
+    conditions:
+    - {category: 2, parameter: SurfHarp}
+  WindMarimbaGet:
+    conditions:
+    - {category: 2, parameter: WindMarimba}
+  CoralTriangleGet:
+    conditions:
+    - {category: 2, parameter: CoralTriangle}
+  EveningCalmOrganGet:
+    conditions:
+    - {category: 2, parameter: EveningCalmOrgan}
+  ThunderDrumGet:
+    conditions:
+    - {category: 2, parameter: ThunderDrum}
+  ShopShieldCondition:
+    conditions:
+    - {category: 1, parameter: ShieldGet}
+  ShopHeartCondition:
+    conditions:
+    - {category: 1, parameter: ShieldGet}
+  ShopShovelCondition:
+    conditions:
+    - {category: 1, parameter: ShieldGet}
+    - {category: 11, parameter: '!Shovel'}
+  ShopBowCondition:
+    conditions:
+    - {category: 11, parameter: Shovel}
+    - {category: 11, parameter: '!Bow'}
+  ShopArrowCondition:
+    conditions:
+    - {category: 11, parameter: Bow}
+  ShopBombCondition:
+    conditions:
+    - {category: 11, parameter: ConchHorn}
+  Lv4_04E_SmallKey:
+    conditions:
+    - {category: 4, parameter: Lv4_04E}
+    - {category: 8, parameter: '0'}
+  Lv4_06A_SmallKey:
+    conditions:
+    - {category: 4, parameter: Lv4_06A}
+    - {category: 8, parameter: '!0'}
+  MarinGameEventDone:
+    conditions:
+    - {category: 1, parameter: MarinGame}
+  MarinGameEvent:
+    conditions:
+    - {category: 3, parameter: Marin}
+    - {category: 9, parameter: '!MarinGameEventDone'}
+  BowWowRibbonVisible:
+    conditions:
+    - {category: 1, parameter: DogfoodDrop}
+  BroomInvisible:
+    conditions:
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 1, parameter: '!FishhookDrop'}
+  MarinVillageStay:
+    conditions:
+    - {category: 1, parameter: '!WalrusTalked'}
+    - {category: 1, parameter: '!PineappleGet'}
+    - {category: 1, parameter: FirstClear}
+  BowWowTamed:
+    conditions:
+    - {category: 1, parameter: BowwowClear}
+  PanelFreeChallengeOpen:
+    conditions:
+    - {category: 1, parameter: PanelCharengeClear01}
+    - {category: 1, parameter: PanelCharengeClear02}
+    - {category: 1, parameter: PanelCharengeClear03}
+    - {category: 1, parameter: PanelCharengeClear04}
+  BroomInvisible2:
+    conditions:
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 1, parameter: '!FishhookDrop'}
+  Lv10DungeonClear:
+    conditions:
+    - {category: 1, parameter: Lv10DungeonClear}
+  BananaStay:
+    conditions:
+    - {category: 1, parameter: '!WalrusTalked'}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 1, parameter: '!PineappleGet'}
+  ShopHeartPieceCondition:
+    conditions:
+    - {category: 2, parameter: '!HeartPiece:24'}
+  ShopOpenPanel:
+    conditions:
+    - {category: 10, parameter: ShopPanelStocks}
+  BowWowMissionStart:
+    conditions:
+    - {category: 5, parameter: BoyA}
+    - {category: 2, parameter: FullMoonCello}
+  BowWowMissionEnd:
+    conditions:
+    - {category: 5, parameter: BoyA}
+    - {category: 1, parameter: BowWowJoin}
+  YosshiGetStart:
+    conditions:
+    - {category: 5, parameter: BoyC}
+    - {category: 2, parameter: '!SeaLilysBell'}
+  YosshiGetEnd:
+    conditions:
+    - {category: 5, parameter: BoyC}
+    - {category: 2, parameter: SeaLilysBell}
+  OwlEvent1:
+    conditions:
+    - {category: 4, parameter: '0'}
+    - {category: 1, parameter: '!FirstClear'}
+    - {category: 2, parameter: '!SwordLv1'}
+  OwlEvent2:
+    conditions:
+    - {category: 4, parameter: '1'}
+    - {category: 1, parameter: '!SecondClear'}
+    - {category: 2, parameter: '!TailKey'}
+    - {category: 2, parameter: SwordLv1}
+  OwlEvent3:
+    conditions:
+    - {category: 4, parameter: '2'}
+    - {category: 1, parameter: '!ThirdClear'}
+    - {category: 2, parameter: TailKey}
+  OwlEvent4:
+    conditions:
+    - {category: 4, parameter: '3'}
+    - {category: 1, parameter: '!FourthClear'}
+    - {category: 2, parameter: '!ConchHorn'}
+    - {category: 2, parameter: FullMoonCello}
+  OwlEvent5:
+    conditions:
+    - {category: 4, parameter: '4'}
+    - {category: 1, parameter: '!FifthClear'}
+    - {category: 2, parameter: '!ConchHorn'}
+    - {category: 3, parameter: BowWow}
+  OwlEvent6:
+    conditions:
+    - {category: 4, parameter: '5'}
+    - {category: 1, parameter: '!SixthClear'}
+    - {category: 2, parameter: SeaLilysBell}
+  OwlEvent7:
+    conditions:
+    - {category: 4, parameter: '6'}
+    - {category: 1, parameter: '!SeventhClear'}
+    - {category: 1, parameter: WalrusAwaked}
+    - {category: 2, parameter: AnglerKey}
+  OwlEvent8:
+    conditions:
+    - {category: 4, parameter: '7'}
+    - {category: 1, parameter: '!EighthClear'}
+    - {category: 1, parameter: Ghost4_Clear}
+  OwlEvent9:
+    conditions:
+    - {category: 4, parameter: '8'}
+    - {category: 1, parameter: '!NinthClear'}
+    - {category: 2, parameter: '!CoralTriangle'}
+    - {category: 2, parameter: SeaLilysBell}
+  OwlEvent10:
+    conditions:
+    - {category: 4, parameter: '9'}
+    - {category: 1, parameter: '!TenthClear'}
+    - {category: 1, parameter: SlateEventClear}
+  OwlEvent11:
+    conditions:
+    - {category: 4, parameter: '10'}
+    - {category: 1, parameter: '!EleventhClear'}
+    - {category: 2, parameter: CoralTriangle}
+  OwlEvent12:
+    conditions:
+    - {category: 4, parameter: '11'}
+    - {category: 1, parameter: '!TwelveClear'}
+    - {category: 2, parameter: '!EveningCalmOrgan'}
+    - {category: 2, parameter: CoralTriangle}
+  OwlEvent13:
+    conditions:
+    - {category: 4, parameter: '12'}
+    - {category: 1, parameter: '!ThirteenClear'}
+    - {category: 1, parameter: MarinRescueClear}
+  OwlEvent14:
+    conditions:
+    - {category: 4, parameter: '13'}
+    - {category: 1, parameter: '!FourteenClear'}
+  OwlEvent15:
+    conditions:
+    - {category: 4, parameter: '14'}
+    - {category: 9, parameter: 'false'}
+  OwlEvent16:
+    conditions:
+    - {category: 4, parameter: '15'}
+    - {category: 8, parameter: '0'}
+  OwlEvent17:
+    conditions:
+    - {category: 4, parameter: '16'}
+    - {category: 9, parameter: 'true'}
+  OwlNotLayout:
+    conditions:
+    - {category: 9, parameter: '!OwlEvent1'}
+    - {category: 9, parameter: '!OwlEvent2'}
+    - {category: 9, parameter: '!OwlEvent3'}
+    - {category: 9, parameter: '!OwlEvent4'}
+    - {category: 9, parameter: '!OwlEvent5'}
+    - {category: 9, parameter: '!OwlEvent6'}
+    - {category: 9, parameter: '!OwlEvent7'}
+    - {category: 9, parameter: '!OwlEvent8'}
+    - {category: 9, parameter: '!OwlEvent9'}
+    - {category: 9, parameter: '!OwlEvent10'}
+    - {category: 9, parameter: '!OwlEvent11'}
+    - {category: 9, parameter: '!OwlEvent12'}
+    - {category: 9, parameter: '!OwlEvent13'}
+    - {category: 9, parameter: '!OwlEvent14'}
+    - {category: 9, parameter: '!OwlEvent15'}
+    - {category: 9, parameter: '!OwlEvent16'}
+    - {category: 9, parameter: '!OwlEvent17'}
+  OwlLayout:
+    conditions:
+    - {category: 9, parameter: '!OwlNotLayout'}
+  Rupee5NotLayout:
+    conditions:
+    - {category: 8, parameter: '0'}
+    - {category: 5, parameter: '!54786'}
+  ShellMansionExplain:
+    conditions:
+    - {category: 1, parameter: FirstSeashell}
+  TakeGhostGrave:
+    conditions:
+    - {category: 3, parameter: Ghost}
+    - {category: 1, parameter: Ghost3_Clear}
+  BowWowKidnap:
+    conditions:
+    - {category: 1, parameter: BowWowEvent}
+    - {category: 1, parameter: '!BowWowJoin'}
+  RichardQuestBegin:
+    conditions:
+    - {category: 1, parameter: GoldenLeafCount}
+  GhostJoinCheck:
+    conditions:
+    - {category: 3, parameter: None}
+    - {category: 2, parameter: SurfHarp}
+    - {category: 1, parameter: '!Ghost4_Clear'}
+    - {category: 2, parameter: '!Bottle:0'}
+  GoldenLeafComplete:
+    conditions:
+    - {category: 2, parameter: 'GoldenLeaf:0'}
+    - {category: 2, parameter: 'GoldenLeaf:1'}
+    - {category: 2, parameter: 'GoldenLeaf:2'}
+    - {category: 2, parameter: 'GoldenLeaf:3'}
+    - {category: 2, parameter: 'GoldenLeaf:4'}
+  InstrumentComplete:
+    conditions:
+    - {category: 2, parameter: FullMoonCello}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 2, parameter: SeaLilysBell}
+    - {category: 2, parameter: SurfHarp}
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: CoralTriangle}
+    - {category: 2, parameter: EveningCalmOrgan}
+    - {category: 2, parameter: ThunderDrum}
+  Lv8_03F_TreasureBox_Off:
+    conditions:
+    - {category: 8, parameter: '!0'}
+    - {category: 8, parameter: '!1'}
+  Lv8_03F_TreasureBox_On:
+    conditions:
+    - {category: 9, parameter: '!Lv8_03F_TreasureBox_Off'}
+  DanpeiFieldGuidance:
+    conditions:
+    - {category: 1, parameter: DanpeiTalkClear}
+    - {category: 2, parameter: ConchHorn}
+    - {category: 1, parameter: '!DanpeiLeadClear'}
+  DanpeiWait:
+    conditions:
+    - {category: 1, parameter: '!DanpeiLeadClear'}
+    - {category: 1, parameter: DanpeiReturn}
+  AnimalPop:
+    conditions:
+    - {category: 2, parameter: '!WindMarimba'}
+    - {category: 1, parameter: WalrusAwaked}
+  AnimalNoMove:
+    conditions:
+    - {category: 9, parameter: '!AnimalPop'}
+  RabbitEPop:
+    conditions:
+    - {category: 5, parameter: '!RabbitE'}
+  HouseRabbit:
+    conditions:
+    - {category: 0, parameter: ''}
+  Marin1_Layout:
+    conditions:
+    - {category: 4, parameter: '1'}
+    - {category: 3, parameter: '!Marin'}
+    - {category: 1, parameter: '!FirstClear'}
+  Marin2_NotLayout:
+    conditions:
+    - {category: 9, parameter: '!MarinVillageStay'}
+    - {category: 9, parameter: MarinAnimalVillage}
+  Marin2_Layout:
+    conditions:
+    - {category: 4, parameter: '2'}
+    - {category: 3, parameter: '!Marin'}
+    - {category: 9, parameter: '!Marin2_NotLayout'}
+  Marin3_Layout:
+    conditions:
+    - {category: 4, parameter: '3'}
+    - {category: 3, parameter: '!Marin'}
+    - {category: 1, parameter: MarinJoin}
+    - {category: 2, parameter: '!WindMarimba'}
+  Marin4_Layout:
+    conditions:
+    - {category: 4, parameter: '4'}
+    - {category: 3, parameter: '!Marin'}
+    - {category: 1, parameter: FirstClear}
+    - {category: 9, parameter: '!MarinVillageStay'}
+    - {category: 1, parameter: '!MarinJoin'}
+  Marin5_Layout:
+    conditions:
+    - {category: 4, parameter: '5'}
+    - {category: 3, parameter: '!Marin'}
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: EveningCalmOrgan}
+    - {category: 1, parameter: '!MarinRescueClear'}
+  Marin7_Layout:
+    conditions:
+    - {category: 4, parameter: '7'}
+  Marin8_Layout:
+    conditions:
+    - {category: 4, parameter: '8'}
+  MarinCompanion_Layout:
+    conditions:
+    - {category: 4, parameter: '2147483647'}
+  Marin_NotLayout:
+    conditions:
+    - {category: 9, parameter: '!Marin1_Layout'}
+    - {category: 9, parameter: '!Marin2_Layout'}
+    - {category: 9, parameter: '!Marin3_Layout'}
+    - {category: 9, parameter: '!Marin4_Layout'}
+    - {category: 9, parameter: '!Marin5_Layout'}
+    - {category: 9, parameter: '!Marin7_Layout'}
+    - {category: 9, parameter: '!Marin8_Layout'}
+    - {category: 9, parameter: '!MarinCompanion_Layout'}
+  Marin_Layout:
+    conditions:
+    - {category: 9, parameter: '!Marin_NotLayout'}
+  NoLetterPop:
+    conditions:
+    - {category: 1, parameter: '!WalrusTalked'}
+    - {category: 1, parameter: '!PineappleGet'}
+  NoGoldenLeaf:
+    conditions:
+    - {category: 1, parameter: '!GoldenLeaf1'}
+    - {category: 1, parameter: '!GoldenLeafCount'}
+  ShellMasterLive:
+    conditions:
+    - {category: 1, parameter: FirstSeashell}
+    - {category: 1, parameter: '!GetSeashell50'}
+  ItemCountUpComplete:
+    conditions:
+    - {category: 2, parameter: MagicPowder_MaxUp}
+    - {category: 2, parameter: Bomb_MaxUp}
+    - {category: 2, parameter: Arrow_MaxUp}
+  NormalBackMarin:
+    conditions:
+    - {category: 1, parameter: WalrusAwaked}
+    - {category: 2, parameter: EveningCalmOrgan}
+    - {category: 1, parameter: MarinRescueClear}
+    - {category: 2, parameter: WindMarimba}
+    - {category: 2, parameter: ThunderDrum}
+  MarinAnimalVillage:
+    conditions:
+    - {category: 9, parameter: '!NormalBackMarin'}

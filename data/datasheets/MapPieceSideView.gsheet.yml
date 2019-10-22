@@ -1,0 +1,33 @@
+fields:
+- {name: mLevel, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mLeft, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mRight, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mFlag, type_name: int, type: 2, flags: 0, fields: null}
+values:
+- {mLevel: 0, mLeft: 21, mRight: 22, mFlag: 0}
+- {mLevel: 3, mLeft: 848, mRight: 849, mFlag: 0}
+- {mLevel: 4, mLeft: 1072, mRight: 1073, mFlag: 0}
+- {mLevel: 4, mLeft: 1088, mRight: 1089, mFlag: 0}
+- {mLevel: 4, mLeft: 1104, mRight: 1105, mFlag: 0}
+- {mLevel: 4, mLeft: 1120, mRight: 1121, mFlag: 0}
+- {mLevel: 4, mLeft: 1136, mRight: 1137, mFlag: 0}
+- {mLevel: 0, mLeft: 5, mRight: 6, mFlag: 0}
+- {mLevel: 1, mLeft: 307, mRight: 308, mFlag: 0}
+- {mLevel: 1, mLeft: 323, mRight: 324, mFlag: 3}
+- {mLevel: 1, mLeft: 339, mRight: 340, mFlag: 0}
+- {mLevel: 2, mLeft: 517, mRight: 518, mFlag: 1}
+- {mLevel: 3, mLeft: 864, mRight: 865, mFlag: 0}
+- {mLevel: 3, mLeft: 880, mRight: 881, mFlag: 0}
+- {mLevel: -3, mLeft: 885, mRight: 886, mFlag: 0}
+- {mLevel: -3, mLeft: 887, mRight: 888, mFlag: 0}
+- {mLevel: 5, mLeft: 1280, mRight: 1281, mFlag: 0}
+- {mLevel: 5, mLeft: 1282, mRight: 1283, mFlag: 0}
+- {mLevel: 5, mLeft: 1284, mRight: 1285, mFlag: 0}
+- {mLevel: -6, mLeft: -1, mRight: 1608, mFlag: 0}
+- {mLevel: -6, mLeft: -1, mRight: 1610, mFlag: 0}
+- {mLevel: 7, mLeft: 1792, mRight: 1793, mFlag: 3}
+- {mLevel: 7, mLeft: 1798, mRight: 1799, mFlag: 3}
+- {mLevel: 7, mLeft: 1809, mRight: 1810, mFlag: 0}
+- {mLevel: 7, mLeft: 1813, mRight: 1814, mFlag: 3}
+- {mLevel: 7, mLeft: 1905, mRight: 1906, mFlag: 0}
+- {mLevel: 7, mLeft: 1909, mRight: 1910, mFlag: 0}

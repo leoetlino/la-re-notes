@@ -1,0 +1,3349 @@
+fields:
+- {name: key, type_name: int, type: 2, flags: 4, fields: null}
+- {name: fileName, type_name: string, type: 4, flags: 0, fields: null}
+- {name: playRatio, type_name: float, type: 3, flags: 0, fields: null}
+- {name: animationPolicy, type_name: AnimPolicy, type: 2, flags: 16, fields: null}
+- {name: nextKey, type_name: int, type: 2, flags: 0, fields: null}
+- {name: rootMotionStepOffset, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: requestCalculateBounding, type_name: bool, type: 1, flags: 0, fields: null}
+- name: FacialAnim
+  type_name: __inline_struct_PlayerAnimation_FacialAnim
+  type: 0
+  flags: 0
+  fields:
+  - {name: Eye, type_name: __inline_enum_PlayerAnimation_FacialAnim.Eye, type: 2,
+    flags: 48, fields: null}
+  - {name: Mouse, type_name: __inline_enum_PlayerAnimation_FacialAnim.Mouse, type: 2,
+    flags: 48, fields: null}
+  - {name: Ear, type_name: __inline_enum_PlayerAnimation_FacialAnim.Ear, type: 2,
+    flags: 48, fields: null}
+  - {name: facialName, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  0:
+    fileName: atk_up_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  1:
+    fileName: atk_up_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  2:
+    fileName: atk_up_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  3:
+    fileName: bound_down
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  4:
+    fileName: bow_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  5:
+    fileName: bow_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 4
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  6:
+    fileName: carry
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  7:
+    fileName: dash_crash
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  8:
+    fileName: dash_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  9:
+    fileName: dash_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  10:
+    fileName: dash_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  11:
+    fileName: death
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 27
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  12:
+    fileName: def_up_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  13:
+    fileName: def_up_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  14:
+    fileName: def_up_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 13
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  15:
+    fileName: dmg_air
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  16:
+    fileName: dmg_b
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  17:
+    fileName: dmg_eat_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 26
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  18:
+    fileName: dmg_eat_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  19:
+    fileName: dmg_eat_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 18
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  20:
+    fileName: dmg_elec
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  21:
+    fileName: dmg_f
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  22:
+    fileName: dmg_spine
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  23:
+    fileName: dmg_throw_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 26
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  24:
+    fileName: dmg_throw_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  25:
+    fileName: dmg_throw_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 24
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  26:
+    fileName: dmg_vanish_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  27:
+    fileName: down_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: down}
+  28:
+    fileName: d_fall
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  29:
+    fileName: d_jump
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 28
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: d_jump}
+  30:
+    fileName: d_land
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  31:
+    fileName: eat
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 7, Mouse: 1, Ear: 0, facialName: normal}
+  32:
+    fileName: fall
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  33:
+    fileName: fall_hole
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  34:
+    fileName: fall_water
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  35:
+    fileName: fall_antlion
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  36:
+    fileName: idle_bare
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  37:
+    fileName: idle_carry
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  38:
+    fileName: item_get_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  39:
+    fileName: item_get_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  40:
+    fileName: item_get_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 39
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  41:
+    fileName: jump
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 32
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 1, Ear: 0, facialName: jump}
+  42:
+    fileName: jump_slash
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_om}
+  43:
+    fileName: key_open
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  44:
+    fileName: key_open_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  45:
+    fileName: ladder_down
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  46:
+    fileName: ladder_dw_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  47:
+    fileName: ladder_left
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  48:
+    fileName: ladder_right
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  49:
+    fileName: ladder_up
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  50:
+    fileName: ladder_up_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  51:
+    fileName: ladder_up_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  52:
+    fileName: ladder_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  53:
+    fileName: land
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  54:
+    fileName: not_carry
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 8, Mouse: 8, Ear: 1, facialName: no_lift}
+  55:
+    fileName: poke
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  56:
+    fileName: poke_enemy
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: poke_enemy}
+  57:
+    fileName: powder
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 1, Ear: 0, facialName: powder}
+  58:
+    fileName: pull_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 8, Mouse: 8, Ear: 1, facialName: pull_lp}
+  59:
+    fileName: push
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: push}
+  60:
+    fileName: push_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  61:
+    fileName: push_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 60
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  62:
+    fileName: push_wait
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  63:
+    fileName: resurrection
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  64:
+    fileName: revodoor_in
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: true
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 4, Ear: 0, facialName: normal}
+  65:
+    fileName: rise
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  66:
+    fileName: run
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  67:
+    fileName: run_bare
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  68:
+    fileName: shieldhit
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  69:
+    fileName: shield_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  70:
+    fileName: shield_hold_b
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  71:
+    fileName: shield_hold_f
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  72:
+    fileName: shield_hold_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  73:
+    fileName: shield_hold_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  74:
+    fileName: shield_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  75:
+    fileName: shield_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 74
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  76:
+    fileName: sh_dash_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  77:
+    fileName: sh_dash_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  78:
+    fileName: sh_dash_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  79:
+    fileName: slash
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_om}
+  80:
+    fileName: slash_hold_b
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  81:
+    fileName: slash_hold_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 9, Mouse: 9, Ear: 0, facialName: normal}
+  82:
+    fileName: slash_hold_f
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  83:
+    fileName: slash_hold_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  84:
+    fileName: slash_hold_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  85:
+    fileName: slash_hold_lp_d
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  86:
+    fileName: slash_hold_lp_u
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  87:
+    fileName: slash_hold_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  88:
+    fileName: slash_hold_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  89:
+    fileName: s_idle_d
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  90:
+    fileName: s_idle_u
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  91:
+    fileName: s_jump_slash_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_cm}
+  92:
+    fileName: s_jump_slash_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_cm}
+  93:
+    fileName: s_shieldhit
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  94:
+    fileName: s_shield_u_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  95:
+    fileName: s_slash
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_cm}
+  96:
+    fileName: s_slash_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_cm}
+  97:
+    fileName: s_slash_hold_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 9, Mouse: 9, Ear: 0, facialName: normal}
+  98:
+    fileName: s_slash_hold_ed_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 9, Mouse: 9, Ear: 0, facialName: normal}
+  99:
+    fileName: s_slash_hold_ed_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 9, Mouse: 9, Ear: 0, facialName: normal}
+  100:
+    fileName: s_slash_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_om}
+  101:
+    fileName: talk
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  102:
+    fileName: throw
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 1, Ear: 0, facialName: attack_cm}
+  103:
+    fileName: wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  104:
+    fileName: walk
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  105:
+    fileName: walk_bare
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  106:
+    fileName: warp_d_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: true
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  107:
+    fileName: warp_d_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  108:
+    fileName: warp_d_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 107
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  109:
+    fileName: warp_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: true
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  110:
+    fileName: warp_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  111:
+    fileName: warp_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 110
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  112:
+    fileName: sleep_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 113
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  113:
+    fileName: sleep_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  114:
+    fileName: sleep_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  115:
+    fileName: ev_wakeup_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 116
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  116:
+    fileName: ev_wakeup_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  117:
+    fileName: ev_sleep_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: sleep}
+  118:
+    fileName: ev_outbed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  119:
+    fileName: ev_set
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  120:
+    fileName: back_conf
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  121:
+    fileName: ocarina_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 122
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 2, Ear: 0, facialName: normal}
+  122:
+    fileName: ocarina_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 1, Ear: 0, facialName: dream}
+  123:
+    fileName: ocarina_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 2, Ear: 0, facialName: normal}
+  124:
+    fileName: bom
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  125:
+    fileName: enter_water
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  126:
+    fileName: float
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 9, Ear: 0, facialName: normal}
+  127:
+    fileName: dive
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  128:
+    fileName: swim_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  129:
+    fileName: swim
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  130:
+    fileName: swim_fast
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  131:
+    fileName: u_swim_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  132:
+    fileName: u_swim
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 2, Ear: 0, facialName: normal}
+  133:
+    fileName: u_swim_fast
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 2, Ear: 0, facialName: normal}
+  134:
+    fileName: wt_slash
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  135:
+    fileName: wt_slash_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  136:
+    fileName: wt_slash_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  137:
+    fileName: wt_sla_hold
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  138:
+    fileName: wt_sla_hold_swim
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  139:
+    fileName: wt_sla_hold_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 9, Mouse: 9, Ear: 0, facialName: normal}
+  140:
+    fileName: ev_remove
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  141:
+    fileName: wt_swim_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  142:
+    fileName: wt_swim
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  143:
+    fileName: wt_swim_fast
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  144:
+    fileName: dmg_wt_f
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  145:
+    fileName: dmg_wt_b
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  146:
+    fileName: s_dmg_wt_f
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  147:
+    fileName: s_dmg_wt_b
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  148:
+    fileName: death_water
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 149
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  149:
+    fileName: death_water_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  150:
+    fileName: s_death_water
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 151
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  151:
+    fileName: s_death_water_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  152:
+    fileName: resurrection_wt
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  153:
+    fileName: s_resurrection_wt
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  154:
+    fileName: dmg_quake
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  155:
+    fileName: dmg_press
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  156:
+    fileName: shovel
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  157:
+    fileName: shovel_kickback
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 2, Ear: 0, facialName: normal}
+  158:
+    fileName: shovel_miss
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  159:
+    fileName: fall_deathball
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  160:
+    fileName: fall_from_top_rot
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: true
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  161:
+    fileName: fall_from_top
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: true
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  162:
+    fileName: ev_dmg_elec_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  163:
+    fileName: ev_dmg_elec_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 6, Mouse: 2, Ear: 0, facialName: normal}
+  164:
+    fileName: pull_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 165
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  165:
+    fileName: pull_wait
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  166:
+    fileName: item_put
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  167:
+    fileName: fall_batabata
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 11, Mouse: 11, Ear: 0, facialName: normal}
+  168:
+    fileName: s_ladder_dw_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  169:
+    fileName: s_bow_u_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  170:
+    fileName: s_bow_u_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 169
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  171:
+    fileName: s_bow_d_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  172:
+    fileName: s_bow_d_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 171
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  173:
+    fileName: item_carry
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  174:
+    fileName: hookshot_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 175
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  175:
+    fileName: hookshot_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  176:
+    fileName: hookshot_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  177:
+    fileName: hook_move
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  178:
+    fileName: hook_move_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  179:
+    fileName: hook_move_hit
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  180:
+    fileName: hook_pull
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 181
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  181:
+    fileName: hook_pull_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  182:
+    fileName: hook_pull_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  183:
+    fileName: marin_catch
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 184
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  184:
+    fileName: marin_catch_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  185:
+    fileName: marin_catch_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  186:
+    fileName: s_hookshot_u_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 187
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  187:
+    fileName: s_hookshot_u_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  188:
+    fileName: s_hookshot_u_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  189:
+    fileName: s_hook_move_u
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  190:
+    fileName: s_hook_move_u_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  191:
+    fileName: s_hook_move_u_hit
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  192:
+    fileName: s_hookshot_d_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 193
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  193:
+    fileName: s_hookshot_d_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  194:
+    fileName: s_hookshot_d_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  195:
+    fileName: s_hook_move_d
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  196:
+    fileName: s_hook_move_d_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  197:
+    fileName: s_hook_move_d_hit
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  198:
+    fileName: leave_water
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 32
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  199:
+    fileName: rod_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 200
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  200:
+    fileName: rod_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  201:
+    fileName: s_rod_u_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 202
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  202:
+    fileName: s_rod_u_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  203:
+    fileName: s_rod_d_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 204
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  204:
+    fileName: s_rod_d_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  205:
+    fileName: ev_tell_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 206
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  206:
+    fileName: ev_tell_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 1, Ear: 0, facialName: normal}
+  207:
+    fileName: ev_tell_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  208:
+    fileName: s_item_get_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 209
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  209:
+    fileName: s_item_get_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  210:
+    fileName: s_item_get_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  211:
+    fileName: s_atk_up_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 212
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  212:
+    fileName: s_atk_up_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  213:
+    fileName: s_atk_up_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  214:
+    fileName: s_def_up_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 215
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  215:
+    fileName: s_def_up_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  216:
+    fileName: s_def_up_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  217:
+    fileName: bottle_swing
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  218:
+    fileName: bottle_catch
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  219:
+    fileName: bottle_use
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  220:
+    fileName: boomerang_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 221
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  221:
+    fileName: boomerang_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  222:
+    fileName: s_boomerang_st_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 223
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  223:
+    fileName: s_boomerang_ed_u
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  224:
+    fileName: s_boomerang_st_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 225
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  225:
+    fileName: s_boomerang_ed_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  226:
+    fileName: sucked_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 227
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  227:
+    fileName: sucked_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  228:
+    fileName: sucked_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  229:
+    fileName: dmg_vanish
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 26
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  230:
+    fileName: jump_carry
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 231
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  231:
+    fileName: fall_carry
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  232:
+    fileName: land_carry
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  233:
+    fileName: throw_air
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 231
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  234:
+    fileName: ev_nazoru
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  235:
+    fileName: ev_drawback
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  236:
+    fileName: ev_faceslapping
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  237:
+    fileName: ev_pratfall_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 238
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  238:
+    fileName: ev_pratfall_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  239:
+    fileName: ev_pratfall_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  240:
+    fileName: ev_viewcover_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 241
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  241:
+    fileName: ev_viewcover_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  242:
+    fileName: ev_viewcover_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 1, Mouse: 2, Ear: 0, facialName: normal}
+  243:
+    fileName: ev_reelback
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 6, Mouse: 2, Ear: 0, facialName: normal}
+  244:
+    fileName: ev_lookdown_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 245
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 6, Mouse: 2, Ear: 0, facialName: normal}
+  245:
+    fileName: ev_lookdown_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 6, Mouse: 2, Ear: 0, facialName: normal}
+  246:
+    fileName: ev_lookdown_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  247:
+    fileName: ev_sitlog_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  248:
+    fileName: ev_sitlog_face_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 249
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  249:
+    fileName: ev_sitlog_face_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  250:
+    fileName: ev_sitlog_face_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  251:
+    fileName: ev_sitlog_yes
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  252:
+    fileName: ev_sitlog_no
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  253:
+    fileName: ev_lookback
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  254:
+    fileName: ev_yes
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  255:
+    fileName: ev_no
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  256:
+    fileName: ev_kyoro
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  257:
+    fileName: s_hookshot_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 258
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  258:
+    fileName: s_hookshot_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  259:
+    fileName: s_hookshot_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  260:
+    fileName: s_hook_move
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  261:
+    fileName: s_hook_move_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  262:
+    fileName: s_hook_move_hit
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  263:
+    fileName: slash_hold_shield_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  264:
+    fileName: slash_hold_shield_f
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  265:
+    fileName: slash_hold_shield_b
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  266:
+    fileName: slash_hold_shield_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  267:
+    fileName: slash_hold_shield_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  268:
+    fileName: s_slash_hold_shield_lp_u
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  269:
+    fileName: s_slash_hold_shield_lp_d
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  270:
+    fileName: s_slash_hold_shield_lp_u_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  271:
+    fileName: s_slash_hold_shield_lp_u_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  272:
+    fileName: s_slash_hold_shield_lp_d_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  273:
+    fileName: s_slash_hold_shield_lp_d_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  274:
+    fileName: s_slash_hold_lp_u_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  275:
+    fileName: s_slash_hold_lp_u_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  276:
+    fileName: s_slash_hold_lp_d_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  277:
+    fileName: s_slash_hold_lp_d_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  278:
+    fileName: s_slash_hold_lp_d
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  279:
+    fileName: s_slash_hold_lp_u
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  280:
+    fileName: totter_deathball
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  281:
+    fileName: totter_carby
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  282:
+    fileName: dmg_panch
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 283
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  283:
+    fileName: dmg_panch_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  284:
+    fileName: idle_pole
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  285:
+    fileName: pole_casting_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  286:
+    fileName: lure_throw_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 287
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  287:
+    fileName: lure_throw_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  288:
+    fileName: lure_throw_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 289
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  289:
+    fileName: idle_casting
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  290:
+    fileName: casting_reel
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  291:
+    fileName: casting_reel_fast
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  292:
+    fileName: pole_pull_u
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  293:
+    fileName: hit_success
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  294:
+    fileName: hit_fail
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 5, Mouse: 5, Ear: 0, facialName: abyss}
+  295:
+    fileName: idle_fishing
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  296:
+    fileName: hit_reel
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  297:
+    fileName: hit_reel_strong
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 8, Mouse: 8, Ear: 1, facialName: pull_lp}
+  298:
+    fileName: fish_hang_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 299
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  299:
+    fileName: fish_hang_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  300:
+    fileName: fish_lost
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 284
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 4, Mouse: 4, Ear: 0, facialName: damage}
+  301:
+    fileName: s_shield_d_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  302:
+    fileName: s_shieldhit_d
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  303:
+    fileName: pole_return
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  304:
+    fileName: pole_casting_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 285
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  305:
+    fileName: raft_idle
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  306:
+    fileName: raft_move_f
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  307:
+    fileName: raft_move_b
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  308:
+    fileName: raft_move_l
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  309:
+    fileName: raft_move_r
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  310:
+    fileName: raft_jump
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 311
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  311:
+    fileName: raft_fall
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  312:
+    fileName: raft_land
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  313:
+    fileName: water_fall_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 314
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  314:
+    fileName: water_fall_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  315:
+    fileName: water_fall_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  316:
+    fileName: u_swim_depth_in
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  317:
+    fileName: u_swim_depth_out
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  318:
+    fileName: dmg_piyo_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 319
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: damage}
+  319:
+    fileName: dmg_piyo_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: damage}
+  320:
+    fileName: dmg_piyo_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  321:
+    fileName: raft_hook_move
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  322:
+    fileName: raft_hook_move_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  323:
+    fileName: wt_poke_enemy
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: attack_cm}
+  324:
+    fileName: talk_back
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  325:
+    fileName: fall_to_water
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: abyss}
+  326:
+    fileName: h_jump
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 327
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  327:
+    fileName: h_fall
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  328:
+    fileName: h_land
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  329:
+    fileName: carry_fail
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: attack_cm}
+  330:
+    fileName: appear
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  331:
+    fileName: shadow_move
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  332:
+    fileName: disappear
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  333:
+    fileName: disappear_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  334:
+    fileName: s_jump
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 335
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  335:
+    fileName: s_fall
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: normal}
+  336:
+    fileName: ev_talkback
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  337:
+    fileName: fluttering_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  338:
+    fileName: aim_wait_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 339
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  339:
+    fileName: aim_wait_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  340:
+    fileName: aim_wait_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 2, Mouse: 1, Ear: 0, facialName: normal}
+  341:
+    fileName: ev_nazoru_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 342
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  342:
+    fileName: ev_nazoru_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  343:
+    fileName: ev_nazoru_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  344:
+    fileName: ev_drawback_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 345
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  345:
+    fileName: ev_drawback_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  346:
+    fileName: ev_drawback_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  347:
+    fileName: ev_TakeOkarina_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 348
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  348:
+    fileName: ev_TakeOkarina_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  349:
+    fileName: ev_MarinOkarina_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 352
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  350:
+    fileName: ev_MarinOkarina_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  351:
+    fileName: ev_TakeOkarina_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  352:
+    fileName: ev_MarinOkarina_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  353:
+    fileName: bare_dash_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  354:
+    fileName: bare_dash_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  355:
+    fileName: bare_dash_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  356:
+    fileName: bare_dash_crash
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: damage}
+  357:
+    fileName: ev_tarinlook
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  358:
+    fileName: ev_slash_hold_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: attack_cm}
+  359:
+    fileName: button_l_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  360:
+    fileName: button_r_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  361:
+    fileName: s_ladder_up_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  362:
+    fileName: s_ladder_up_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  363:
+    fileName: s_ladder_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  364:
+    fileName: s_ladder_up
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  365:
+    fileName: s_ladder_down
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  366:
+    fileName: s_ladder_left
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  367:
+    fileName: s_ladder_right
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  368:
+    fileName: dmg_aircarry
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: damage}
+  369:
+    fileName: shield_nothing
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: sad}
+  370:
+    fileName: ev_waterfall_out
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: abyss}
+  371:
+    fileName: ev_well_out
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  372:
+    fileName: ev_well_out_coop
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  373:
+    fileName: ev_crash_marin
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: damage}
+  374:
+    fileName: ev_faceslapping_mermaid
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: damage}
+  375:
+    fileName: swim_talk
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  376:
+    fileName: swim_talk_back
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  377:
+    fileName: swim_item_get_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 378
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  378:
+    fileName: swim_item_get_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  379:
+    fileName: swim_item_get_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  380:
+    fileName: wt_item_get_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 381
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  381:
+    fileName: wt_item_get_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  382:
+    fileName: wt_item_get_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  383:
+    fileName: ocarina_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: dream}
+  384:
+    fileName: ev_hydrocannon
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: abyss}
+  385:
+    fileName: ev_appear
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  386:
+    fileName: Lv2SwordGet_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 387
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  387:
+    fileName: Lv2SwordGet_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  388:
+    fileName: Lv2SwordGet_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  389:
+    fileName: ev_look_shadow
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  390:
+    fileName: ev_hydrocannon_shake
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: damage}
+  391:
+    fileName: s_rod_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 392
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: attack_cm}
+  392:
+    fileName: s_rod_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: attack_cm}
+  393:
+    fileName: atk_up_bare_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 394
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  394:
+    fileName: atk_up_bare_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  395:
+    fileName: atk_up_bare_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  396:
+    fileName: s_atk_up_bare_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 397
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  397:
+    fileName: s_atk_up_bare_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  398:
+    fileName: s_atk_up_bare_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: normal}
+  399:
+    fileName: dmg_fallmaster_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 400
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: damage}
+  400:
+    fileName: dmg_fallmaster_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: damage}
+  401:
+    fileName: ev_look_shadow_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 389
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: normal}
+  402:
+    fileName: ev_stairs_up
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: normal}
+  403:
+    fileName: ev_stairs_down
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: normal}
+  404:
+    fileName: ev_look_egg
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: normal}
+  405:
+    fileName: instrument_get_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 406
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  406:
+    fileName: instrument_get_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  407:
+    fileName: clothes_get_st
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 408
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  408:
+    fileName: clothes_get_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: get}
+  409:
+    fileName: clothes_get_ed
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: get}
+  410:
+    fileName: ev_TakeOkarina_wait
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 3, Mouse: 3, Ear: 0, facialName: normal}
+  411:
+    fileName: ev_EggOkarina_lp
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: dream}
+  412:
+    fileName: carry_fail_long
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: 36
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 10, Mouse: 2, Ear: 0, facialName: no_lift}
+  413:
+    fileName: wt_swim_talk
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  414:
+    fileName: wt_swim_talk_back
+    playRatio: 1.0
+    animationPolicy: 0
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}
+  415:
+    fileName: talk_danpei
+    playRatio: 1.0
+    animationPolicy: 1
+    nextKey: -1
+    rootMotionStepOffset: false
+    requestCalculateBounding: false
+    FacialAnim: {Eye: 0, Mouse: 2, Ear: 0, facialName: normal}

@@ -1,0 +1,2097 @@
+fields:
+- {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+- name: mMaterialAnimNames
+  type_name: __inline_struct_Facial_mMaterialAnimNames
+  type: 0
+  flags: 0
+  fields:
+  - {name: mEye, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mMouth, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mOthers, type_name: string, type: 4, flags: 2, fields: null}
+- name: mExpressions
+  type_name: __inline_struct_Facial_mExpressions
+  type: 0
+  flags: 2
+  fields:
+  - {name: mLabel, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mEyeFrame, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mMouthFrame, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mOtherFrames, type_name: int, type: 2, flags: 2, fields: null}
+  - {name: mEyeLength, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mMouthLength, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mOtherLengths, type_name: int, type: 2, flags: 2, fields: null}
+  - {name: mEyeBlinkFrame, type_name: int, type: 2, flags: 0, fields: null}
+  - name: mEyeBlinkSettings
+    type_name: FacialSettings
+    type: 0
+    flags: 1
+    fields:
+    - {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+    - name: mOpen
+      type_name: __inline_struct_FacialSettings_mOpen
+      type: 0
+      flags: 0
+      fields:
+      - {name: mMin, type_name: int, type: 2, flags: 0, fields: null}
+      - {name: mRange, type_name: int, type: 2, flags: 0, fields: null}
+    - name: mClose
+      type_name: __inline_struct_FacialSettings_mClose
+      type: 0
+      flags: 0
+      fields:
+      - {name: mMin, type_name: int, type: 2, flags: 0, fields: null}
+      - {name: mRange, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mLipSyncCloseFrame, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mLipSyncOpenFrame, type_name: int, type: 2, flags: 0, fields: null}
+  - name: mLipSyncSettings
+    type_name: FacialSettings
+    type: 0
+    flags: 1
+    fields:
+    - {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+    - name: mOpen
+      type_name: __inline_struct_FacialSettings_mOpen
+      type: 0
+      flags: 0
+      fields:
+      - {name: mMin, type_name: int, type: 2, flags: 0, fields: null}
+      - {name: mRange, type_name: int, type: 2, flags: 0, fields: null}
+    - name: mClose
+      type_name: __inline_struct_FacialSettings_mClose
+      type: 0
+      flags: 0
+      fields:
+      - {name: mMin, type_name: int, type: 2, flags: 0, fields: null}
+      - {name: mRange, type_name: int, type: 2, flags: 0, fields: null}
+contents:
+  Marin:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: worry
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: depress
+      mEyeFrame: 6
+      mMouthFrame: 6
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 6
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: discontent
+      mEyeFrame: 7
+      mMouthFrame: 7
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 7
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: excite
+      mEyeFrame: 5
+      mMouthFrame: 5
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 1
+      mLipSyncOpenFrame: 5
+      mLipSyncSettings: null
+    - mLabel: song
+      mEyeFrame: 8
+      mMouthFrame: 8
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 8
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 8
+      mLipSyncOpenFrame: 8
+      mLipSyncSettings: null
+    - mLabel: surprise
+      mEyeFrame: 6
+      mMouthFrame: 5
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 6
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 5
+      mLipSyncOpenFrame: 5
+      mLipSyncSettings: null
+    - mLabel: normal_close
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: dokidoki
+      mEyeFrame: 11
+      mMouthFrame: 11
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 11
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+  Tarin:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+    - mLabel: shock
+      mEyeFrame: 4
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: sleep
+      mEyeFrame: 1
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: surprise
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+  Papahl:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+    - mLabel: weaken
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+  QuadrupletsMother:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: worry
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+  Fisherman:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: pride
+      mEyeFrame: 4
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: surprise
+      mEyeFrame: 5
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 5
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Richard:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: cool
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: angry
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+  GrandmaUlrira:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: happy
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Christine:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: blush
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  GameShopOwner:
+    mMaterialAnimNames:
+      mEye: face
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: angry
+      mEyeFrame: 1
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Ghost:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: worry
+      mEyeFrame: 1
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: happy
+      mEyeFrame: 2
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 2
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Raccoon:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 0
+      mMouthFrame: 1
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 1
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings: null
+    - mLabel: confuse
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 63
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  DrWrite:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouse
+      mOthers: [eyebrow, face]
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: [0, 0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1, 1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 1
+      mOtherFrames: [0, 1]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1, 1]
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 1
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings: null
+    - mLabel: serious
+      mEyeFrame: 0
+      mMouthFrame: 2
+      mOtherFrames: [1, 0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1, 1]
+      mEyeBlinkFrame: 2
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 2
+      mLipSyncOpenFrame: 2
+      mLipSyncSettings: null
+    - mLabel: excite
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: [0, 0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1, 1]
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Owl:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: serious
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Link:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: [ear]
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: damage
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: get
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: attack_cm
+      mEyeFrame: 10
+      mMouthFrame: 1
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 10
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: attack_om
+      mEyeFrame: 10
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 10
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: abyss
+      mEyeFrame: 5
+      mMouthFrame: 5
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 5
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: down
+      mEyeFrame: 1
+      mMouthFrame: 1
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: d_jump
+      mEyeFrame: 10
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 10
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: eat
+      mEyeFrame: 7
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 7
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: jump
+      mEyeFrame: 0
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: no_lift
+      mEyeFrame: 8
+      mMouthFrame: 8
+      mOtherFrames: [1]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 8
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: poke_enemy
+      mEyeFrame: 10
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 10
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: powder
+      mEyeFrame: 0
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: pull_lp
+      mEyeFrame: 8
+      mMouthFrame: 8
+      mOtherFrames: [1]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 8
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: push
+      mEyeFrame: 10
+      mMouthFrame: 2
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 10
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: sad
+      mEyeFrame: 6
+      mMouthFrame: 6
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 7
+      mMouthFrame: 7
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: angry
+      mEyeFrame: 10
+      mMouthFrame: 10
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: vacant
+      mEyeFrame: 11
+      mMouthFrame: 11
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: depress
+      mEyeFrame: 12
+      mMouthFrame: 12
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: scared
+      mEyeFrame: 5
+      mMouthFrame: 3
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 5
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+    - mLabel: excite
+      mEyeFrame: 13
+      mMouthFrame: 13
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: wakeup
+      mEyeFrame: 11
+      mMouthFrame: 9
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 11
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 9
+      mLipSyncOpenFrame: 9
+      mLipSyncSettings: null
+    - mLabel: dream
+      mEyeFrame: 1
+      mMouthFrame: 0
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: sleep
+      mEyeFrame: 14
+      mMouthFrame: 4
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 14
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+  MermaidMartha:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 5
+      mMouthFrame: 5
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 5
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 5
+      mLipSyncOpenFrame: 5
+      mLipSyncSettings: null
+    - mLabel: surprise
+      mEyeFrame: 6
+      mMouthFrame: 6
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 6
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 6
+      mLipSyncOpenFrame: 6
+      mLipSyncSettings: null
+    - mLabel: blush
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+    - mLabel: worry
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+  Syrup:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Walrus:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: sleep
+      mEyeFrame: 1
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  ToolShopkeeper:
+    mMaterialAnimNames:
+      mEye: ''
+      mMouth: ''
+      mOthers: [face]
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: [0]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: angry
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: [1]
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: [1]
+      mEyeBlinkFrame: 0
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  ChefBear:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: joy
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Sale:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: joy
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  MadamMeowMeow:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: kiss
+      mEyeFrame: 1
+      mMouthFrame: 5
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 5
+      mLipSyncOpenFrame: 5
+      mLipSyncSettings: null
+    - mLabel: sad
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+  Quadruplet:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: excite
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+  GreatFairy:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+  Fox:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: angry
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  HippoModel:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: nose
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 1
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 1
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: angry
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+  Mamu:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: excitenormal
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: excite
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Bird:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: angry
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  GrandpaUlrira:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  FairyQueen:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+  RichardsFrog:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  CrazyTracy:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: wink
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: angry
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+  CuccoKeeper:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: mouth
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 1
+      mLipSyncSettings:
+        mKey: StandardLipSync
+        mOpen: {mMin: 5, mRange: 5}
+        mClose: {mMin: 15, mRange: 5}
+    - mLabel: surprise
+      mEyeFrame: 4
+      mMouthFrame: 4
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 4
+      mLipSyncOpenFrame: 4
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 3
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 3
+      mLipSyncOpenFrame: 3
+      mLipSyncSettings: null
+  Mouse:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  MadBatter:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Toucan:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  SecretZora:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Kiki:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  SchuleDonavitch:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Danpei:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  RaftShopMan:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Goriya:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: angry
+      mEyeFrame: 2
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 2
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: smile
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+  Rabbit:
+    mMaterialAnimNames:
+      mEye: eye
+      mMouth: ''
+      mOthers: []
+    mExpressions:
+    - mLabel: normal
+      mEyeFrame: 0
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 1
+      mEyeBlinkSettings:
+        mKey: StandardEyeBlink
+        mOpen: {mMin: 180, mRange: 30}
+        mClose: {mMin: 4, mRange: 6}
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: weak
+      mEyeFrame: 3
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 3
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null
+    - mLabel: excite
+      mEyeFrame: 4
+      mMouthFrame: 0
+      mOtherFrames: []
+      mEyeLength: 1
+      mMouthLength: 1
+      mOtherLengths: []
+      mEyeBlinkFrame: 4
+      mEyeBlinkSettings: null
+      mLipSyncCloseFrame: 0
+      mLipSyncOpenFrame: 0
+      mLipSyncSettings: null

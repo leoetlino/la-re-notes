@@ -1,0 +1,846 @@
+fields:
+- {name: symbol, type_name: string, type: 4, flags: 4, fields: null}
+- name: brace
+  type_name: __inline_struct_Reaction_brace
+  type: 0
+  flags: 0
+  fields:
+  - {name: front, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: back, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: isTurn, type_name: bool, type: 1, flags: 0, fields: null}
+- name: defence
+  type_name: __inline_struct_Reaction_defence
+  type: 0
+  flags: 0
+  fields:
+  - {name: front, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: isTurn, type_name: bool, type: 1, flags: 0, fields: null}
+- name: damage
+  type_name: __inline_struct_Reaction_damage
+  type: 0
+  flags: 0
+  fields:
+  - {name: front, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: back, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: isTurn, type_name: bool, type: 1, flags: 0, fields: null}
+- name: dead
+  type_name: __inline_struct_Reaction_dead
+  type: 0
+  flags: 0
+  fields:
+  - {name: front, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: back, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: isTurn, type_name: bool, type: 1, flags: 0, fields: null}
+- name: burn
+  type_name: __inline_struct_Reaction_burn
+  type: 0
+  flags: 0
+  fields:
+  - {name: front, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: back, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: isTurn, type_name: bool, type: 1, flags: 0, fields: null}
+- name: abyss
+  type_name: __inline_struct_Reaction_abyss
+  type: 0
+  flags: 0
+  fields:
+  - {name: animation, type_name: string, type: 4, flags: 0, fields: null}
+- name: stun
+  type_name: __inline_struct_Reaction_stun
+  type: 0
+  flags: 0
+  fields:
+  - {name: animation, type_name: string, type: 4, flags: 0, fields: null}
+- name: hazy
+  type_name: __inline_struct_Reaction_hazy
+  type: 0
+  flags: 0
+  fields:
+  - {name: animation, type_name: string, type: 4, flags: 0, fields: null}
+- name: disapear
+  type_name: __inline_struct_Reaction_disapear
+  type: 0
+  flags: 0
+  fields:
+  - {name: animation, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  MoblinSpear:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: damage_f, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  MoriblinSpear:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: damage_f, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  StalKnightSpear:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: damage_f, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  SoldierSpear:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: damage_f, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  MoblinSword:
+    brace: {front: guard, back: '', isTurn: true}
+    defence: {front: guard, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  MoriblinSword:
+    brace: {front: guard, back: '', isTurn: true}
+    defence: {front: guard, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  StalKnightSword:
+    brace: {front: guard, back: '', isTurn: true}
+    defence: {front: guard, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  SoldierSword:
+    brace: {front: guard, back: '', isTurn: true}
+    defence: {front: guard, isTurn: true}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Tektight:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  ZoroZoro:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  FlyingOctorok:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Hooker:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: '', back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Bubble:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Crowly:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  ArmosLight:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: dead_fall}
+    stun: {animation: stun}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  ArmosDark:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: dead_fall}
+    stun: {animation: stun}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  PukuPuku:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  BuzzBlob:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: jitabata}
+    stun: {animation: stun}
+    hazy: {animation: stun}
+    disapear: {animation: ''}
+  Nomos:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: stun}
+    disapear: {animation: ''}
+  Monea:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Keese:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Kuribo:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: dead_fire}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Ghini:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: '', back: '', isTurn: true}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  DeguGhini:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: '', back: '', isTurn: true}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Pawn:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: damage, isTurn: true}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: '', back: '', isTurn: true}
+    abyss: {animation: deadfall}
+    stun: {animation: stun}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Heiho:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage_f, back: damage_b, isTurn: false}
+    dead: {front: dead_f, back: dead_b, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Mimic:
+    brace: {front: damage_f, back: damage_b, isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage_f, back: damage_b, isTurn: false}
+    dead: {front: dead_f, back: dead_b, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  BomberRed:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  PolsVoice:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: stun}
+    disapear: {animation: ''}
+  Hover:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  LikeLike:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: jitabata}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  StalfosGreen:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: deadfall}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  StalfosOrange:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: deadfall}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Minigler:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Wizzrobe:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: stun}
+    disapear: {animation: ''}
+  Kyorobo:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: stun}
+    disapear: {animation: ''}
+  Ballerine:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  DeguZol:
+    brace: {front: d1_damage, back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: d1_damage, back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Hiploop:
+    brace: {front: wait, back: '', isTurn: true}
+    defence: {front: guard, isTurn: false}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Togezo:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: deadfall}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Leever:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  ZolGreen:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: wait, back: wait, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  ZolRed:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: wait, back: wait, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Totakeke:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: '', back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Octorok:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  SeaUrchin:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  HiploopHover:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Piranha:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Zombie:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage_f, back: damage_b, isTurn: true}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Zora:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: water_damage, back: '', isTurn: true}
+    dead: {front: water_dead, back: '', isTurn: true}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: water_piyo}
+    disapear: {animation: ''}
+  Pakkun:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Hidy:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: damage}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Creepee:
+    brace: {front: '', back: '', isTurn: true}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Gesso:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Teresa:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Peese:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Peahat:
+    brace: {front: damage, back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  StretchyGhost:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Rope:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: dead_fall}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Gibdos:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead_f, back: dead_b, isTurn: true}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: fall}
+    stun: {animation: stun}
+    hazy: {animation: stun}
+    disapear: {animation: ''}
+  Kirby:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Kyune:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  Vire:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: true}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: dead_fire, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  VireChild:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: true}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Karakoro:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: shell_close, isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: '', back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  BonePutter:
+    brace: {front: damage_fly, back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage_fly, back: '', isTurn: true}
+    dead: {front: dead_fly, back: '', isTurn: true}
+    burn: {front: dead_fire_fly, back: '', isTurn: true}
+    abyss: {animation: ''}
+    stun: {animation: piyo_fly}
+    hazy: {animation: piyo_fly}
+    disapear: {animation: ''}
+  BonePutterBounce:
+    brace: {front: damage, back: '', isTurn: true}
+    defence: {front: '', isTurn: true}
+    damage: {front: damage, back: '', isTurn: true}
+    dead: {front: dead, back: '', isTurn: true}
+    burn: {front: dead_fire, back: '', isTurn: true}
+    abyss: {animation: fall}
+    stun: {animation: piyo}
+    hazy: {animation: piyo}
+    disapear: {animation: ''}
+  PanelShadowLink:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: dmg_f, back: dmg_b, isTurn: false}
+    dead: {front: death, back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Lanmola:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: '', back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  BossBlob:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: B1_damage, back: B1_damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  ShadowAgahnim:
+    brace: {front: damage, back: damage, isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  PanelFallMaster:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  ShadowLanmola:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: Lan_damage, back: Lan_damage, isTurn: false}
+    dead: {front: Lan_dead, back: Lan_dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  ShadowZol:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  ShadowGanon:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  DonPawn:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: dead, back: dead, isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Fox:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: damage, back: damage, isTurn: false}
+    dead: {front: '', back: '', isTurn: false}
+    burn: {front: damage, back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}
+  Cucco:
+    brace: {front: '', back: '', isTurn: false}
+    defence: {front: '', isTurn: false}
+    damage: {front: '', back: '', isTurn: false}
+    dead: {front: '', back: '', isTurn: false}
+    burn: {front: '', back: '', isTurn: false}
+    abyss: {animation: ''}
+    stun: {animation: ''}
+    hazy: {animation: ''}
+    disapear: {animation: ''}

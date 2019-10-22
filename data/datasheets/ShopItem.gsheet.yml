@@ -1,0 +1,49 @@
+fields:
+- {name: mIndex, type_name: int, type: 2, flags: 4, fields: null}
+- name: mGoods
+  type_name: __inline_struct_ShopItem_mGoods
+  type: 0
+  flags: 2
+  fields:
+  - {name: mCondition, type_name: Conditions, type: 4, flags: 8, fields: null}
+  - {name: mItem, type_name: Items, type: 4, flags: 9, fields: null}
+  - {name: mModelPath, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mModelName, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mCount, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mIndex, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mLabel, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mEntryPoint, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  0:
+    mGoods:
+    - {mCondition: ShopShieldCondition, mItem: Shield, mModelPath: actor/ItemShield.bfres,
+      mModelName: Shield, mCount: 1, mIndex: -1, mLabel: 'System:PriceTagShield',
+      mEntryPoint: Take_Shield}
+  1:
+    mGoods:
+    - {mCondition: ShopHeartCondition, mItem: Heart, mModelPath: actor/ObjManyItems.bfres,
+      mModelName: ManyRecoveryHeart, mCount: 12, mIndex: -1, mLabel: 'System:PriceTagHeart',
+      mEntryPoint: Take_Heart}
+  2:
+    mGoods:
+    - {mCondition: ShopShovelCondition, mItem: Shovel, mModelPath: actor/ItemShovel.bfres,
+      mModelName: Shovel, mCount: 1, mIndex: -1, mLabel: 'System:PriceTagScoop', mEntryPoint: Take_Scoop}
+    - {mCondition: ShopBowCondition, mItem: Bow, mModelPath: actor/ItemBow.bfres,
+      mModelName: Bow, mCount: 1, mIndex: -1, mLabel: 'System:PriceTagBow', mEntryPoint: Take_Bow}
+    - {mCondition: 'true', mItem: Arrow, mModelPath: actor/ObjManyItems.bfres, mModelName: ManyArrow,
+      mCount: 10, mIndex: -1, mLabel: 'System:PriceTagArrow', mEntryPoint: Take_Arrow}
+  3:
+    mGoods:
+    - {mCondition: ShopBombCondition, mItem: Bomb, mModelPath: actor/ObjManyItems.bfres,
+      mModelName: ManyBomb, mCount: 10, mIndex: -1, mLabel: 'System:PriceTagBomb',
+      mEntryPoint: Take_Bomb}
+  4:
+    mGoods:
+    - {mCondition: ShopOpenPanel, mItem: PanelDungeonPiece, mModelPath: actor/ItemPanelDungeonPiece.bfres,
+      mModelName: PanelDungeonPiece, mCount: 1, mIndex: 10, mLabel: 'System:PriceTagPanelPeace',
+      mEntryPoint: Take_PanelPeace}
+  5:
+    mGoods:
+    - {mCondition: ShopHeartPieceCondition, mItem: HeartPiece, mModelPath: actor/ItemHeartPiece.bfres,
+      mModelName: HeartPiece, mCount: 1, mIndex: 24, mLabel: 'System:PriceTagHeartPeace',
+      mEntryPoint: Take_HeartPeace}

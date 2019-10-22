@@ -1,0 +1,110 @@
+fields:
+- {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+- name: mBoneNames
+  type_name: __inline_struct_InterestIK_mBoneNames
+  type: 0
+  flags: 0
+  fields:
+  - {name: mHead, type_name: string, type: 4, flags: 0, fields: null}
+  - {name: mChest, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mRotAxis, type_name: __inline_enum_InterestIK_mRotAxis, type: 2, flags: 48,
+  fields: null}
+- name: mLimits
+  type_name: __inline_struct_InterestIK_mLimits
+  type: 0
+  flags: 0
+  fields:
+  - {name: mY, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mMinX, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mMaxX, type_name: float, type: 3, flags: 0, fields: null}
+- name: mLostAngle
+  type_name: __inline_struct_InterestIK_mLostAngle
+  type: 0
+  flags: 0
+  fields:
+  - {name: mY, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mMinX, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mMaxX, type_name: float, type: 3, flags: 0, fields: null}
+- name: mChaseSettings
+  type_name: __inline_struct_InterestIK_mChaseSettings
+  type: 0
+  flags: 0
+  fields:
+  - {name: mCushion, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mDistanceLimit, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mMinDistance, type_name: float, type: 3, flags: 0, fields: null}
+- name: mReaction
+  type_name: __inline_struct_InterestIK_mReaction
+  type: 0
+  flags: 0
+  fields:
+  - {name: mTime, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mTimeRange, type_name: float, type: 3, flags: 0, fields: null}
+- name: mLost
+  type_name: __inline_struct_InterestIK_mLost
+  type: 0
+  flags: 0
+  fields:
+  - {name: mTime, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mTimeRange, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  StandardNpc:
+    mBoneNames: {mHead: head, mChest: ''}
+    mRotAxis: 0
+    mLimits: {mY: 45.0, mMinX: -30.0, mMaxX: 30.0}
+    mLostAngle: {mY: 110.0, mMinX: -90.0, mMaxX: 90.0}
+    mChaseSettings: {mCushion: 0.20000000298023224}
+    mDistanceLimit: 7.0
+    mMinDistance: 0.0
+    mReaction: {mTime: 0.10000000149011612, mTimeRange: 0.4000000059604645}
+    mLost: {mTime: 2.700000047683716, mTimeRange: 1.5}
+  Marin:
+    mBoneNames: {mHead: head, mChest: ''}
+    mRotAxis: 1
+    mLimits: {mY: 45.0, mMinX: -30.0, mMaxX: 30.0}
+    mLostAngle: {mY: 110.0, mMinX: -90.0, mMaxX: 90.0}
+    mChaseSettings: {mCushion: 0.20000000298023224}
+    mDistanceLimit: 7.0
+    mMinDistance: 0.0
+    mReaction: {mTime: 0.10000000149011612, mTimeRange: 0.4000000059604645}
+    mLost: {mTime: 2.700000047683716, mTimeRange: 1.5}
+  Danpei:
+    mBoneNames: {mHead: head, mChest: ''}
+    mRotAxis: 0
+    mLimits: {mY: 15.0, mMinX: -15.0, mMaxX: 15.0}
+    mLostAngle: {mY: 110.0, mMinX: -90.0, mMaxX: 90.0}
+    mChaseSettings: {mCushion: 0.20000000298023224}
+    mDistanceLimit: 7.0
+    mMinDistance: 0.0
+    mReaction: {mTime: 0.10000000149011612, mTimeRange: 0.4000000059604645}
+    mLost: {mTime: 2.700000047683716, mTimeRange: 1.5}
+  Fisherman:
+    mBoneNames: {mHead: head, mChest: ''}
+    mRotAxis: 0
+    mLimits: {mY: 45.0, mMinX: -30.0, mMaxX: 30.0}
+    mLostAngle: {mY: 110.0, mMinX: -90.0, mMaxX: 90.0}
+    mChaseSettings: {mCushion: 0.20000000298023224}
+    mDistanceLimit: 0.0
+    mMinDistance: 0.0
+    mReaction: {mTime: 0.10000000149011612, mTimeRange: 0.4000000059604645}
+    mLost: {mTime: 2.700000047683716, mTimeRange: 1.5}
+  KikiIdle:
+    mBoneNames: {mHead: head, mChest: ''}
+    mRotAxis: 0
+    mLimits: {mY: 0.0, mMinX: 0.0, mMaxX: 0.0}
+    mLostAngle: {mY: 110.0, mMinX: -90.0, mMaxX: 90.0}
+    mChaseSettings: {mCushion: 0.20000000298023224}
+    mDistanceLimit: 7.0
+    mMinDistance: 0.0
+    mReaction: {mTime: 0.10000000149011612, mTimeRange: 0.4000000059604645}
+    mLost: {mTime: 2.700000047683716, mTimeRange: 1.5}
+  Syrup:
+    mBoneNames: {mHead: head, mChest: ''}
+    mRotAxis: 0
+    mLimits: {mY: 45.0, mMinX: -30.0, mMaxX: 30.0}
+    mLostAngle: {mY: 60.0, mMinX: -45.0, mMaxX: 45.0}
+    mChaseSettings: {mCushion: 0.20000000298023224}
+    mDistanceLimit: 7.0
+    mMinDistance: 0.0
+    mReaction: {mTime: 0.10000000149011612, mTimeRange: 0.10000000149011612}
+    mLost: {mTime: 2.700000047683716, mTimeRange: 1.5}

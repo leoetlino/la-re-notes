@@ -1,0 +1,275 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mIsTelop, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: mMinZoneID, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mMaxZoneID, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mNameLabel, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mType, type_name: LocationNameType, type: 2, flags: 16, fields: null}
+- {name: mFirstShowFlagName, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- {name: mIsForceRupeeShow, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: mIsForceShow, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  0: {mIsTelop: true, mMinZoneID: 300, mMaxZoneID: 328, mNameLabel: Lv1Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv01Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  1: {mIsTelop: true, mMinZoneID: 400, mMaxZoneID: 431, mNameLabel: Lv2Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv02Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  2: {mIsTelop: true, mMinZoneID: 500, mMaxZoneID: 530, mNameLabel: Lv3Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv03Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  3: {mIsTelop: true, mMinZoneID: 600, mMaxZoneID: 635, mNameLabel: Lv4Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv04Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  4: {mIsTelop: true, mMinZoneID: 700, mMaxZoneID: 741, mNameLabel: Lv5Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv05Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  5: {mIsTelop: true, mMinZoneID: 800, mMaxZoneID: 845, mNameLabel: Lv6Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv06Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  6: {mIsTelop: true, mMinZoneID: 900, mMaxZoneID: 948, mNameLabel: Lv7Dungeon, mType: 1,
+    mFirstShowFlagName: UI_FieldMapIcon_Lv07Dungeon, mIsForceRupeeShow: false, mIsForceShow: false}
+  7: {mIsTelop: true, mMinZoneID: 1000, mMaxZoneID: 1057, mNameLabel: Lv8Dungeon,
+    mType: 1, mFirstShowFlagName: UI_FieldMapIcon_Lv08Dungeon, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  8: {mIsTelop: true, mMinZoneID: 1100, mMaxZoneID: 1163, mNameLabel: LastDungeon,
+    mType: 1, mFirstShowFlagName: UI_FieldMapIcon_Lv09Dungeon, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  9: {mIsTelop: true, mMinZoneID: 1200, mMaxZoneID: 1221, mNameLabel: ClothesDungeon,
+    mType: 1, mFirstShowFlagName: UI_FieldMapIcon_Lv10Dungeon, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  10: {mIsTelop: true, mMinZoneID: 2220, mMaxZoneID: 2220, mNameLabel: GameShop, mType: 2,
+    mFirstShowFlagName: UI_FieldMapIcon_GameShop, mIsForceRupeeShow: false, mIsForceShow: false}
+  11: {mIsTelop: true, mMinZoneID: 90, mMaxZoneID: 94, mNameLabel: KanaletCastle,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_KanaletCastle, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  12: {mIsTelop: false, mMinZoneID: 100, mMaxZoneID: 100, mNameLabel: RapidsRide,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_RapidsRide, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  13: {mIsTelop: true, mMinZoneID: 132, mMaxZoneID: 133, mNameLabel: SouthShrine,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_SouthShrine, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  14: {mIsTelop: true, mMinZoneID: 170, mMaxZoneID: 171, mNameLabel: AnimalVillage,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_AnimalVillage, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  15: {mIsTelop: true, mMinZoneID: 210, mMaxZoneID: 211, mNameLabel: YarnaDesert,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_YarnaDesert, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  16: {mIsTelop: false, mMinZoneID: 200, mMaxZoneID: 200, mNameLabel: EastBay, mType: 0,
+    mFirstShowFlagName: UI_FieldMapTraverse_EastBay, mIsForceRupeeShow: false, mIsForceShow: false}
+  17: {mIsTelop: true, mMinZoneID: 190, mMaxZoneID: 193, mNameLabel: MarthasBay, mType: 0,
+    mFirstShowFlagName: UI_FieldMapTraverse_MarthasBay, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  18: {mIsTelop: true, mMinZoneID: 160, mMaxZoneID: 161, mNameLabel: PotholeField,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_PotholeField, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  19: {mIsTelop: false, mMinZoneID: 150, mMaxZoneID: 150, mNameLabel: SignpostMaze,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  20: {mIsTelop: true, mMinZoneID: 110, mMaxZoneID: 111, mNameLabel: MabeVillage,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_MabeVillage, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  21: {mIsTelop: true, mMinZoneID: 50, mMaxZoneID: 50, mNameLabel: Forest, mType: 0,
+    mFirstShowFlagName: UI_FieldMapTraverse_Forest, mIsForceRupeeShow: false, mIsForceShow: false}
+  22: {mIsTelop: true, mMinZoneID: 31, mMaxZoneID: 32, mNameLabel: GopongaSwamp, mType: 0,
+    mFirstShowFlagName: UI_FieldMapTraverse_GopongaSwamp, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  23: {mIsTelop: true, mMinZoneID: 60, mMaxZoneID: 61, mNameLabel: KoholintPrairie,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_KoholintPrairie, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  24: {mIsTelop: true, mMinZoneID: 70, mMaxZoneID: 70, mNameLabel: TabahlWasteland,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_TabahlWasteland, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  25: {mIsTelop: true, mMinZoneID: 20, mMaxZoneID: 20, mNameLabel: TalTalMountain,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_EastTalTalMountain, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  26: {mIsTelop: true, mMinZoneID: 10, mMaxZoneID: 11, mNameLabel: MountTamaranch,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_MountTamaranch, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  27: {mIsTelop: true, mMinZoneID: 40, mMaxZoneID: 41, mNameLabel: TalTalHeights,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_TalTalHeights, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  28: {mIsTelop: true, mMinZoneID: 180, mMaxZoneID: 180, mNameLabel: ToronboShores,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_ToronboShores, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  29: {mIsTelop: true, mMinZoneID: 2290, mMaxZoneID: 2290, mNameLabel: RaftShop, mType: 2,
+    mFirstShowFlagName: UI_FieldMapIcon_RapidsRide, mIsForceRupeeShow: false, mIsForceShow: false}
+  30: {mIsTelop: true, mMinZoneID: 2305, mMaxZoneID: 2305, mNameLabel: ShellMansion,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_ShellMansion, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  31: {mIsTelop: true, mMinZoneID: 2310, mMaxZoneID: 2310, mNameLabel: ToolShop, mType: 2,
+    mFirstShowFlagName: UI_FieldMapIcon_Shop, mIsForceRupeeShow: true, mIsForceShow: true}
+  32: {mIsTelop: true, mMinZoneID: 2255, mMaxZoneID: 2255, mNameLabel: Library, mType: 2,
+    mFirstShowFlagName: UI_FieldMapIcon_Library, mIsForceRupeeShow: false, mIsForceShow: false}
+  33: {mIsTelop: true, mMinZoneID: 2210, mMaxZoneID: 2210, mNameLabel: DreamShrine,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  34: {mIsTelop: true, mMinZoneID: 2275, mMaxZoneID: 2276, mNameLabel: DanpeiShack,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_DanpeiShack, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  35: {mIsTelop: false, mMinZoneID: 2315, mMaxZoneID: 2319, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox5, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  36: {mIsTelop: false, mMinZoneID: 2320, mMaxZoneID: 2324, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox1, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  37: {mIsTelop: false, mMinZoneID: 2325, mMaxZoneID: 2329, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox8, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  38: {mIsTelop: false, mMinZoneID: 2350, mMaxZoneID: 2354, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox6, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  39: {mIsTelop: false, mMinZoneID: 2335, mMaxZoneID: 2339, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox4, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  40: {mIsTelop: false, mMinZoneID: 2340, mMaxZoneID: 2344, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox2, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  41: {mIsTelop: false, mMinZoneID: 2345, mMaxZoneID: 2349, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox3, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  42: {mIsTelop: false, mMinZoneID: 2330, mMaxZoneID: 2334, mNameLabel: TelephoneBox,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TelBox7, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  43: {mIsTelop: false, mMinZoneID: 2355, mMaxZoneID: 2359, mNameLabel: TracyHouse,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_TracyHouse, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  44: {mIsTelop: false, mMinZoneID: 2265, mMaxZoneID: 2269, mNameLabel: WitchHouse,
+    mType: 2, mFirstShowFlagName: UI_FieldMapIcon_WitchHouse, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  45: {mIsTelop: true, mMinZoneID: 120, mMaxZoneID: 121, mNameLabel: UkukuPrairie,
+    mType: 0, mFirstShowFlagName: UI_FieldMapTraverse_UkukuPrairie, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  46: {mIsTelop: true, mMinZoneID: 2, mMaxZoneID: 2, mNameLabel: TalTalMountain, mType: 0,
+    mFirstShowFlagName: UI_FieldMapTraverse_WestTalTalMountain, mIsForceRupeeShow: false,
+    mIsForceShow: false}
+  47: {mIsTelop: true, mMinZoneID: 80, mMaxZoneID: 80, mNameLabel: Graveyard, mType: 0,
+    mFirstShowFlagName: UI_FieldMapTraverse_Graveyard, mIsForceRupeeShow: false, mIsForceShow: false}
+  48: {mIsTelop: false, mMinZoneID: 42, mMaxZoneID: 42, mNameLabel: TalTalMountain,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  49: {mIsTelop: false, mMinZoneID: 2200, mMaxZoneID: 2200, mNameLabel: SaleHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  50: {mIsTelop: false, mMinZoneID: 2205, mMaxZoneID: 2205, mNameLabel: AnimalVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  51: {mIsTelop: false, mMinZoneID: 2215, mMaxZoneID: 2215, mNameLabel: AnimalVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  52: {mIsTelop: false, mMinZoneID: 2225, mMaxZoneID: 2225, mNameLabel: CockHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  53: {mIsTelop: false, mMinZoneID: 2230, mMaxZoneID: 2230, mNameLabel: MabeVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  54: {mIsTelop: false, mMinZoneID: 2235, mMaxZoneID: 2235, mNameLabel: WriteHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  55: {mIsTelop: false, mMinZoneID: 2245, mMaxZoneID: 2245, mNameLabel: GhostHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  56: {mIsTelop: false, mMinZoneID: 2250, mMaxZoneID: 2250, mNameLabel: AnimalVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  57: {mIsTelop: false, mMinZoneID: 2260, mMaxZoneID: 2260, mNameLabel: MadamHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  58: {mIsTelop: false, mMinZoneID: 2270, mMaxZoneID: 2270, mNameLabel: MarinHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  59: {mIsTelop: false, mMinZoneID: 2280, mMaxZoneID: 2280, mNameLabel: 4childHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  60: {mIsTelop: false, mMinZoneID: 2285, mMaxZoneID: 2285, mNameLabel: AnimalVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  61: {mIsTelop: false, mMinZoneID: 2295, mMaxZoneID: 2295, mNameLabel: RichardHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  62: {mIsTelop: false, mMinZoneID: 2300, mMaxZoneID: 2300, mNameLabel: AnimalVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  63: {mIsTelop: false, mMinZoneID: 2360, mMaxZoneID: 2360, mNameLabel: UlriraHouse,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  64: {mIsTelop: false, mMinZoneID: 140, mMaxZoneID: 142, mNameLabel: SouthVillage,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  65: {mIsTelop: false, mMinZoneID: 1300, mMaxZoneID: 1300, mNameLabel: TalTalHeights,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  66: {mIsTelop: false, mMinZoneID: 1320, mMaxZoneID: 1322, mNameLabel: AnimalVillage,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  67: {mIsTelop: false, mMinZoneID: 1340, mMaxZoneID: 1340, mNameLabel: UkukuPrairie,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  68: {mIsTelop: false, mMinZoneID: 1360, mMaxZoneID: 1362, mNameLabel: SouthShrine,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  69: {mIsTelop: false, mMinZoneID: 1380, mMaxZoneID: 1380, mNameLabel: SouthShrine,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  70: {mIsTelop: false, mMinZoneID: 1400, mMaxZoneID: 1400, mNameLabel: ToronboShores,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  71: {mIsTelop: false, mMinZoneID: 1420, mMaxZoneID: 1420, mNameLabel: MarthasBay,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  72: {mIsTelop: false, mMinZoneID: 1440, mMaxZoneID: 1440, mNameLabel: DreamShrine,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  73: {mIsTelop: false, mMinZoneID: 1460, mMaxZoneID: 1464, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  74: {mIsTelop: false, mMinZoneID: 1480, mMaxZoneID: 1480, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  75: {mIsTelop: false, mMinZoneID: 1500, mMaxZoneID: 1500, mNameLabel: ShrineFalls,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  76: {mIsTelop: false, mMinZoneID: 130, mMaxZoneID: 131, mNameLabel: ShrineFalls,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  77: {mIsTelop: false, mMinZoneID: 1520, mMaxZoneID: 1520, mNameLabel: ShrineFalls,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  78: {mIsTelop: false, mMinZoneID: 1540, mMaxZoneID: 1540, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  79: {mIsTelop: false, mMinZoneID: 1560, mMaxZoneID: 1560, mNameLabel: UkukuPrairie,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  80: {mIsTelop: false, mMinZoneID: 1580, mMaxZoneID: 1580, mNameLabel: MarthasBay,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  81: {mIsTelop: false, mMinZoneID: 1600, mMaxZoneID: 1600, mNameLabel: MabeVillage,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  82: {mIsTelop: false, mMinZoneID: 1620, mMaxZoneID: 1620, mNameLabel: GopongaSwamp,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  83: {mIsTelop: false, mMinZoneID: 1640, mMaxZoneID: 1659, mNameLabel: KanaletCastle,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  84: {mIsTelop: false, mMinZoneID: 1660, mMaxZoneID: 1660, mNameLabel: KanaletCastle,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  85: {mIsTelop: false, mMinZoneID: 1680, mMaxZoneID: 1680, mNameLabel: UkukuPrairie,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  86: {mIsTelop: false, mMinZoneID: 1700, mMaxZoneID: 1702, mNameLabel: YarnaDesert,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  87: {mIsTelop: false, mMinZoneID: 1720, mMaxZoneID: 1720, mNameLabel: MarthasBay,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  88: {mIsTelop: false, mMinZoneID: 1740, mMaxZoneID: 1740, mNameLabel: Forest, mType: 1,
+    mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  89: {mIsTelop: false, mMinZoneID: 1760, mMaxZoneID: 1760, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  90: {mIsTelop: false, mMinZoneID: 1780, mMaxZoneID: 1780, mNameLabel: MarthasBay,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  91: {mIsTelop: false, mMinZoneID: 1800, mMaxZoneID: 1800, mNameLabel: TalTalMountain,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  92: {mIsTelop: false, mMinZoneID: 1820, mMaxZoneID: 1820, mNameLabel: SignpostMaze,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  93: {mIsTelop: false, mMinZoneID: 1840, mMaxZoneID: 1846, mNameLabel: UkukuPrairie,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  94: {mIsTelop: false, mMinZoneID: 1860, mMaxZoneID: 1860, mNameLabel: MarthasBay,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  95: {mIsTelop: false, mMinZoneID: 1880, mMaxZoneID: 1883, mNameLabel: TalTalHeights,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  96: {mIsTelop: false, mMinZoneID: 1900, mMaxZoneID: 1902, mNameLabel: Forest, mType: 1,
+    mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  97: {mIsTelop: false, mMinZoneID: 1920, mMaxZoneID: 1920, mNameLabel: Forest, mType: 1,
+    mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  98: {mIsTelop: false, mMinZoneID: 1940, mMaxZoneID: 1940, mNameLabel: RapidsRide,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  99: {mIsTelop: false, mMinZoneID: 1960, mMaxZoneID: 1961, mNameLabel: PotholeField,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  100: {mIsTelop: false, mMinZoneID: 1980, mMaxZoneID: 1985, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  101: {mIsTelop: false, mMinZoneID: 2000, mMaxZoneID: 2001, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  102: {mIsTelop: false, mMinZoneID: 2020, mMaxZoneID: 2022, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  103: {mIsTelop: false, mMinZoneID: 2040, mMaxZoneID: 2051, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  104: {mIsTelop: false, mMinZoneID: 2060, mMaxZoneID: 2064, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  105: {mIsTelop: false, mMinZoneID: 2100, mMaxZoneID: 2100, mNameLabel: MabeVillage,
+    mType: 2, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  106: {mIsTelop: false, mMinZoneID: 2120, mMaxZoneID: 2120, mNameLabel: TalTalMountain,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  107: {mIsTelop: false, mMinZoneID: 2140, mMaxZoneID: 2140, mNameLabel: UkukuPrairie,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  108: {mIsTelop: false, mMinZoneID: 2160, mMaxZoneID: 2161, mNameLabel: UkukuPrairie,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  109: {mIsTelop: false, mMinZoneID: 2180, mMaxZoneID: 2180, mNameLabel: Graveyard,
+    mType: 1, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  110: {mIsTelop: false, mMinZoneID: 30, mMaxZoneID: 30, mNameLabel: GopongaSwamp,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  111: {mIsTelop: false, mMinZoneID: 33, mMaxZoneID: 33, mNameLabel: GopongaSwamp,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  112: {mIsTelop: false, mMinZoneID: 134, mMaxZoneID: 135, mNameLabel: FaceShrine,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  113: {mIsTelop: false, mMinZoneID: 2240, mMaxZoneID: 2240, mNameLabel: FishingPond,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  114: {mIsTelop: true, mMinZoneID: 112, mMaxZoneID: 113, mNameLabel: MabeVillage,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}
+  115: {mIsTelop: false, mMinZoneID: 194, mMaxZoneID: 194, mNameLabel: MarthasBay,
+    mType: 0, mFirstShowFlagName: '', mIsForceRupeeShow: false, mIsForceShow: false}

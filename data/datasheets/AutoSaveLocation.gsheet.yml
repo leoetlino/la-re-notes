@@ -1,0 +1,19 @@
+fields:
+- {name: symbol, type_name: string, type: 4, flags: 4, fields: null}
+- {name: eventFlagNo, type_name: int, type: 2, flags: 0, fields: null}
+contents:
+  Lv01TailCave: {eventFlagNo: 1054}
+  Lv02BottleGrotto: {eventFlagNo: 1055}
+  Lv03KeyCavern: {eventFlagNo: 1056}
+  Lv04AnglersTunnel: {eventFlagNo: 1057}
+  Lv05CatfishsMsw: {eventFlagNo: 1058}
+  Lv06FaceShrine: {eventFlagNo: 1059}
+  Lv07EagleTower: {eventFlagNo: 1060}
+  Lv08TurtleRock: {eventFlagNo: 1061}
+  Lv09WindFishsEgg: {eventFlagNo: 1062}
+  Lv10ClothesDungeon: {eventFlagNo: 1063}
+  Field: {eventFlagNo: 1087}
+  MoriblinCave: {eventFlagNo: 1088}
+  DreamShrine: {eventFlagNo: 1089}
+  KanaletCastle: {eventFlagNo: 1090}
+  ArmosShrine: {eventFlagNo: 1091}

@@ -1,0 +1,58 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mNumberOfClear, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mDifficulty, type_name: PanelThemeDifficulty, type: 2, flags: 16, fields: null}
+- {name: mRewardItem, type_name: Items, type: 4, flags: 9, fields: null}
+- {name: mRewardItemIndex, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mRewardItemEventEntry, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  0: {mNumberOfClear: 1, mDifficulty: 1, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 0,
+    mRewardItemEventEntry: PanelGet}
+  1: {mNumberOfClear: 2, mDifficulty: 1, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 1,
+    mRewardItemEventEntry: PanelGet}
+  2: {mNumberOfClear: 3, mDifficulty: 1, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 2,
+    mRewardItemEventEntry: PanelGet}
+  3: {mNumberOfClear: 4, mDifficulty: 1, mRewardItem: Seashell, mRewardItemIndex: 48,
+    mRewardItemEventEntry: Seashell}
+  4: {mNumberOfClear: 1, mDifficulty: 2, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 5,
+    mRewardItemEventEntry: PanelGet}
+  5: {mNumberOfClear: 2, mDifficulty: 2, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 9,
+    mRewardItemEventEntry: PanelGet}
+  6: {mNumberOfClear: 3, mDifficulty: 2, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 6,
+    mRewardItemEventEntry: PanelGet}
+  7: {mNumberOfClear: 4, mDifficulty: 2, mRewardItem: HeartPiece, mRewardItemIndex: 31,
+    mRewardItemEventEntry: HeartPieceForPanel}
+  8: {mNumberOfClear: 1, mDifficulty: 3, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 14,
+    mRewardItemEventEntry: PanelGet}
+  9: {mNumberOfClear: 2, mDifficulty: 3, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 15,
+    mRewardItemEventEntry: PanelGet}
+  10: {mNumberOfClear: 3, mDifficulty: 3, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 16,
+    mRewardItemEventEntry: PanelGet}
+  11: {mNumberOfClear: 4, mDifficulty: 3, mRewardItem: PanelDungeonPiece, mRewardItemIndex: 17,
+    mRewardItemEventEntry: PanelGet}
+  12: {mNumberOfClear: 12, mDifficulty: 11, mRewardItem: HeartContainer, mRewardItemIndex: 8,
+    mRewardItemEventEntry: HeartContainer}
+  13: {mNumberOfClear: 1, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  14: {mNumberOfClear: 2, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  15: {mNumberOfClear: 3, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  16: {mNumberOfClear: 4, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  17: {mNumberOfClear: 5, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  18: {mNumberOfClear: 6, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  19: {mNumberOfClear: 7, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  20: {mNumberOfClear: 8, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  21: {mNumberOfClear: 9, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  22: {mNumberOfClear: 10, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  23: {mNumberOfClear: 11, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}
+  24: {mNumberOfClear: 12, mDifficulty: 4, mRewardItem: Rupee300, mRewardItemIndex: 0,
+    mRewardItemEventEntry: Rupee300}

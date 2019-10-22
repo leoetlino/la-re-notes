@@ -1,0 +1,451 @@
+fields:
+- {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mLightType, type_name: __inline_enum_Light_mLightType, type: 2, flags: 48,
+  fields: null}
+- {name: mPriority, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mRange, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mInnerCone, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mOuterCone, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mIntensity, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mColorR, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mColorG, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mColorB, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  Lv1AreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 45.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  Lv1PathLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 60.0, mOuterCone: 70.0,
+    mIntensity: 0.699999988079071, mColorR: 1.0, mColorG: 0.984000027179718, mColorB: 0.9409999847412109}
+  Lv1DoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv1BeforeLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 5.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv1EnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv1SideEnter: {mLightType: 1, mPriority: 5, mRange: 20.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.9800000190734863, mColorB: 0.699999988079071}
+  Lv1SideSubLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 20.0, mOuterCone: 45.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.9800000190734863, mColorB: 0.699999988079071}
+  Lv1SideUnderLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 1.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  Lv2AreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 30.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv2PathLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv2DoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 3.0, mColorR: 0.699999988079071, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv2ObjLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 6.0, mColorR: 0.699999988079071, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv2EnterLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 100.0, mColorR: 1.0, mColorG: 0.984000027179718, mColorB: 0.9409999847412109}
+  Lv2DarkAreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 30.0,
+    mIntensity: 0.30000001192092896, mColorR: 0.0, mColorG: 0.6000000238418579, mColorB: 1.0}
+  Lv2DarkDoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 35.0,
+    mIntensity: 1.0, mColorR: 0.0, mColorG: 0.6000000238418579, mColorB: 1.0}
+  Lv2SideLight: {mLightType: 1, mPriority: 5, mRange: 14.0, mInnerCone: 5.0, mOuterCone: 30.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  Lv2SideSubLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 30.0,
+    mIntensity: 1.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv3AreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 40.0,
+    mIntensity: 1.0, mColorR: 0.699999988079071, mColorG: 1.0, mColorB: 0.800000011920929}
+  Lv3PathLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv3DoorLight: {mLightType: 1, mPriority: 5, mRange: 9.0, mInnerCone: 10.0, mOuterCone: 35.0,
+    mIntensity: 1.0, mColorR: 0.699999988079071, mColorG: 1.0, mColorB: 0.8999999761581421}
+  Lv3ObjLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 3.0, mColorR: 0.800000011920929, mColorG: 1.0, mColorB: 0.8999999761581421}
+  Lv3EnterLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 100.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv3SideLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv3SideSubLight: {mLightType: 1, mPriority: 5, mRange: 6.0, mInnerCone: 5.0, mOuterCone: 30.0,
+    mIntensity: 1.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv4AreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 35.0,
+    mIntensity: 2.0, mColorR: 0.6000000238418579, mColorG: 0.699999988079071, mColorB: 1.0}
+  Lv4PathLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 1.0, mColorB: 1.0}
+  Lv4DoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 35.0,
+    mIntensity: 1.5, mColorR: 0.699999988079071, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv4ObjLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 4.0, mColorR: 0.699999988079071, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv4EnterLight: {mLightType: 1, mPriority: 5, mRange: 6.0, mInnerCone: 5.0, mOuterCone: 30.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.984000027179718, mColorB: 0.9409999847412109}
+  Lv4SideWaterStdLight: {mLightType: 1, mPriority: 5, mRange: 9.0, mInnerCone: 10.0,
+    mOuterCone: 40.0, mIntensity: 2.0, mColorR: 0.4000000059604645, mColorG: 0.699999988079071,
+    mColorB: 1.0}
+  Lv4SideStdLight: {mLightType: 1, mPriority: 5, mRange: 9.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  Lv4SideWaterLight: {mLightType: 1, mPriority: 5, mRange: 6.0, mInnerCone: 55.0,
+    mOuterCone: 60.0, mIntensity: 2.0, mColorR: 0.20000000298023224, mColorG: 0.800000011920929,
+    mColorB: 1.0}
+  Lv4SideBossLight: {mLightType: 1, mPriority: 5, mRange: 25.0, mInnerCone: 5.0, mOuterCone: 50.0,
+    mIntensity: 30.0, mColorR: 0.20000000298023224, mColorG: 0.800000011920929, mColorB: 1.0}
+  Lv5AreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 35.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv5BossLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.984000027179718, mColorB: 0.9409999847412109}
+  Lv5DoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 35.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.5}
+  Lv5ObjLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 5.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv5EnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0, mOuterCone: 22.0,
+    mIntensity: 60.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.5}
+  Lv5SideLight: {mLightType: 1, mPriority: 5, mRange: 14.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.4000000059604645}
+  Lv5SideSubLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.4000000059604645}
+  Lv5SideWaterLight: {mLightType: 1, mPriority: 5, mRange: 14.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 3.5, mColorR: 0.20000000298023224, mColorG: 0.699999988079071,
+    mColorB: 1.0}
+  Lv5SideWaterSubLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 2.0, mColorR: 0.0, mColorG: 0.699999988079071, mColorB: 1.0}
+  Lv6AreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 32.0,
+    mIntensity: 2.5, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv6DoorLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 6.0, mOuterCone: 25.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv6MainDoorLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 6.0, mOuterCone: 25.0,
+    mIntensity: 4.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv6ObjLight: {mLightType: 1, mPriority: 5, mRange: 13.0, mInnerCone: 10.0, mOuterCone: 22.0,
+    mIntensity: 6.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.30000001192092896}
+  Lv6EnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  Lv6DarkAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 32.0,
+    mIntensity: 0.5, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv6DarkDoorLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0,
+    mOuterCone: 22.0, mIntensity: 0.5, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv6SideLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 35.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.44999998807907104}
+  Lv6SideSubLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 2.5, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.44999998807907104}
+  Lv7AreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 5.0, mOuterCone: 40.0,
+    mIntensity: 1.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  Lv7PathLight: {mLightType: 1, mPriority: 5, mRange: 9.0, mInnerCone: 5.0, mOuterCone: 40.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  Lv7DoorLight: {mLightType: 1, mPriority: 5, mRange: 9.0, mInnerCone: 10.0, mOuterCone: 35.0,
+    mIntensity: 1.5, mColorR: 0.699999988079071, mColorG: 1.0, mColorB: 0.800000011920929}
+  Lv7ObjLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 3.0, mColorR: 0.800000011920929, mColorG: 1.0, mColorB: 0.8999999761581421}
+  Lv7EnterLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 20.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.699999988079071}
+  Lv7SideLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 60.0, mOuterCone: 70.0,
+    mIntensity: 1.5, mColorR: 0.5, mColorG: 0.800000011920929, mColorB: 1.0}
+  Lv8AreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv8BossLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 60.0, mOuterCone: 70.0,
+    mIntensity: 0.699999988079071, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.5}
+  Lv8DoorLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 10.0, mOuterCone: 35.0,
+    mIntensity: 4.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv8BeforeLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 8.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.4000000059604645}
+  Lv8LavaCenterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 40.0, mIntensity: 3.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv8LavaDefLight: {mLightType: 1, mPriority: 5, mRange: 20.0, mInnerCone: 30.0, mOuterCone: 45.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.15000000596046448, mColorB: 0.0}
+  Lv8EnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  Lv8DarkAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 40.0, mIntensity: 0.5, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv8DarkDoorLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 10.0, mOuterCone: 45.0,
+    mIntensity: 0.800000011920929, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv8LavaLight: {mLightType: 1, mPriority: 5, mRange: 21.0, mInnerCone: 5.0, mOuterCone: 40.0,
+    mIntensity: 160.0, mColorR: 1.0, mColorG: 0.15000000596046448, mColorB: 0.0}
+  Lv8LavaLightMiddle: {mLightType: 1, mPriority: 5, mRange: 21.0, mInnerCone: 5.0,
+    mOuterCone: 25.0, mIntensity: 120.0, mColorR: 1.0, mColorG: 0.15000000596046448,
+    mColorB: 0.0}
+  Lv8LavaLightSmall: {mLightType: 1, mPriority: 5, mRange: 20.0, mInnerCone: 5.0,
+    mOuterCone: 10.0, mIntensity: 60.0, mColorR: 1.0, mColorG: 0.15000000596046448,
+    mColorB: 0.0}
+  Lv8SideSubLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.30000001192092896}
+  Lv8IceLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 10.0, mOuterCone: 45.0,
+    mIntensity: 15.0, mColorR: 0.20000000298023224, mColorG: 0.4000000059604645, mColorB: 1.0}
+  Lv8IceSubLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 6.0, mOuterCone: 40.0,
+    mIntensity: 4.0, mColorR: 0.30000001192092896, mColorG: 0.6000000238418579, mColorB: 1.0}
+  Lv8SideLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 30.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  Lv9AreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 8.0, mColorR: 0.6000000238418579, mColorG: 0.30000001192092896, mColorB: 1.0}
+  Lv9DarkAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 60.0, mIntensity: 2.0, mColorR: 0.6000000238418579, mColorG: 0.699999988079071,
+    mColorB: 1.0}
+  Lv9DoorLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 3.0, mColorR: 0.6000000238418579, mColorG: 0.699999988079071, mColorB: 1.0}
+  Lv9ObjLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 60.0, mOuterCone: 70.0,
+    mIntensity: 0.699999988079071, mColorR: 1.0, mColorG: 0.984000027179718, mColorB: 0.9409999847412109}
+  Lv9EnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 1.0, mOuterCone: 30.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.10000000149011612}
+  Lv10AreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 35.0,
+    mIntensity: 3.0, mColorR: 0.800000011920929, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv10BossLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 10.0, mColorR: 0.800000011920929, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv10DoorLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 35.0,
+    mIntensity: 1.2000000476837158, mColorR: 0.699999988079071, mColorG: 0.8999999761581421,
+    mColorB: 1.0}
+  Lv10ObjLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 3.0, mColorR: 0.699999988079071, mColorG: 0.8999999761581421, mColorB: 1.0}
+  Lv10FairyLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 10.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.800000011920929}
+  Lv11AreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 15.0, mOuterCone: 50.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  Lv11BossLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 50.0,
+    mIntensity: 10.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv11DoorLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  Lv11ObjLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  DgSmallAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 20.0,
+    mOuterCone: 50.0, mIntensity: 2.0, mColorR: 1.0, mColorG: 0.6499999761581421,
+    mColorB: 0.4000000059604645}
+  DgSmallPowerLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 20.0,
+    mOuterCone: 50.0, mIntensity: 3.5, mColorR: 1.0, mColorG: 0.6499999761581421,
+    mColorB: 0.4000000059604645}
+  DgSmallDoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 1.5, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.6000000238418579}
+  DgSmallObjLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 1.2000000476837158, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.6000000238418579}
+  DgSmallEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 30.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  DgSmallWaterAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 45.0, mIntensity: 1.5, mColorR: 0.6000000238418579, mColorG: 0.800000011920929,
+    mColorB: 1.0}
+  DgSmallWaterPathLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 40.0, mIntensity: 1.0, mColorR: 0.6000000238418579, mColorG: 0.800000011920929,
+    mColorB: 1.0}
+  DgSmallWaterPowerLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 45.0, mIntensity: 10.0, mColorR: 0.6000000238418579, mColorG: 0.800000011920929,
+    mColorB: 1.0}
+  DgSmallWaterDoorLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 1.5, mColorR: 0.699999988079071, mColorG: 0.8999999761581421,
+    mColorB: 1.0}
+  DgSmallWaterObjLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 60.0,
+    mOuterCone: 70.0, mIntensity: 0.699999988079071, mColorR: 1.0, mColorG: 0.984000027179718,
+    mColorB: 0.9409999847412109}
+  DgSmallWaterEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0,
+    mOuterCone: 20.0, mIntensity: 50.0, mColorR: 0.800000011920929, mColorG: 0.8999999761581421,
+    mColorB: 1.0}
+  DreamShrineAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 1.0, mColorR: 1.0, mColorG: 0.75, mColorB: 0.5}
+  DreamShrineObjLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 20.0, mIntensity: 1.5, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.699999988079071}
+  DreamShrineEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0,
+    mOuterCone: 20.0, mIntensity: 30.0, mColorR: 1.0, mColorG: 0.800000011920929,
+    mColorB: 0.6000000238418579}
+  BedRoomAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 1.600000023841858, mColorR: 1.0, mColorG: 0.75,
+    mColorB: 0.5}
+  BedRoomEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 10.0,
+    mOuterCone: 20.0, mIntensity: 20.0, mColorR: 1.0, mColorG: 0.800000011920929,
+    mColorB: 0.6000000238418579}
+  MadBattersWellAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 45.0, mIntensity: 3.5, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  MadBattersWellObjLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 25.0, mIntensity: 8.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  MamboCaveAreaLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 5.0,
+    mOuterCone: 40.0, mIntensity: 4.0, mColorR: 0.20000000298023224, mColorG: 1.0,
+    mColorB: 0.800000011920929}
+  MamboCaveEnterLight: {mLightType: 1, mPriority: 5, mRange: 20.0, mInnerCone: 10.0,
+    mOuterCone: 33.0, mIntensity: 200.0, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.4000000059604645}
+  MamboCaveSpotLight: {mLightType: 1, mPriority: 5, mRange: 6.0, mInnerCone: 5.0,
+    mOuterCone: 50.0, mIntensity: 5.0, mColorR: 0.0, mColorG: 1.0, mColorB: 0.6000000238418579}
+  MamuCaveAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 15.0,
+    mOuterCone: 55.0, mIntensity: 2.0, mColorR: 0.8999999761581421, mColorG: 0.800000011920929,
+    mColorB: 0.699999988079071}
+  MamuCaveSpotLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 10.0, mIntensity: 2.0, mColorR: 0.8999999761581421, mColorG: 0.800000011920929,
+    mColorB: 0.699999988079071}
+  MamuCaveObjLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 1.600000023841858, mColorR: 0.699999988079071, mColorG: 0.8999999761581421,
+    mColorB: 1.0}
+  KanaletCastleAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 55.0, mIntensity: 6.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  KanaletCastleDoorLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 1.5, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.4000000059604645}
+  KanaletCastleObjLight: {mLightType: 1, mPriority: 5, mRange: 13.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 4.0, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.4000000059604645}
+  KanaletCastleEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0,
+    mOuterCone: 35.0, mIntensity: 50.0, mColorR: 1.0, mColorG: 0.800000011920929,
+    mColorB: 0.699999988079071}
+  KanaletEnterGroundLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 40.0,
+    mOuterCone: 50.0, mIntensity: 3.0, mColorR: 1.0, mColorG: 0.9800000190734863,
+    mColorB: 0.699999988079071}
+  KanaletEnterUnderLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0,
+    mOuterCone: 40.0, mIntensity: 3.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  AncientRuinsAreaLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 5.0,
+    mOuterCone: 26.0, mIntensity: 15.0, mColorR: 1.0, mColorG: 0.4000000059604645,
+    mColorB: 0.20000000298023224}
+  AncientRuinsDoorLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 10.0,
+    mOuterCone: 20.0, mIntensity: 7.0, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.5}
+  AncientRuinsObjLight: {mLightType: 1, mPriority: 5, mRange: 13.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 5.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  AncientRuinsEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 20.0, mIntensity: 50.0, mColorR: 0.800000011920929, mColorG: 0.800000011920929,
+    mColorB: 1.0}
+  AncientRuinsDarkObjLight: {mLightType: 1, mPriority: 5, mRange: 13.0, mInnerCone: 10.0,
+    mOuterCone: 20.0, mIntensity: 0.20000000298023224, mColorR: 0.30000001192092896,
+    mColorG: 0.699999988079071, mColorB: 1.0}
+  AncientRuinsDarkDoorLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 0.5, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  MoriblinCaveAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 55.0, mIntensity: 6.0, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.4000000059604645}
+  MoriblinCaveDoorLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 1.5, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.4000000059604645}
+  MoriblinCaveObjLight: {mLightType: 1, mPriority: 5, mRange: 13.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 4.0, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.4000000059604645}
+  MoriblinCaveEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 5.0,
+    mOuterCone: 35.0, mIntensity: 50.0, mColorR: 1.0, mColorG: 0.800000011920929,
+    mColorB: 0.699999988079071}
+  FairyAreaLight: {mLightType: 1, mPriority: 5, mRange: 8.5, mInnerCone: 15.0, mOuterCone: 45.0,
+    mIntensity: 2.5, mColorR: 0.6000000238418579, mColorG: 0.8999999761581421, mColorB: 1.0}
+  FairyObjLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 0.699999988079071, mColorR: 0.5, mColorG: 0.800000011920929, mColorB: 1.0}
+  FairyEnterLight: {mLightType: 1, mPriority: 5, mRange: 7.0, mInnerCone: 1.0, mOuterCone: 20.0,
+    mIntensity: 20.0, mColorR: 0.6000000238418579, mColorG: 0.800000011920929, mColorB: 1.0}
+  MarinTarinAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 35.0, mIntensity: 3.5, mColorR: 1.0, mColorG: 0.949999988079071, mColorB: 0.8999999761581421}
+  MarinTarinEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 20.0, mColorR: 1.0, mColorG: 0.949999988079071,
+    mColorB: 0.8999999761581421}
+  ShopAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 45.0,
+    mIntensity: 3.5, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  ShopSubLight: {mLightType: 1, mPriority: 5, mRange: 8.0, mInnerCone: 5.0, mOuterCone: 22.0,
+    mIntensity: 1.7999999523162842, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  ShopEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 33.0,
+    mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  CraneAreaLight: {mLightType: 1, mPriority: 5, mRange: 14.0, mInnerCone: 5.0, mOuterCone: 17.0,
+    mIntensity: 8.5, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.5}
+  CraneEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  QuadupletAreaLight: {mLightType: 1, mPriority: 5, mRange: 11.0, mInnerCone: 15.0,
+    mOuterCone: 50.0, mIntensity: 3.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  QuadupletEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 5.0,
+    mOuterCone: 28.0, mIntensity: 15.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  UlriraAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 45.0,
+    mIntensity: 3.5, mColorR: 1.0, mColorG: 0.550000011920929, mColorB: 0.5}
+  UlriraEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 15.0,
+    mOuterCone: 27.0, mIntensity: 80.0, mColorR: 1.0, mColorG: 0.800000011920929,
+    mColorB: 0.6000000238418579}
+  LibraryAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 25.0, mIntensity: 5.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  LibraryEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 20.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  TelBoxAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 30.0,
+    mIntensity: 4.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  TelBoxEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 100.0, mColorR: 1.0, mColorG: 0.949999988079071,
+    mColorB: 0.8999999761581421}
+  TelBoxSubLight: {mLightType: 1, mPriority: 5, mRange: 6.0, mInnerCone: 3.0, mOuterCone: 30.0,
+    mIntensity: 1.2999999523162842, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  BananaAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 25.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  BananaEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 14.0,
+    mOuterCone: 26.0, mIntensity: 30.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  MagicAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 20.0, mOuterCone: 40.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  MagicEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 30.0,
+    mIntensity: 20.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.699999988079071}
+  MagicDarkAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 20.0,
+    mOuterCone: 40.0, mIntensity: 2.5, mColorR: 0.6000000238418579, mColorG: 0.800000011920929,
+    mColorB: 1.0}
+  TracyAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 15.0, mOuterCone: 45.0,
+    mIntensity: 8.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.30000001192092896}
+  TracySpotLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 20.0,
+    mIntensity: 4.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  TracyEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 15.0, mOuterCone: 26.0,
+    mIntensity: 100.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.30000001192092896}
+  DrWrightAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 35.0, mIntensity: 3.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.6000000238418579}
+  DrWrightBooklLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0,
+    mOuterCone: 20.0, mIntensity: 0.800000011920929, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.5}
+  DrWrightEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 14.0,
+    mOuterCone: 24.0, mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  SeashellAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.5, mInnerCone: 20.0,
+    mOuterCone: 35.0, mIntensity: 3.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  SeashellEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  SeashellMeterLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0,
+    mOuterCone: 20.0, mIntensity: 3.0, mColorR: 0.8999999761581421, mColorG: 1.0,
+    mColorB: 0.699999988079071}
+  RichardAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 50.0, mIntensity: 5.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6499999761581421}
+  RichardEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 34.0, mIntensity: 200.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  GhostAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 30.0,
+    mIntensity: 3.0, mColorR: 0.4000000059604645, mColorG: 0.6499999761581421, mColorB: 1.0}
+  GhostSpotLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 10.0,
+    mIntensity: 2.5, mColorR: 0.800000011920929, mColorG: 0.8999999761581421, mColorB: 1.0}
+  GhostEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  RabbitAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 45.0,
+    mIntensity: 3.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.550000011920929}
+  RabbitSpotLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 2.0, mColorR: 1.0, mColorG: 0.5, mColorB: 0.4000000059604645}
+  RabbitEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 100.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  SchuleAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 40.0,
+    mIntensity: 3.5, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.6000000238418579}
+  SchuleSpotLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 7.0, mOuterCone: 15.0,
+    mIntensity: 2.5, mColorR: 1.0, mColorG: 0.75, mColorB: 0.6000000238418579}
+  SchuleEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  ChristineAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 27.0, mIntensity: 5.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  ChristineEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  ZoraAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 45.0,
+    mIntensity: 5.0, mColorR: 0.800000011920929, mColorG: 0.8999999761581421, mColorB: 1.0}
+  ZoraEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 15.0, mOuterCone: 28.0,
+    mIntensity: 100.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.5}
+  BearAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 35.0,
+    mIntensity: 4.0, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.5}
+  BearEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 27.0,
+    mIntensity: 100.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  PhotoAreaLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 10.0, mOuterCone: 34.0,
+    mIntensity: 10.0, mColorR: 1.0, mColorG: 0.6499999761581421, mColorB: 0.4000000059604645}
+  PhotoEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 15.0, mOuterCone: 34.0,
+    mIntensity: 20.0, mColorR: 1.0, mColorG: 0.6000000238418579, mColorB: 0.3499999940395355}
+  RapidsRideAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0,
+    mOuterCone: 30.0, mIntensity: 3.5, mColorR: 1.0, mColorG: 0.6000000238418579,
+    mColorB: 0.44999998807907104}
+  RapidsRideEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0,
+    mOuterCone: 30.0, mIntensity: 20.0, mColorR: 1.0, mColorG: 0.8999999761581421,
+    mColorB: 0.800000011920929}
+  CuccoAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 45.0,
+    mIntensity: 3.5, mColorR: 1.0, mColorG: 0.699999988079071, mColorB: 0.6000000238418579}
+  CuccoEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 28.0,
+    mIntensity: 50.0, mColorR: 1.0, mColorG: 0.8999999761581421, mColorB: 0.800000011920929}
+  MadamAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0, mOuterCone: 40.0,
+    mIntensity: 10.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  MadamEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 20.0, mOuterCone: 30.0,
+    mIntensity: 20.0, mColorR: 1.0, mColorG: 0.800000011920929, mColorB: 0.6000000238418579}
+  DogAreaLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 10.0, mOuterCone: 25.0,
+    mIntensity: 8.0, mColorR: 0.6000000238418579, mColorG: 0.699999988079071, mColorB: 1.0}
+  DogEnterLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 14.0, mOuterCone: 24.0,
+    mIntensity: 50.0, mColorR: 1.0, mColorG: 0.949999988079071, mColorB: 0.8999999761581421}
+  UnderwaterAreaLight: {mLightType: 1, mPriority: 5, mRange: 15.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 5.0, mColorR: 0.30000001192092896, mColorG: 0.5,
+    mColorB: 1.0}
+  UnderwaterSubLight: {mLightType: 1, mPriority: 5, mRange: 12.0, mInnerCone: 5.0,
+    mOuterCone: 30.0, mIntensity: 1.0, mColorR: 0.30000001192092896, mColorG: 0.4000000059604645,
+    mColorB: 0.800000011920929}
+  FieldSubLight: {mLightType: 1, mPriority: 5, mRange: 10.0, mInnerCone: 1.0, mOuterCone: 20.0,
+    mIntensity: 5.0, mColorR: 1.0, mColorG: 1.0, mColorB: 1.0}
+  EndingAreaLight: {mLightType: 1, mPriority: 5, mRange: 20.0, mInnerCone: 5.0, mOuterCone: 40.0,
+    mIntensity: 2.0, mColorR: 0.5, mColorG: 0.8999999761581421, mColorB: 1.0}

@@ -1,0 +1,73 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mFadeMode, type_name: FadeMode, type: 2, flags: 16, fields: null}
+- name: mColor
+  type_name: __inline_struct_FadePreset_mColor
+  type: 0
+  flags: 0
+  fields:
+  - {name: mRed, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mGreen, type_name: float, type: 3, flags: 0, fields: null}
+  - {name: mBule, type_name: float, type: 3, flags: 0, fields: null}
+- {name: mSecond, type_name: float, type: 3, flags: 0, fields: null}
+contents:
+  0:
+    mFadeMode: 0
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.75
+  1:
+    mFadeMode: 1
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.75
+  2:
+    mFadeMode: 0
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.75
+  3:
+    mFadeMode: 1
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.75
+  4:
+    mFadeMode: 0
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.5
+  5:
+    mFadeMode: 1
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.5
+  6:
+    mFadeMode: 0
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.5
+  7:
+    mFadeMode: 1
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.5
+  8:
+    mFadeMode: 0
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.25
+  9:
+    mFadeMode: 1
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.25
+  10:
+    mFadeMode: 0
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.25
+  11:
+    mFadeMode: 1
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.25
+  12:
+    mFadeMode: 1
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.0
+  13:
+    mFadeMode: 1
+    mColor: {mRed: 1.0, mGreen: 1.0, mBule: 1.0}
+    mSecond: 0.0
+  14:
+    mFadeMode: 0
+    mColor: {mRed: 0.0, mGreen: 0.0, mBule: 0.0}
+    mSecond: 0.0

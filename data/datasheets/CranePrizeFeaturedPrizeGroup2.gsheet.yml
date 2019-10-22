@@ -1,0 +1,10 @@
+fields:
+- {name: recordId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: cranePrizeId, type_name: int, type: 2, flags: 0, fields: null}
+- {name: layoutIndex, type_name: int, type: 2, flags: 0, fields: null}
+contents:
+  0: {cranePrizeId: 8, layoutIndex: 0}
+  1: {cranePrizeId: 9, layoutIndex: 0}
+  2: {cranePrizeId: 20, layoutIndex: 0}
+  3: {cranePrizeId: 8, layoutIndex: 1}
+  4: {cranePrizeId: 9, layoutIndex: 1}

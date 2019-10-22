@@ -1,0 +1,885 @@
+fields:
+- {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mKodamaKey, type_name: int, type: 2, flags: 0, fields: null}
+- name: mLotTable
+  type_name: __inline_struct_ItemDrop_mLotTable
+  type: 0
+  flags: 2
+  fields:
+  - {name: mType, type_name: Items, type: 4, flags: 9, fields: null}
+  - {name: mCookie, type_name: int, type: 2, flags: 0, fields: null}
+  - {name: mWeight, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mPinchKey, type_name: ItemDrop, type: 4, flags: 9, fields: null}
+- {name: mAllowBuffReplace, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: mAllowRupeeReplace, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: mRefsAreaHistory, type_name: bool, type: 1, flags: 0, fields: null}
+contents:
+  None:
+    mKodamaKey: 0
+    mLotTable:
+    - {mType: '', mCookie: 0, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  NormalLow:
+    mKodamaKey: 1
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 10}
+    - {mType: Rupee1, mCookie: 1, mWeight: 10}
+    - {mType: '', mCookie: 0, mWeight: 80}
+    mPinchKey: Pinch
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  NormalMid:
+    mKodamaKey: 2
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 15}
+    - {mType: Rupee1, mCookie: 1, mWeight: 15}
+    - {mType: Rupee5, mCookie: 1, mWeight: 5}
+    - {mType: '', mCookie: 0, mWeight: 65}
+    mPinchKey: Pinch
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  NormalHigh:
+    mKodamaKey: 3
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 30}
+    - {mType: Rupee1, mCookie: 1, mWeight: 20}
+    - {mType: Rupee5, mCookie: 1, mWeight: 10}
+    - {mType: Rupee20, mCookie: 0, mWeight: 0}
+    - {mType: '', mCookie: 0, mWeight: 40}
+    mPinchKey: Pinch
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  RupeeLow:
+    mKodamaKey: 4
+    mLotTable:
+    - {mType: Rupee1, mCookie: 1, mWeight: 15}
+    - {mType: Rupee5, mCookie: 1, mWeight: 5}
+    - {mType: '', mCookie: 0, mWeight: 80}
+    mPinchKey: Pinch
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  RupeeMid:
+    mKodamaKey: 5
+    mLotTable:
+    - {mType: Rupee1, mCookie: 1, mWeight: 25}
+    - {mType: Rupee5, mCookie: 1, mWeight: 10}
+    - {mType: Rupee20, mCookie: 0, mWeight: 0}
+    - {mType: Rupee50, mCookie: 0, mWeight: 0}
+    - {mType: '', mCookie: 0, mWeight: 65}
+    mPinchKey: Pinch
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  RupeeHigh:
+    mKodamaKey: 6
+    mLotTable:
+    - {mType: Rupee1, mCookie: 1, mWeight: 40}
+    - {mType: Rupee5, mCookie: 1, mWeight: 20}
+    - {mType: Rupee20, mCookie: 0, mWeight: 0}
+    - {mType: '', mCookie: 0, mWeight: 40}
+    mPinchKey: Pinch
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  Heart:
+    mKodamaKey: 7
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Rupee1:
+    mKodamaKey: 8
+    mLotTable:
+    - {mType: Rupee1, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Rupee5:
+    mKodamaKey: 9
+    mLotTable:
+    - {mType: Rupee5, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Rupee20:
+    mKodamaKey: 10
+    mLotTable:
+    - {mType: Rupee20, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Rupee50:
+    mKodamaKey: 11
+    mLotTable:
+    - {mType: Rupee50, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Rupee100:
+    mKodamaKey: 12
+    mLotTable:
+    - {mType: Rupee100, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Rupee300:
+    mKodamaKey: 13
+    mLotTable:
+    - {mType: Rupee300, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Fairy:
+    mKodamaKey: 14
+    mLotTable:
+    - {mType: Fairy, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Bomb:
+    mKodamaKey: 15
+    mLotTable:
+    - {mType: Bomb, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Arrow:
+    mKodamaKey: 16
+    mLotTable:
+    - {mType: Arrow, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Grass:
+    mKodamaKey: 17
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 8}
+    - {mType: Rupee1, mCookie: 1, mWeight: 6}
+    - {mType: Rupee5, mCookie: 1, mWeight: 1}
+    - {mType: '', mCookie: 0, mWeight: 85}
+    mPinchKey: Pinch
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  GuardianAcorn:
+    mKodamaKey: 18
+    mLotTable:
+    - {mType: DefenceUp, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  PowerPiece:
+    mKodamaKey: 19
+    mLotTable:
+    - {mType: PowerUp, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  Ghini:
+    mKodamaKey: 20
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 33}
+    - {mType: Rupee1, mCookie: 1, mWeight: 34}
+    - {mType: Arrow, mCookie: 1, mWeight: 33}
+    - {mType: '', mCookie: 0, mWeight: 0}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Tree:
+    mKodamaKey: 21
+    mLotTable:
+    - {mType: Rupee1, mCookie: 3, mWeight: 20}
+    - {mType: Rupee1, mCookie: 6, mWeight: 20}
+    - {mType: Rupee5, mCookie: 3, mWeight: 10}
+    - {mType: '', mCookie: 0, mWeight: 50}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  Pinch:
+    mKodamaKey: 22
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 75}
+    - {mType: Rupee1, mCookie: 1, mWeight: 5}
+    - {mType: '', mCookie: 0, mWeight: 20}
+    mPinchKey: ''
+    mAllowBuffReplace: true
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  GoldenLeaf0:
+    mKodamaKey: 23
+    mLotTable:
+    - {mType: GoldenLeaf, mCookie: 0, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  GoldenLeaf1:
+    mKodamaKey: 24
+    mLotTable:
+    - {mType: GoldenLeaf, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  GoldenLeaf2:
+    mKodamaKey: 25
+    mLotTable:
+    - {mType: GoldenLeaf, mCookie: 2, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  GoldenLeaf3:
+    mKodamaKey: 26
+    mLotTable:
+    - {mType: GoldenLeaf, mCookie: 3, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  GoldenLeaf4:
+    mKodamaKey: 27
+    mLotTable:
+    - {mType: GoldenLeaf, mCookie: 4, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  TailKey:
+    mKodamaKey: 28
+    mLotTable:
+    - {mType: TailKey, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  SlimeKey:
+    mKodamaKey: 29
+    mLotTable:
+    - {mType: SlimeKey, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  AnglerKey:
+    mKodamaKey: 30
+    mLotTable:
+    - {mType: AnglerKey, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  FaceKey:
+    mKodamaKey: 31
+    mLotTable:
+    - {mType: FaceKey, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  BirdKey:
+    mKodamaKey: 32
+    mLotTable:
+    - {mType: BirdKey, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  SmallKey:
+    mKodamaKey: 33
+    mLotTable:
+    - {mType: SmallKey, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer0:
+    mKodamaKey: 34
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 0, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer1:
+    mKodamaKey: 35
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer2:
+    mKodamaKey: 36
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 2, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer3:
+    mKodamaKey: 37
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 3, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer4:
+    mKodamaKey: 38
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 4, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer5:
+    mKodamaKey: 39
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 5, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer6:
+    mKodamaKey: 40
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 6, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HeartContainer7:
+    mKodamaKey: 41
+    mLotTable:
+    - {mType: HeartContainer, mCookie: 7, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell0:
+    mKodamaKey: 42
+    mLotTable:
+    - {mType: Seashell, mCookie: 0, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell1:
+    mKodamaKey: 43
+    mLotTable:
+    - {mType: Seashell, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell2:
+    mKodamaKey: 44
+    mLotTable:
+    - {mType: Seashell, mCookie: 2, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell3:
+    mKodamaKey: 45
+    mLotTable:
+    - {mType: Seashell, mCookie: 3, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell4:
+    mKodamaKey: 46
+    mLotTable:
+    - {mType: Seashell, mCookie: 4, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell5:
+    mKodamaKey: 47
+    mLotTable:
+    - {mType: Seashell, mCookie: 5, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell6:
+    mKodamaKey: 48
+    mLotTable:
+    - {mType: Seashell, mCookie: 6, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell7:
+    mKodamaKey: 49
+    mLotTable:
+    - {mType: Seashell, mCookie: 7, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell8:
+    mKodamaKey: 50
+    mLotTable:
+    - {mType: Seashell, mCookie: 8, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell9:
+    mKodamaKey: 51
+    mLotTable:
+    - {mType: Seashell, mCookie: 9, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell10:
+    mKodamaKey: 52
+    mLotTable:
+    - {mType: Seashell, mCookie: 10, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell11:
+    mKodamaKey: 53
+    mLotTable:
+    - {mType: Seashell, mCookie: 11, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell12:
+    mKodamaKey: 54
+    mLotTable:
+    - {mType: Seashell, mCookie: 12, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell13:
+    mKodamaKey: 55
+    mLotTable:
+    - {mType: Seashell, mCookie: 13, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell14:
+    mKodamaKey: 56
+    mLotTable:
+    - {mType: Seashell, mCookie: 14, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell15:
+    mKodamaKey: 57
+    mLotTable:
+    - {mType: Seashell, mCookie: 15, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell16:
+    mKodamaKey: 58
+    mLotTable:
+    - {mType: Seashell, mCookie: 16, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell17:
+    mKodamaKey: 59
+    mLotTable:
+    - {mType: Seashell, mCookie: 17, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell18:
+    mKodamaKey: 60
+    mLotTable:
+    - {mType: Seashell, mCookie: 18, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell19:
+    mKodamaKey: 61
+    mLotTable:
+    - {mType: Seashell, mCookie: 19, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell20:
+    mKodamaKey: 62
+    mLotTable:
+    - {mType: Seashell, mCookie: 20, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell21:
+    mKodamaKey: 63
+    mLotTable:
+    - {mType: Seashell, mCookie: 21, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell22:
+    mKodamaKey: 64
+    mLotTable:
+    - {mType: Seashell, mCookie: 22, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell23:
+    mKodamaKey: 65
+    mLotTable:
+    - {mType: Seashell, mCookie: 23, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell24:
+    mKodamaKey: 66
+    mLotTable:
+    - {mType: Seashell, mCookie: 24, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell25:
+    mKodamaKey: 67
+    mLotTable:
+    - {mType: Seashell, mCookie: 25, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell26:
+    mKodamaKey: 68
+    mLotTable:
+    - {mType: Seashell, mCookie: 26, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell27:
+    mKodamaKey: 69
+    mLotTable:
+    - {mType: Seashell, mCookie: 27, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell28:
+    mKodamaKey: 70
+    mLotTable:
+    - {mType: Seashell, mCookie: 28, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell29:
+    mKodamaKey: 71
+    mLotTable:
+    - {mType: Seashell, mCookie: 29, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell30:
+    mKodamaKey: 72
+    mLotTable:
+    - {mType: Seashell, mCookie: 30, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell31:
+    mKodamaKey: 73
+    mLotTable:
+    - {mType: Seashell, mCookie: 31, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell32:
+    mKodamaKey: 74
+    mLotTable:
+    - {mType: Seashell, mCookie: 32, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell33:
+    mKodamaKey: 75
+    mLotTable:
+    - {mType: Seashell, mCookie: 33, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell34:
+    mKodamaKey: 76
+    mLotTable:
+    - {mType: Seashell, mCookie: 34, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell35:
+    mKodamaKey: 77
+    mLotTable:
+    - {mType: Seashell, mCookie: 35, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell36:
+    mKodamaKey: 78
+    mLotTable:
+    - {mType: Seashell, mCookie: 36, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell37:
+    mKodamaKey: 79
+    mLotTable:
+    - {mType: Seashell, mCookie: 37, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell38:
+    mKodamaKey: 80
+    mLotTable:
+    - {mType: Seashell, mCookie: 38, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell39:
+    mKodamaKey: 81
+    mLotTable:
+    - {mType: Seashell, mCookie: 39, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell40:
+    mKodamaKey: 82
+    mLotTable:
+    - {mType: Seashell, mCookie: 40, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell41:
+    mKodamaKey: 83
+    mLotTable:
+    - {mType: Seashell, mCookie: 41, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell42:
+    mKodamaKey: 84
+    mLotTable:
+    - {mType: Seashell, mCookie: 42, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell43:
+    mKodamaKey: 85
+    mLotTable:
+    - {mType: Seashell, mCookie: 43, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell44:
+    mKodamaKey: 86
+    mLotTable:
+    - {mType: Seashell, mCookie: 44, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell45:
+    mKodamaKey: 87
+    mLotTable:
+    - {mType: Seashell, mCookie: 45, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell46:
+    mKodamaKey: 88
+    mLotTable:
+    - {mType: Seashell, mCookie: 46, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell47:
+    mKodamaKey: 89
+    mLotTable:
+    - {mType: Seashell, mCookie: 47, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell48:
+    mKodamaKey: 90
+    mLotTable:
+    - {mType: Seashell, mCookie: 48, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Seashell49:
+    mKodamaKey: 91
+    mLotTable:
+    - {mType: Seashell, mCookie: 49, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  hall0:
+    mKodamaKey: 92
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 15}
+    - {mType: Rupee1, mCookie: 1, mWeight: 5}
+    - {mType: '', mCookie: 0, mWeight: 80}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  hall1:
+    mKodamaKey: 93
+    mLotTable:
+    - {mType: Rupee1, mCookie: 1, mWeight: 15}
+    - {mType: '', mCookie: 0, mWeight: 85}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  MagicPowder:
+    mKodamaKey: 94
+    mLotTable:
+    - {mType: MagicPowder, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: true
+  AppleLow:
+    mKodamaKey: 95
+    mLotTable:
+    - {mType: Apple, mCookie: 1, mWeight: 85}
+    - {mType: GreenApple, mCookie: 1, mWeight: 5}
+    - {mType: '', mCookie: 0, mWeight: 10}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  Applehigh:
+    mKodamaKey: 96
+    mLotTable:
+    - {mType: Apple, mCookie: 1, mWeight: 20}
+    - {mType: GreenApple, mCookie: 1, mWeight: 45}
+    - {mType: '', mCookie: 0, mWeight: 35}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  GhiniBomb:
+    mKodamaKey: 97
+    mLotTable:
+    - {mType: Heart, mCookie: 1, mWeight: 25}
+    - {mType: Rupee1, mCookie: 1, mWeight: 25}
+    - {mType: Arrow, mCookie: 1, mWeight: 25}
+    - {mType: Bomb, mCookie: 1, mWeight: 25}
+    - {mType: '', mCookie: 0, mWeight: 0}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  HookShot:
+    mKodamaKey: 98
+    mLotTable:
+    - {mType: HookShot, mCookie: 1, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false
+  ShadowLink:
+    mKodamaKey: 99
+    mLotTable:
+    - {mType: Rupee5, mCookie: 1, mWeight: 40}
+    - {mType: Rupee20, mCookie: 1, mWeight: 10}
+    - {mType: Rupee50, mCookie: 1, mWeight: 6}
+    - {mType: Rupee100, mCookie: 1, mWeight: 3}
+    - {mType: Rupee300, mCookie: 1, mWeight: 1}
+    - {mType: Heart, mCookie: 1, mWeight: 5}
+    - {mType: Fairy, mCookie: 1, mWeight: 20}
+    - {mType: Bomb, mCookie: 1, mWeight: 5}
+    - {mType: Arrow, mCookie: 1, mWeight: 5}
+    - {mType: MagicPowder, mCookie: 1, mWeight: 5}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  TreeLow:
+    mKodamaKey: 100
+    mLotTable:
+    - {mType: Rupee1, mCookie: 3, mWeight: 10}
+    - {mType: Rupee1, mCookie: 4, mWeight: 8}
+    - {mType: Rupee1, mCookie: 5, mWeight: 2}
+    - {mType: '', mCookie: 0, mWeight: 80}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: true
+    mRefsAreaHistory: false
+  FairyLow:
+    mKodamaKey: 101
+    mLotTable:
+    - {mType: Fairy, mCookie: 1, mWeight: 1}
+    - {mType: '', mCookie: 0, mWeight: 1}
+    mPinchKey: ''
+    mAllowBuffReplace: false
+    mAllowRupeeReplace: false
+    mRefsAreaHistory: false

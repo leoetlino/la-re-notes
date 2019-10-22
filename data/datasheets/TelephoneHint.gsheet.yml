@@ -1,0 +1,144 @@
+fields:
+- {name: mEntryPoint, type_name: string, type: 4, flags: 4, fields: null}
+- name: mCondition
+  type_name: __inline_struct_TelephoneHint_mCondition
+  type: 0
+  flags: 2
+  fields:
+  - {name: mCategory, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+  - {name: mParameter, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  Level1:
+    mCondition:
+    - {mCategory: 2, mParameter: '!FullMoonCello'}
+  Bossblin:
+    mCondition:
+    - {mCategory: 2, mParameter: FullMoonCello}
+    - {mCategory: 2, mParameter: '!ConchHorn'}
+    - {mCategory: 3, mParameter: '!BowWow'}
+  Level2:
+    mCondition:
+    - {mCategory: 2, mParameter: FullMoonCello}
+    - {mCategory: 2, mParameter: '!ConchHorn'}
+    - {mCategory: 3, mParameter: BowWow}
+  Madam:
+    mCondition:
+    - {mCategory: 2, mParameter: ConchHorn}
+    - {mCategory: 3, mParameter: BowWow}
+  Richard:
+    mCondition:
+    - {mCategory: 2, mParameter: ConchHorn}
+    - {mCategory: 9, mParameter: NoGoldenLeaf}
+    - {mCategory: 3, mParameter: '!BowWow'}
+  Banana:
+    mCondition:
+    - {mCategory: 1, mParameter: '!BananaDrop'}
+    - {mCategory: 1, mParameter: BowwowClear}
+  Golden1:
+    mCondition:
+    - {mCategory: 9, mParameter: '!NoGoldenLeaf'}
+    - {mCategory: 2, mParameter: '!GoldenLeaf:3'}
+  Golden2:
+    mCondition:
+    - {mCategory: 9, mParameter: '!NoGoldenLeaf'}
+    - {mCategory: 2, mParameter: '!GoldenLeaf:1'}
+  Golden3:
+    mCondition:
+    - {mCategory: 9, mParameter: '!NoGoldenLeaf'}
+    - {mCategory: 2, mParameter: '!GoldenLeaf:4'}
+  Golden4:
+    mCondition:
+    - {mCategory: 9, mParameter: '!NoGoldenLeaf'}
+    - {mCategory: 2, mParameter: '!GoldenLeaf:0'}
+  Golden5:
+    mCondition:
+    - {mCategory: 9, mParameter: '!NoGoldenLeaf'}
+    - {mCategory: 2, mParameter: '!GoldenLeaf:2'}
+  Field:
+    mCondition:
+    - {mCategory: 9, mParameter: GoldenLeafComplete}
+    - {mCategory: 2, mParameter: '!SlimeKey'}
+  Level3:
+    mCondition:
+    - {mCategory: 2, mParameter: SlimeKey}
+    - {mCategory: 2, mParameter: '!SeaLilysBell'}
+  Desert:
+    mCondition:
+    - {mCategory: 2, mParameter: SeaLilysBell}
+    - {mCategory: 2, mParameter: '!AnglerKey'}
+  Level4:
+    mCondition:
+    - {mCategory: 2, mParameter: AnglerKey}
+    - {mCategory: 2, mParameter: '!SurfHarp'}
+  Ghost:
+    mCondition:
+    - {mCategory: 3, mParameter: Ghost}
+  Bridge:
+    mCondition:
+    - {mCategory: 3, mParameter: '!Ghost'}
+    - {mCategory: 2, mParameter: FishingHook}
+    - {mCategory: 2, mParameter: Flippers}
+  Level5:
+    mCondition:
+    - {mCategory: 3, mParameter: '!Ghost'}
+    - {mCategory: 2, mParameter: SurfHarp}
+    - {mCategory: 2, mParameter: '!WindMarimba'}
+  MermaidMartha:
+    mCondition:
+    - {mCategory: 2, mParameter: HookShot}
+    - {mCategory: 2, mParameter: MermaidsScale}
+  AmosShrine:
+    mCondition:
+    - {mCategory: 2, mParameter: WindMarimba}
+    - {mCategory: 2, mParameter: '!CoralTriangle'}
+  Mamu:
+    mCondition:
+    - {mCategory: 2, mParameter: CoralTriangle}
+    - {mCategory: 2, mParameter: '!Song_Soul'}
+  broomWrashibe:
+    mCondition:
+    - {mCategory: 2, mParameter: Broom}
+    - {mCategory: 2, mParameter: WindMarimba}
+  FlyingCocco:
+    mCondition:
+    - {mCategory: 2, mParameter: CoralTriangle}
+    - {mCategory: 2, mParameter: '!EveningCalmOrgan'}
+    - {mCategory: 2, mParameter: '!BirdKey'}
+    - {mCategory: 3, mParameter: '!FlyingCucco'}
+  Level7Key:
+    mCondition:
+    - {mCategory: 2, mParameter: CoralTriangle}
+    - {mCategory: 2, mParameter: '!EveningCalmOrgan'}
+    - {mCategory: 2, mParameter: '!BirdKey'}
+    - {mCategory: 3, mParameter: FlyingCucco}
+  Level7:
+    mCondition:
+    - {mCategory: 2, mParameter: CoralTriangle}
+    - {mCategory: 2, mParameter: '!EveningCalmOrgan'}
+    - {mCategory: 2, mParameter: BirdKey}
+  TurtleRock:
+    mCondition:
+    - {mCategory: 2, mParameter: EveningCalmOrgan}
+    - {mCategory: 2, mParameter: Song_Soul}
+    - {mCategory: 1, mParameter: '!FieldTurtleRockDead'}
+    - {mCategory: 2, mParameter: '!ThunderDrum'}
+  Level8:
+    mCondition:
+    - {mCategory: 2, mParameter: '!ThunderDrum'}
+    - {mCategory: 1, mParameter: FieldTurtleRockDead}
+  Level9:
+    mCondition:
+    - {mCategory: 9, mParameter: InstrumentComplete}
+    - {mCategory: 1, mParameter: '!Egg_Performance'}
+  Level9maze:
+    mCondition:
+    - {mCategory: 1, mParameter: Egg_Performance}
+    - {mCategory: 1, mParameter: '!ShadowBattle'}
+  Level2Sword:
+    mCondition:
+    - {mCategory: 1, mParameter: ShadowBattle}
+    - {mCategory: 2, mParameter: '!SwordLv2'}
+  Level2SwordComplete:
+    mCondition:
+    - {mCategory: 1, mParameter: ShadowBattle}
+    - {mCategory: 2, mParameter: SwordLv2}

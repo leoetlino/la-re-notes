@@ -1,0 +1,210 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mPartsId, type_name: int, type: 2, flags: 0, fields: null}
+- name: conditions
+  type_name: __inline_struct_UiFieldMapMask_conditions
+  type: 0
+  flags: 2
+  fields:
+  - {name: category, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+  - {name: parameter, type_name: string, type: 4, flags: 0, fields: null}
+- name: deactiveConditions
+  type_name: __inline_struct_UiFieldMapMask_deactiveConditions
+  type: 0
+  flags: 2
+  fields:
+  - {name: category, type_name: ConditionCategory, type: 2, flags: 16, fields: null}
+  - {name: parameter, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mShowFlagName, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- {name: mMaskFlagName, type_name: GlobalFlags, type: 4, flags: 9, fields: null}
+- {name: mZoneId, type_name: int, type: 2, flags: 0, fields: null}
+contents:
+  0:
+    mPartsId: 0
+    conditions:
+    - {category: 1, parameter: ThirteenClear}
+    deactiveConditions:
+    - {category: 1, parameter: Lv8InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_WestTalTalMountain
+    mMaskFlagName: UI_FieldMapOpen_WestTalTalMountain
+    mZoneId: 2
+  1:
+    mPartsId: 1
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_MountTamaranch
+    mMaskFlagName: UI_FieldMapOpen_MountTamaranch
+    mZoneId: 10
+  2:
+    mPartsId: 2
+    conditions:
+    - {category: 1, parameter: EleventhClear}
+    deactiveConditions:
+    - {category: 1, parameter: Lv7InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_EastTalTalMountain
+    mMaskFlagName: UI_FieldMapOpen_EastTalTalMountain
+    mZoneId: 20
+  3:
+    mPartsId: 3
+    conditions:
+    - {category: 1, parameter: FifthClear}
+    deactiveConditions:
+    - {category: 1, parameter: Lv2InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_GopongaSwamp
+    mMaskFlagName: UI_FieldMapOpen_GopongaSwamp
+    mZoneId: 30
+  4:
+    mPartsId: 4
+    conditions:
+    - {category: 1, parameter: SeventhClear}
+    deactiveConditions:
+    - {category: 1, parameter: Lv4InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_TalTalHeights
+    mMaskFlagName: UI_FieldMapOpen_TalTalHeights
+    mZoneId: 40
+  5:
+    mPartsId: 5
+    conditions:
+    - {category: 1, parameter: FirstClear}
+    deactiveConditions:
+    - {category: 1, parameter: UI_FieldMapTraverse_Forest}
+    mShowFlagName: UI_FieldMapTraverse_Forest
+    mMaskFlagName: UI_FieldMapOpen_Forest
+    mZoneId: 50
+  6:
+    mPartsId: 6
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_KoholintPrairie
+    mMaskFlagName: UI_FieldMapOpen_KoholintPrairie
+    mZoneId: 60
+  7:
+    mPartsId: 7
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_TabahlWasteland
+    mMaskFlagName: UI_FieldMapOpen_TabahlWasteland
+    mZoneId: 70
+  8:
+    mPartsId: 8
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_Graveyard
+    mMaskFlagName: UI_FieldMapOpen_Graveyard
+    mZoneId: 80
+  9:
+    mPartsId: 9
+    conditions:
+    - {category: 1, parameter: GoldenLeafCount}
+    deactiveConditions:
+    - {category: 2, parameter: 'GoldenLeaf:0'}
+    - {category: 2, parameter: 'GoldenLeaf:1'}
+    - {category: 2, parameter: 'GoldenLeaf:2'}
+    - {category: 2, parameter: 'GoldenLeaf:3'}
+    - {category: 2, parameter: 'GoldenLeaf:4'}
+    mShowFlagName: UI_FieldMapTraverse_KanaletCastle
+    mMaskFlagName: UI_FieldMapOpen_KanaletCastle
+    mZoneId: 91
+  10:
+    mPartsId: 10
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_RapidsRide
+    mMaskFlagName: UI_FieldMapOpen_RapidsRide
+    mZoneId: 100
+  11:
+    mPartsId: 11
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_MabeVillage
+    mMaskFlagName: UI_FieldMapOpen_MabeVillage
+    mZoneId: 110
+  12:
+    mPartsId: 12
+    conditions:
+    - {category: 2, parameter: SlimeKey}
+    deactiveConditions:
+    - {category: 1, parameter: Lv3InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_UkukuPrairie
+    mMaskFlagName: UI_FieldMapOpen_UkukuPrairie
+    mZoneId: 120
+  13:
+    mPartsId: 13
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_ShrineFalls
+    mMaskFlagName: UI_FieldMapOpen_ShrineFalls
+    mZoneId: 130
+  14:
+    mPartsId: 14
+    conditions:
+    - {category: 1, parameter: ThirdClear}
+    deactiveConditions:
+    - {category: 1, parameter: Lv1InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_SouthVillage
+    mMaskFlagName: UI_FieldMapOpen_SouthVillage
+    mZoneId: 140
+  15:
+    mPartsId: 15
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_SignpostMaze
+    mMaskFlagName: UI_FieldMapOpen_SignpostMaze
+    mZoneId: 150
+  16:
+    mPartsId: 16
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_PotholeField
+    mMaskFlagName: UI_FieldMapOpen_PotholeField
+    mZoneId: 160
+  17:
+    mPartsId: 17
+    conditions:
+    - {category: 1, parameter: ShieldGet}
+    deactiveConditions:
+    - {category: 1, parameter: FirstClear}
+    mShowFlagName: UI_FieldMapTraverse_ToronboShores
+    mMaskFlagName: UI_FieldMapOpen_ToronboShores
+    mZoneId: 180
+  18:
+    mPartsId: 18
+    conditions:
+    - {category: 1, parameter: EighthClear}
+    deactiveConditions:
+    - {category: 1, parameter: Lv5InstrumentGet}
+    mShowFlagName: UI_FieldMapTraverse_MarthasBay
+    mMaskFlagName: UI_FieldMapOpen_MarthasBay
+    mZoneId: 190
+  19:
+    mPartsId: 19
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_AnimalVillage
+    mMaskFlagName: UI_FieldMapOpen_AnimalVillage
+    mZoneId: 170
+  20:
+    mPartsId: 20
+    conditions: []
+    deactiveConditions: []
+    mShowFlagName: UI_FieldMapTraverse_EastBay
+    mMaskFlagName: UI_FieldMapOpen_EastBay
+    mZoneId: 200
+  21:
+    mPartsId: 21
+    conditions:
+    - {category: 1, parameter: SixthClear}
+    deactiveConditions:
+    - {category: 1, parameter: FieldLanmolaDead}
+    mShowFlagName: UI_FieldMapTraverse_YarnaDesert
+    mMaskFlagName: UI_FieldMapOpen_YarnaDesert
+    mZoneId: 210
+  22:
+    mPartsId: 22
+    conditions:
+    - {category: 1, parameter: NinthClear}
+    deactiveConditions:
+    - {category: 1, parameter: SlateEventClear}
+    mShowFlagName: UI_FieldMapTraverse_SouthShrine
+    mMaskFlagName: UI_FieldMapOpen_SouthShrine
+    mZoneId: 132

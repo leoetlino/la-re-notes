@@ -1,0 +1,72 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 4, fields: null}
+- {name: mOpenFlag, type_name: GlobalFlags, type: 4, flags: 8, fields: null}
+- {name: mStillEnable, type_name: bool, type: 1, flags: 0, fields: null}
+- {name: mTitleLabel, type_name: string, type: 4, flags: 0, fields: null}
+- {name: mTextLabels, type_name: string, type: 4, flags: 2, fields: null}
+contents:
+  0:
+    mOpenFlag: PzlTutorialFirst
+    mStillEnable: true
+    mTitleLabel: HintList_First
+    mTextLabels: [PzlTutorial_First_1, PzlTutorial_First_2]
+  1:
+    mOpenFlag: PzlTutorialCompletion
+    mStillEnable: true
+    mTitleLabel: HintList_Completion
+    mTextLabels: [PzlTutorial_Completion_1, PzlTutorial_Completion_2]
+  2:
+    mOpenFlag: PzlTutorialDoorAndKey
+    mStillEnable: false
+    mTitleLabel: HintList_DoorAndKey
+    mTextLabels: [PzlTutorial_DoorAndKey_1, PzlTutorial_DoorAndKey_2]
+  3:
+    mOpenFlag: PzlTutorialTreasureBox
+    mStillEnable: false
+    mTitleLabel: HintList_TreasureBox
+    mTextLabels: [PzlTutorial_TreasureBox]
+  4:
+    mOpenFlag: PzlTutorialStairs
+    mStillEnable: false
+    mTitleLabel: HintList_Stairs
+    mTextLabels: [PzlTutorial_Stairs_1, PzlTutorial_Stairs_2]
+  5:
+    mOpenFlag: PzlTutorialEXpanel
+    mStillEnable: false
+    mTitleLabel: HintList_Expanel
+    mTextLabels: [PzlTutorial_EXpanel]
+  12:
+    mOpenFlag: PzlTutorialDoorRule
+    mStillEnable: false
+    mTitleLabel: HintList_DoorRule
+    mTextLabels: [PzlTutorial_DoorRule_1, PzlTutorial_DoorRule_2]
+  13:
+    mOpenFlag: PzlTutorialSecond
+    mStillEnable: true
+    mTitleLabel: HintList_Second
+    mTextLabels: [PzlTutorial_Second]
+  14:
+    mOpenFlag: PzlTutorialDesignation
+    mStillEnable: true
+    mTitleLabel: HintList_Designation
+    mTextLabels: [PzlTutorial_Designation]
+  19:
+    mOpenFlag: PzlTutorialYbuttonCheck
+    mStillEnable: false
+    mTitleLabel: HintList_Ycheck
+    mTextLabels: [PzlTutorial_Ycheck]
+  100:
+    mOpenFlag: AdvTutorialFirst
+    mStillEnable: false
+    mTitleLabel: HintList_AdvFirst
+    mTextLabels: [AdvTutorial_First_1, AdvTutorial_First_2]
+  101:
+    mOpenFlag: AdvTutorialKnockdown
+    mStillEnable: false
+    mTitleLabel: HintList_AdvKnockdown
+    mTextLabels: [AdvTutorial_Knockout_1, AdvTutorial_Knockout_2]
+  102:
+    mOpenFlag: AdvTutorialTimeover
+    mStillEnable: false
+    mTitleLabel: HintList_AdvTimeover
+    mTextLabels: [AdvTutorial_Timeover_1, AdvTutorial_Timeover_2]

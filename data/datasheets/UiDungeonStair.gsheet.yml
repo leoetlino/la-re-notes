@@ -1,0 +1,23 @@
+fields:
+- {name: mFirstLeaName, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mSceondLeaName, type_name: string, type: 4, flags: 0, fields: null}
+contents:
+  Lv01TailCave_04B: {mSceondLeaName: Lv01TailCave_07A}
+  Lv02BottleGrotto_02G: {mSceondLeaName: Lv02BottleGrotto_05G}
+  Lv02BottleGrotto_03F: {mSceondLeaName: Lv02BottleGrotto_04C}
+  Lv02BottleGrotto_05B: {mSceondLeaName: Lv02BottleGrotto_06G}
+  Lv04AnglersTunnel_04B: {mSceondLeaName: Lv04AnglersTunnel_04F}
+  Lv04AnglersTunnel_05C: {mSceondLeaName: Lv04AnglersTunnel_05D}
+  Lv05CatfishsMaw_01C: {mSceondLeaName: Lv05CatfishsMaw_08E}
+  Lv05CatfishsMaw_03B: {mSceondLeaName: Lv05CatfishsMaw_05G}
+  Lv05CatfishsMaw_02E: {mSceondLeaName: Lv05CatfishsMaw_03F}
+  Lv05CatfishsMaw_03E: {mSceondLeaName: Lv05CatfishsMaw_05E}
+  Lv06FaceShrine_08B: {mSceondLeaName: Lv06FaceShrine_05C}
+  Lv06FaceShrine_05D: {mSceondLeaName: Lv06FaceShrine_04F}
+  Lv06FaceShrine_04B: {mSceondLeaName: Lv06FaceShrine_04H}
+  Lv08TurtleRock_08E: {mSceondLeaName: Lv08TurtleRock_06H}
+  Lv08TurtleRock_05D: {mSceondLeaName: Lv08TurtleRock_08H}
+  Lv08TurtleRock_01E: {mSceondLeaName: Lv08TurtleRock_05G}
+  Lv08TurtleRock_04E: {mSceondLeaName: Lv08TurtleRock_02H}
+  Lv08TurtleRock_03B: {mSceondLeaName: Lv08TurtleRock_06E}
+  Lv08TurtleRock_03D: {mSceondLeaName: Lv08TurtleRock_06F}

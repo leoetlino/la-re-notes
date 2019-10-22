@@ -1,0 +1,3723 @@
+fields:
+- {name: mId, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mKey, type_name: string, type: 4, flags: 4, fields: null}
+- {name: mPanelItem, type_name: PanelItems, type: 2, flags: 16, fields: null}
+- {name: mDoorTypeArray, type_name: PanelDoorType, type: 2, flags: 18, fields: null}
+- {name: mPassageTypeArray, type_name: PanelPassageType, type: 2, flags: 18, fields: null}
+- {name: mPanelCrackedWallTypeArray, type_name: PanelCrackedWallType, type: 2, flags: 18,
+  fields: null}
+- {name: mDoorSwitchArray, type_name: int, type: 2, flags: 2, fields: null}
+- {name: mWallPatternArray, type_name: int, type: 2, flags: 2, fields: null}
+- {name: mStairsType, type_name: PanelStairsType, type: 2, flags: 16, fields: null}
+- {name: mBoxType, type_name: PanelBoxType, type: 2, flags: 16, fields: null}
+- {name: mKeyBlockType, type_name: PanelKeyBlockType, type: 2, flags: 16, fields: null}
+- {name: mRoomType, type_name: PanelRoomType, type: 2, flags: 16, fields: null}
+- {name: mSideViewIndex, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mFlag, type_name: int, type: 2, flags: 0, fields: null}
+- {name: mStairsSwitch, type_name: int, type: 2, flags: 2, fields: null}
+contents:
+  PanelLv01TailCave_01F:
+    mId: 5
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_01G:
+    mId: 6
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_02F:
+    mId: 21
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_02G:
+    mId: 22
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_08B:
+    mId: 113
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_04G:
+    mId: 54
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1015]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_05A:
+    mId: 64
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_05F:
+    mId: 69
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 0, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_06A:
+    mId: 80
+    mPanelItem: 0
+    mDoorTypeArray: [1, 0, 0, 1]
+    mPassageTypeArray: [1, 0, 0, 1]
+    mPanelCrackedWallTypeArray: [1, 0, 0, 1]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_05G:
+    mId: 70
+    mPanelItem: 0
+    mDoorTypeArray: [5, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [22, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_06B:
+    mId: 81
+    mPanelItem: 2
+    mDoorTypeArray: [0, 0, 7, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 24, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_06F:
+    mId: 85
+    mPanelItem: 0
+    mDoorTypeArray: [9, 2, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_06G:
+    mId: 86
+    mPanelItem: 0
+    mDoorTypeArray: [6, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_07A:
+    mId: 96
+    mPanelItem: 0
+    mDoorTypeArray: [1, 0, 0, 0]
+    mPassageTypeArray: [1, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [1, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 3
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_07C:
+    mId: 98
+    mPanelItem: 0
+    mDoorTypeArray: [6, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_07D:
+    mId: 99
+    mPanelItem: 0
+    mDoorTypeArray: [0, 2, 9, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_07E:
+    mId: 100
+    mPanelItem: 0
+    mDoorTypeArray: [2, 9, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_04B:
+    mId: 49
+    mPanelItem: 0
+    mDoorTypeArray: [0, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [2, 500, -1, -1]
+  PanelLv01TailCave_08C:
+    mId: 114
+    mPanelItem: 0
+    mDoorTypeArray: [0, 2, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_08D:
+    mId: 115
+    mPanelItem: 0
+    mDoorTypeArray: [9, 9, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_02B:
+    mId: 273
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 3, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 2, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_02G:
+    mId: 278
+    mPanelItem: 1
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [53, 501, -1, -1]
+  PanelLv02BottleGrotto_03C:
+    mId: 290
+    mPanelItem: 1
+    mDoorTypeArray: [9, 0, 0, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_03F:
+    mId: 293
+    mPanelItem: 1
+    mDoorTypeArray: [9, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 1
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_04B:
+    mId: 305
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_04C:
+    mId: 306
+    mPanelItem: 1
+    mDoorTypeArray: [9, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 3
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_04D:
+    mId: 307
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_04E:
+    mId: 308
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_04G:
+    mId: 310
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1016]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_05B:
+    mId: 321
+    mPanelItem: 1
+    mDoorTypeArray: [5, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [91, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 4
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_05D:
+    mId: 323
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_05E:
+    mId: 324
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_05G:
+    mId: 326
+    mPanelItem: 1
+    mDoorTypeArray: [5, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [55, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_06B:
+    mId: 337
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_06D:
+    mId: 339
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_06E:
+    mId: 340
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_06G:
+    mId: 342
+    mPanelItem: 1
+    mDoorTypeArray: [0, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [56, 502, -1, -1]
+  PanelLv02BottleGrotto_07B:
+    mId: 353
+    mPanelItem: 1
+    mDoorTypeArray: [6, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_07C:
+    mId: 354
+    mPanelItem: 1
+    mDoorTypeArray: [0, 5, 6, 9]
+    mPassageTypeArray: [0, 1, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 1, 1, 0]
+    mDoorSwitchArray: [0, 35, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_07D:
+    mId: 355
+    mPanelItem: 1
+    mDoorTypeArray: [0, 2, 1, 5]
+    mPassageTypeArray: [0, 1, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 1, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 39]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_08C:
+    mId: 370
+    mPanelItem: 1
+    mDoorTypeArray: [9, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_08D:
+    mId: 371
+    mPanelItem: 1
+    mDoorTypeArray: [2, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_08F:
+    mId: 373
+    mPanelItem: 1
+    mDoorTypeArray: [9, 9, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_01F:
+    mId: 517
+    mPanelItem: 2
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_01G:
+    mId: 518
+    mPanelItem: 2
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_03G:
+    mId: 550
+    mPanelItem: 2
+    mDoorTypeArray: [0, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_04C:
+    mId: 562
+    mPanelItem: 2
+    mDoorTypeArray: [9, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 3
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_04F:
+    mId: 565
+    mPanelItem: 2
+    mDoorTypeArray: [0, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_04G:
+    mId: 566
+    mPanelItem: 2
+    mDoorTypeArray: [5, 5, 5, 5]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [68, 69, 70, 71]
+    mWallPatternArray: [4, 4, 4, 4]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_04H:
+    mId: 567
+    mPanelItem: 2
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_05G:
+    mId: 582
+    mPanelItem: 2
+    mDoorTypeArray: [2, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_06C:
+    mId: 594
+    mPanelItem: 2
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_07G:
+    mId: 614
+    mPanelItem: 2
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1017]
+    mWallPatternArray: [1, 1, 1, 4]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 267
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_08B:
+    mId: 625
+    mPanelItem: 2
+    mDoorTypeArray: [6, 0, 9, 0]
+    mPassageTypeArray: [1, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [1, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_08C:
+    mId: 626
+    mPanelItem: 2
+    mDoorTypeArray: [0, 9, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 3, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_08G:
+    mId: 630
+    mPanelItem: 2
+    mDoorTypeArray: [5, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [79, 0, 0, 0]
+    mWallPatternArray: [4, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_08H:
+    mId: 631
+    mPanelItem: 2
+    mDoorTypeArray: [0, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 4, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_02D:
+    mId: 787
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_02E:
+    mId: 788
+    mPanelItem: 3
+    mDoorTypeArray: [0, 2, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_03E:
+    mId: 804
+    mPanelItem: 3
+    mDoorTypeArray: [6, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_03G:
+    mId: 806
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_04B:
+    mId: 817
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 1]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 1]
+    mDoorSwitchArray: [0, 0, 0, 1018]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: 14
+    mFlag: 263
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_04C:
+    mId: 818
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 9, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [454, 100, 503, -1]
+  PanelLv04AnglersTunnel_05B:
+    mId: 833
+    mPanelItem: 3
+    mDoorTypeArray: [5, 0, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [109, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_06A:
+    mId: 848
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_06B:
+    mId: 849
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_07A:
+    mId: 864
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_07B:
+    mId: 865
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_08A:
+    mId: 880
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_08B:
+    mId: 881
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_08D:
+    mId: 883
+    mPanelItem: 3
+    mDoorTypeArray: [9, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_08E:
+    mId: 884
+    mPanelItem: 3
+    mDoorTypeArray: [6, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_04AU:
+    mId: 885
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 25
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_04AL:
+    mId: 886
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 26
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_04HU:
+    mId: 887
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 25
+    mSideViewIndex: -1
+    mFlag: 59
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_04HL:
+    mId: 888
+    mPanelItem: 3
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 26
+    mSideViewIndex: -1
+    mFlag: 59
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_01B:
+    mId: 1025
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_01C:
+    mId: 1026
+    mPanelItem: 4
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 4
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_01E:
+    mId: 1028
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 2, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 2, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_01F:
+    mId: 1029
+    mPanelItem: 4
+    mDoorTypeArray: [0, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_02D:
+    mId: 1043
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1019]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 139
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_02F:
+    mId: 1045
+    mPanelItem: 4
+    mDoorTypeArray: [6, 0, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_03B:
+    mId: 1057
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 1
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_03C:
+    mId: 1058
+    mPanelItem: 4
+    mDoorTypeArray: [0, 6, 6, 0]
+    mPassageTypeArray: [0, 1, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 1, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_03F:
+    mId: 1061
+    mPanelItem: 4
+    mDoorTypeArray: [2, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 4
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_04A:
+    mId: 1072
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_04B:
+    mId: 1073
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_04F:
+    mId: 1077
+    mPanelItem: 4
+    mDoorTypeArray: [2, 0, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_04G:
+    mId: 1078
+    mPanelItem: 4
+    mDoorTypeArray: [1, 1, 6, 1]
+    mPassageTypeArray: [1, 1, 1, 1]
+    mPanelCrackedWallTypeArray: [1, 1, 1, 1]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_04H:
+    mId: 1079
+    mPanelItem: 4
+    mDoorTypeArray: [0, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_05A:
+    mId: 1088
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_05B:
+    mId: 1089
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_05D:
+    mId: 1091
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_05F:
+    mId: 1093
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_05G:
+    mId: 1094
+    mPanelItem: 4
+    mDoorTypeArray: [9, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 4
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_06A:
+    mId: 1104
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_06B:
+    mId: 1105
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_07A:
+    mId: 1120
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_07B:
+    mId: 1121
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_07D:
+    mId: 1123
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_08A:
+    mId: 1136
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_08B:
+    mId: 1137
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_08E:
+    mId: 1140
+    mPanelItem: 4
+    mDoorTypeArray: [0, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 1
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_08H:
+    mId: 1143
+    mPanelItem: 4
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_01A:
+    mId: 1280
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_01B:
+    mId: 1281
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_01C:
+    mId: 1282
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_01D:
+    mId: 1283
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_01E:
+    mId: 1284
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_01F:
+    mId: 1285
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_02A:
+    mId: 1296
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 2
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_02H:
+    mId: 1303
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_03A:
+    mId: 1312
+    mPanelItem: 5
+    mDoorTypeArray: [6, 0, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 1]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 2]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_03H:
+    mId: 1319
+    mPanelItem: 5
+    mDoorTypeArray: [2, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_04A:
+    mId: 1328
+    mPanelItem: 5
+    mDoorTypeArray: [6, 0, 9, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_04E:
+    mId: 1332
+    mPanelItem: 5
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1020]
+    mWallPatternArray: [1, 1, 1, 3]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_04F:
+    mId: 1333
+    mPanelItem: 5
+    mDoorTypeArray: [2, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 1
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [207, 504, -1, -1]
+  PanelLv06FaceShrine_05A:
+    mId: 1344
+    mPanelItem: 5
+    mDoorTypeArray: [9, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_05C:
+    mId: 1346
+    mPanelItem: 5
+    mDoorTypeArray: [0, 7, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 3, 0, 0]
+    mDoorSwitchArray: [0, 211, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [210, 505, -1, -1]
+  PanelLv06FaceShrine_05E:
+    mId: 1348
+    mPanelItem: 5
+    mDoorTypeArray: [5, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [225, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_05F:
+    mId: 1349
+    mPanelItem: 5
+    mDoorTypeArray: [6, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 213]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_05H:
+    mId: 1351
+    mPanelItem: 5
+    mDoorTypeArray: [2, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_06D:
+    mId: 1363
+    mPanelItem: 5
+    mDoorTypeArray: [6, 0, 6, 0]
+    mPassageTypeArray: [1, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [1, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_06E:
+    mId: 1364
+    mPanelItem: 5
+    mDoorTypeArray: [6, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_06F:
+    mId: 1365
+    mPanelItem: 5
+    mDoorTypeArray: [7, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [220, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_07B:
+    mId: 1377
+    mPanelItem: 5
+    mDoorTypeArray: [2, 0, 0, 2]
+    mPassageTypeArray: [1, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_07F:
+    mId: 1381
+    mPanelItem: 5
+    mDoorTypeArray: [5, 0, 6, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [222, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_08B:
+    mId: 1393
+    mPanelItem: 5
+    mDoorTypeArray: [6, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 3
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_08D:
+    mId: 1395
+    mPanelItem: 5
+    mDoorTypeArray: [0, 9, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_08E:
+    mId: 1396
+    mPanelItem: 5
+    mDoorTypeArray: [0, 1, 1, 0]
+    mPassageTypeArray: [0, 1, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 1, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_08F:
+    mId: 1397
+    mPanelItem: 5
+    mDoorTypeArray: [6, 9, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_01B:
+    mId: 1537
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 3]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 2
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_01C:
+    mId: 1538
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 3]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 1
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_01H:
+    mId: 1543
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_02A:
+    mId: 1552
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 6, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_02D:
+    mId: 1555
+    mPanelItem: 6
+    mDoorTypeArray: [0, 2, 0, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_02H:
+    mId: 1559
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_03A:
+    mId: 1568
+    mPanelItem: 6
+    mDoorTypeArray: [5, 0, 9, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [263, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_03G:
+    mId: 1574
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1021]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: 20
+    mFlag: 7
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_04A:
+    mId: 1584
+    mPanelItem: 6
+    mDoorTypeArray: [6, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_04C:
+    mId: 1586
+    mPanelItem: 6
+    mDoorTypeArray: [2, 2, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_05F:
+    mId: 1605
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 2, 1]
+    mPassageTypeArray: [0, 0, 0, 1]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 1]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 3]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_05G:
+    mId: 1606
+    mPanelItem: 6
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 3, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_05EL:
+    mId: 1608
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 28
+    mSideViewIndex: -1
+    mFlag: 48
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_05HL:
+    mId: 1610
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 28
+    mSideViewIndex: -1
+    mFlag: 16
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_06H:
+    mId: 1623
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_07G:
+    mId: 1638
+    mPanelItem: 6
+    mDoorTypeArray: [0, 0, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_07H:
+    mId: 1639
+    mPanelItem: 6
+    mDoorTypeArray: [0, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_08B:
+    mId: 1649
+    mPanelItem: 6
+    mDoorTypeArray: [0, 9, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_08G:
+    mId: 1654
+    mPanelItem: 6
+    mDoorTypeArray: [2, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_01A:
+    mId: 1792
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_01B:
+    mId: 1793
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_01E:
+    mId: 1796
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 1]
+    mPassageTypeArray: [0, 0, 0, 1]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 1]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 2]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_01G:
+    mId: 1798
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_01H:
+    mId: 1799
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_02A:
+    mId: 1808
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_02B:
+    mId: 1809
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_02C:
+    mId: 1810
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_02D:
+    mId: 1811
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1022]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_02F:
+    mId: 1813
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_02G:
+    mId: 1814
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_03A:
+    mId: 1824
+    mPanelItem: 7
+    mDoorTypeArray: [6, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_03D:
+    mId: 1827
+    mPanelItem: 7
+    mDoorTypeArray: [5, 9, 5, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [306, 0, 340, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_03F:
+    mId: 1829
+    mPanelItem: 7
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 3, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_03G:
+    mId: 1830
+    mPanelItem: 7
+    mDoorTypeArray: [0, 2, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_03H:
+    mId: 1831
+    mPanelItem: 7
+    mDoorTypeArray: [6, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_04C:
+    mId: 1842
+    mPanelItem: 7
+    mDoorTypeArray: [0, 9, 7, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 309, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_04F:
+    mId: 1845
+    mPanelItem: 7
+    mDoorTypeArray: [0, 2, 7, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 312, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_04G:
+    mId: 1846
+    mPanelItem: 7
+    mDoorTypeArray: [6, 7, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 313, 0, 0]
+    mWallPatternArray: [1, 2, 2, 2]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_05C:
+    mId: 1858
+    mPanelItem: 7
+    mDoorTypeArray: [9, 0, 9, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_05G:
+    mId: 1862
+    mPanelItem: 7
+    mDoorTypeArray: [5, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [307, 0, 0, 0]
+    mWallPatternArray: [2, 2, 1, 1]
+    mStairsType: 4
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_06A:
+    mId: 1872
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_06B:
+    mId: 1873
+    mPanelItem: 7
+    mDoorTypeArray: [9, 0, 2, 1]
+    mPassageTypeArray: [0, 0, 0, 1]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 1]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 1, 1, 2]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_06C:
+    mId: 1874
+    mPanelItem: 7
+    mDoorTypeArray: [0, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_06G:
+    mId: 1878
+    mPanelItem: 7
+    mDoorTypeArray: [0, 7, 0, 7]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 320, 0, 321]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_06H:
+    mId: 1879
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 1
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 2
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07A:
+    mId: 1888
+    mPanelItem: 7
+    mDoorTypeArray: [6, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07B:
+    mId: 1889
+    mPanelItem: 7
+    mDoorTypeArray: [9, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07C:
+    mId: 1890
+    mPanelItem: 7
+    mDoorTypeArray: [6, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07D:
+    mId: 1891
+    mPanelItem: 7
+    mDoorTypeArray: [9, 6, 6, 9]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07E:
+    mId: 1892
+    mPanelItem: 7
+    mDoorTypeArray: [0, 2, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07F:
+    mId: 1893
+    mPanelItem: 7
+    mDoorTypeArray: [0, 2, 1, 0]
+    mPassageTypeArray: [0, 0, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07G:
+    mId: 1894
+    mPanelItem: 7
+    mDoorTypeArray: [7, 9, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [331, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_07H:
+    mId: 1895
+    mPanelItem: 7
+    mDoorTypeArray: [6, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08A:
+    mId: 1904
+    mPanelItem: 7
+    mDoorTypeArray: [2, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08B:
+    mId: 1905
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08C:
+    mId: 1906
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08D:
+    mId: 1907
+    mPanelItem: 7
+    mDoorTypeArray: [1, 0, 0, 0]
+    mPassageTypeArray: [1, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [1, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08E:
+    mId: 1908
+    mPanelItem: 7
+    mDoorTypeArray: [2, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 2
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 256
+    mStairsSwitch: [334, 506, -1, -1]
+  PanelLv08TurtleRock_08F:
+    mId: 1909
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08G:
+    mId: 1910
+    mPanelItem: 7
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 24
+    mSideViewIndex: -1
+    mFlag: 27
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_08H:
+    mId: 1911
+    mPanelItem: 7
+    mDoorTypeArray: [6, 0, 0, 0]
+    mPassageTypeArray: [2, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [2, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 3
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_04B:
+    mId: 2353
+    mPanelItem: 9
+    mDoorTypeArray: [0, 0, 0, 10]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 1023]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 17
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_04C:
+    mId: 2354
+    mPanelItem: 9
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_04F:
+    mId: 2357
+    mPanelItem: 9
+    mDoorTypeArray: [0, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_04G:
+    mId: 2358
+    mPanelItem: 9
+    mDoorTypeArray: [0, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_05B:
+    mId: 2369
+    mPanelItem: 9
+    mDoorTypeArray: [5, 0, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [353, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_05C:
+    mId: 2370
+    mPanelItem: 9
+    mDoorTypeArray: [0, 5, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 354, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_05D:
+    mId: 2371
+    mPanelItem: 9
+    mDoorTypeArray: [0, 0, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_05E:
+    mId: 2372
+    mPanelItem: 9
+    mDoorTypeArray: [0, 2, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 4
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_05F:
+    mId: 2373
+    mPanelItem: 9
+    mDoorTypeArray: [0, 0, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_05G:
+    mId: 2374
+    mPanelItem: 9
+    mDoorTypeArray: [5, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [361, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_06C:
+    mId: 2386
+    mPanelItem: 9
+    mDoorTypeArray: [6, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_06D:
+    mId: 2387
+    mPanelItem: 9
+    mDoorTypeArray: [6, 6, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_06E:
+    mId: 2388
+    mPanelItem: 9
+    mDoorTypeArray: [0, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_06F:
+    mId: 2389
+    mPanelItem: 9
+    mDoorTypeArray: [2, 0, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_07C:
+    mId: 2402
+    mPanelItem: 9
+    mDoorTypeArray: [0, 0, 6, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_07D:
+    mId: 2403
+    mPanelItem: 9
+    mDoorTypeArray: [0, 2, 9, 7]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 367]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_07E:
+    mId: 2404
+    mPanelItem: 9
+    mDoorTypeArray: [5, 9, 9, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [377, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_07F:
+    mId: 2405
+    mPanelItem: 9
+    mDoorTypeArray: [2, 9, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_08C:
+    mId: 2418
+    mPanelItem: 9
+    mDoorTypeArray: [2, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 16
+    mSideViewIndex: -1
+    mFlag: 23
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_08D:
+    mId: 2419
+    mPanelItem: 9
+    mDoorTypeArray: [7, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [370, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 1
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_08E:
+    mId: 2420
+    mPanelItem: 9
+    mDoorTypeArray: [6, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 9
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_08F:
+    mId: 2421
+    mPanelItem: 9
+    mDoorTypeArray: [6, 6, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 5
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_05H:
+    mId: 71
+    mPanelItem: 13
+    mDoorTypeArray: [0, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_07A:
+    mId: 352
+    mPanelItem: 14
+    mDoorTypeArray: [0, 6, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv01TailCave_04H:
+    mId: 55
+    mPanelItem: 15
+    mDoorTypeArray: [6, 0, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 3
+    mSideViewIndex: -1
+    mFlag: 43
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv02BottleGrotto_04H:
+    mId: 311
+    mPanelItem: 16
+    mDoorTypeArray: [0, 6, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 43
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_04D:
+    mId: 563
+    mPanelItem: 17
+    mDoorTypeArray: [9, 2, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 256
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv03KeyCavern_07H:
+    mId: 615
+    mPanelItem: 18
+    mDoorTypeArray: [6, 6, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [4, 4, 4, 4]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 299
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_02C:
+    mId: 1042
+    mPanelItem: 19
+    mDoorTypeArray: [6, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 171
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelSpecialAddition_01E:
+    mId: 3588
+    mPanelItem: 20
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 27
+    mSideViewIndex: -1
+    mFlag: 75
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_03F:
+    mId: 805
+    mPanelItem: 21
+    mDoorTypeArray: [6, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv04AnglersTunnel_05A:
+    mId: 832
+    mPanelItem: 22
+    mDoorTypeArray: [6, 0, 6, 6]
+    mPassageTypeArray: [1, 0, 1, 1]
+    mPanelCrackedWallTypeArray: [1, 0, 1, 1]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: 15
+    mFlag: 295
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_02C:
+    mId: 1298
+    mPanelItem: 23
+    mDoorTypeArray: [0, 0, 9, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 10
+    mSideViewIndex: -1
+    mFlag: 8
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_02D:
+    mId: 1299
+    mPanelItem: 24
+    mDoorTypeArray: [2, 2, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv05CatfishsMaw_05C:
+    mId: 1090
+    mPanelItem: 25
+    mDoorTypeArray: [0, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelSpecialAddition_02E:
+    mId: 3604
+    mPanelItem: 26
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 27
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_02E:
+    mId: 1300
+    mPanelItem: 27
+    mDoorTypeArray: [6, 9, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv06FaceShrine_02F:
+    mId: 1301
+    mPanelItem: 28
+    mDoorTypeArray: [0, 6, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 4, 4, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 43
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv07EagleTower_01E:
+    mId: 1540
+    mPanelItem: 29
+    mDoorTypeArray: [6, 6, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [2, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: 19
+    mFlag: 39
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_01C:
+    mId: 1794
+    mPanelItem: 30
+    mDoorTypeArray: [0, 2, 2, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 12
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelSpecialAddition_03E:
+    mId: 3620
+    mPanelItem: 31
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 27
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelSpecialAddition_04E:
+    mId: 3636
+    mPanelItem: 32
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 27
+    mSideViewIndex: -1
+    mFlag: 11
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_04H:
+    mId: 1847
+    mPanelItem: 33
+    mDoorTypeArray: [0, 0, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 8
+    mSideViewIndex: -1
+    mFlag: 265
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_05H:
+    mId: 1863
+    mPanelItem: 34
+    mDoorTypeArray: [0, 2, 0, 2]
+    mPassageTypeArray: [0, 3, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 9
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_04A:
+    mId: 1840
+    mPanelItem: 35
+    mDoorTypeArray: [2, 2, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 1, 1]
+    mStairsType: 0
+    mBoxType: 1
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 0
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv08TurtleRock_05A:
+    mId: 1856
+    mPanelItem: 36
+    mDoorTypeArray: [6, 0, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 11
+    mSideViewIndex: -1
+    mFlag: 43
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelSpecialAddition_05E:
+    mId: 3652
+    mPanelItem: 37
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 27
+    mSideViewIndex: -1
+    mFlag: 75
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_04D:
+    mId: 2355
+    mPanelItem: 38
+    mDoorTypeArray: [0, 2, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 14
+    mSideViewIndex: -1
+    mFlag: 4
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv10ClothesDungeon_04A:
+    mId: 2352
+    mPanelItem: 39
+    mDoorTypeArray: [6, 6, 6, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 43
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv11PanelOnlyDungeon_02E:
+    mId: 2580
+    mPanelItem: 40
+    mDoorTypeArray: [0, 2, 0, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 6
+    mSideViewIndex: -1
+    mFlag: 516
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv11PanelOnlyDungeon_03E:
+    mId: 2596
+    mPanelItem: 41
+    mDoorTypeArray: [6, 6, 0, 6]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 7
+    mSideViewIndex: -1
+    mFlag: 521
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv11PanelOnlyDungeon_04D:
+    mId: 2611
+    mPanelItem: 42
+    mDoorTypeArray: [6, 6, 6, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 3, 3, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 13
+    mSideViewIndex: -1
+    mFlag: 521
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv11PanelOnlyDungeon_03D:
+    mId: 2595
+    mPanelItem: 43
+    mDoorTypeArray: [2, 2, 2, 2]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 3, 3, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 517
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelLv11PanelOnlyDungeon_02D:
+    mId: 2579
+    mPanelItem: 44
+    mDoorTypeArray: [6, 6, 6, 6]
+    mPassageTypeArray: [0, 1, 1, 0]
+    mPanelCrackedWallTypeArray: [0, 1, 1, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 2, 2, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 15
+    mSideViewIndex: -1
+    mFlag: 521
+    mStairsSwitch: [-1, -1, -1, -1]
+  PanelSpecialAddition_06E:
+    mId: 3668
+    mPanelItem: 45
+    mDoorTypeArray: [0, 0, 0, 0]
+    mPassageTypeArray: [0, 0, 0, 0]
+    mPanelCrackedWallTypeArray: [0, 0, 0, 0]
+    mDoorSwitchArray: [0, 0, 0, 0]
+    mWallPatternArray: [1, 1, 1, 1]
+    mStairsType: 0
+    mBoxType: 0
+    mKeyBlockType: 0
+    mRoomType: 27
+    mSideViewIndex: -1
+    mFlag: 523
+    mStairsSwitch: [-1, -1, -1, -1]

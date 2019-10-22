@@ -1,0 +1,1283 @@
+- name: Player
+  resources: [Playerlink.bfres, Player.drsb]
+- name: EnemyTektight
+  resources: [EnemyTektight.bfres, EnemyTektight.drsb]
+- name: EnemyOctorok
+  resources: [EnemyOctorok.bfres, ObjOctorokRock.bfres, EnemyOctorok.drsb, ObjOctorokRock.drsb]
+- name: EnemySeaUrchin
+  resources: [EnemySeaUrchin.bfres, EnemySeaUrchin.drsb]
+- name: EnemyLeever
+  resources: [EnemyLeever.bfres, EnemyLeever.drsb]
+- name: EnemyPeese
+  resources: [EnemyPeese.bfres, EnemyPeese.drsb]
+- name: EnemyTotakeke
+  resources: [EnemyTotakeke.bfres, EnemyTotakeke.drsb, ObjTotakekeCoconut.bfres, ObjTotakekeCoconut.drsb]
+- name: EnemyPeahat
+  resources: [EnemyPeahat.bfres, EnemyPeahat.drsb]
+- name: EnemyMoriblinSword
+  resources: [EnemyMoriblinSword.bfres, EnemyMoriblinSword.drsb]
+- name: EnemyMoriblinSpear
+  resources: [EnemyMoriblinSpear.bfres, EnemyMoriblinSpear.drsb, ObjMoriblinSpearWeapon.bfres,
+    ObjMoriblinSpearWeapon.drsb]
+- name: EnemyBuzzBlob
+  resources: [EnemyBuzzBlob.bfres, EnemyBuzzBlob.drsb, EnemyNomos.bfres, EnemyNomos.drsb,
+    Nomos.bfevfl]
+- name: EnemyNomos
+  resources: [EnemyNomos.bfres, EnemyNomos.drsb, Nomos.bfevfl]
+- name: EnemyCrowly
+  resources: [EnemyCrowly.bfres, EnemyCrowly.drsb]
+- name: EnemyPiranha
+  resources: [EnemyPiranha.bfres, EnemyPiranha.drsb]
+- name: EnemyMonea
+  resources: [EnemyMonea.bfres, EnemyMonea.drsb]
+- name: EnemyAnaMonea
+  resources: [EnemyAnaMonea.bfres, EnemyAnaMonea.drsb, ObjAnaMoneaMagic.drsb]
+- name: EnemyGhini
+  resources: [EnemyGhini.bfres, EnemyGhini.drsb]
+- name: EnemyDeguGhini
+  resources: [EnemyDeguGhini.bfres, EnemyDeguGhini.drsb]
+- name: EnemyZombie
+  resources: [EnemyZombie.bfres, EnemyZombie.drsb]
+- name: EnemyMoblinSword
+  resources: [EnemyMoblinSword.bfres, EnemyMoblinSword.drsb]
+- name: EnemyMoblinSpear
+  resources: [EnemyMoblinSpear.bfres, EnemyMoblinSpear.drsb, ObjMoblinSpearWeapon.bfres,
+    ObjMoblinSpearWeapon.drsb]
+- name: EnemyArmosLight
+  resources: [EnemyArmosLight.bfres, EnemyArmosLight.drsb]
+- name: EnemyArmosDark
+  resources: [EnemyArmosDark.bfres, EnemyArmosDark.drsb]
+- name: EnemyFlyingOctorok
+  resources: [EnemyFlyingOctorok.bfres, ObjOctorokRock.bfres, EnemyFlyingOctorok.drsb,
+    ObjOctorokRock.drsb]
+- name: EnemyPiccolo
+  resources: [EnemyPiccolo.bfres, EnemyPiccolo.drsb]
+- name: EnemyZoroZoro
+  resources: [EnemyZoroZoro.bfres, EnemyZoroZoro.drsb]
+- name: EnemyZora
+  resources: [EnemyZora.bfres, EnemyZora.drsb, ObjFireball.drsb]
+- name: EnemyZolGreen
+  resources: [EnemyZolGreen.bfres, EnemyZolGreen.drsb]
+- name: EnemyZolRed
+  resources: [EnemyZolRed.bfres, EnemyZolRed.drsb, EnemyMiniZol.drsb]
+- name: EnemyMiniZol
+  resources: [EnemyZolRed.bfres, EnemyMiniZol.drsb]
+- name: EnemyHidy
+  resources: [EnemyHidy.bfres, EnemyHidy.drsb, ObjGrass.bfres, ObjGrass.drsb, ObjRock.bfres,
+    ObjRock.drsb, ObjSkullStone.bfres, ObjSkullStone.drsb]
+- name: ObjPincerBody
+  resources: []
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: EnemyPokey
+  resources: [EnemyPokey.bfres, EnemyPokey.drsb]
+- name: EnemyKyune
+  resources: [EnemyKyune.bfres, EnemyKyune.drsb]
+- name: EnemyPawn
+  resources: [EnemyPawn.bfres, EnemyPawn.drsb]
+- name: EnemyRope
+  resources: [EnemyRope.bfres, EnemyRope.drsb]
+- name: EnemyVire
+  resources: [EnemyVire.bfres, EnemyVire.drsb, EnemyVireChild.bfres, EnemyVireChild.drsb,
+    ObjVireMagic.drsb]
+- name: EnemyTail
+  resources: [EnemyTail.bfres, EnemyTail.drsb]
+- name: EnemyTogezo
+  resources: [EnemyTogezo.bfres, EnemyTogezo.drsb]
+- name: EnemyVegas
+  resources: [EnemyVegas.bfres, EnemyVegas.drsb]
+- name: EnemyDeathBallVacuum
+  resources: [EnemyDeathBallVacuum.drsb]
+- name: EnemyDeathBallReverse
+  resources: [EnemyDeathBallReverse.drsb]
+- name: EnemyPakkun
+  resources: [EnemyPakkun.bfres, EnemyPakkun.drsb]
+- name: EnemyPincer
+  resources: [EnemyPincer.bfres, EnemyPincer.drsb]
+- name: EnemyStalKnightSpear
+  resources: [EnemyStalKnightSpear.bfres, EnemyStalKnightSpear.drsb, ObjStalKnightSpearWeapon.bfres,
+    ObjStalKnightSpearWeapon.drsb]
+- name: EnemyStalKnightSword
+  resources: [EnemyStalKnightSword.bfres, EnemyStalKnightSword.drsb]
+- name: EnemyMimic
+  resources: [EnemyMimic.bfres, EnemyMimic.drsb]
+- name: EnemyBomberRed
+  resources: [EnemyBomberRed.bfres, EnemyBomberRed.drsb]
+- name: EnemyBomberGreen
+  resources: [EnemyBomberGreen.bfres, EnemyBomberGreen.drsb]
+- name: EnemyGibdos
+  resources: [EnemyGibdos.bfres, EnemyGibdos.drsb, EnemyStalfosOrange.bfres, EnemyStalfosOrange.drsb,
+    ObjStalfosBoneWeapon.bfres, ObjStalfosBoneWeapon.drsb]
+- name: EnemyKeese
+  resources: [EnemyKeese.bfres, EnemyKeese.drsb]
+- name: EnemySoldierSword
+  resources: [EnemySoldierSword.bfres, EnemySoldierSword.drsb]
+- name: EnemySoldierSpear
+  resources: [EnemySoldierSpear.bfres, EnemySoldierSpear.drsb, ObjSoldierSpearWeapon.bfres,
+    ObjSoldierSpearWeapon.drsb]
+- name: EnemyPolsVoice
+  resources: [EnemyPolsVoice.bfres, EnemyPolsVoice.drsb]
+- name: EnemyLikeLike
+  resources: [EnemyLikeLike.bfres, EnemyLikeLike.drsb]
+- name: EnemyStalfosGreen
+  resources: [EnemyStalfosGreen.bfres, EnemyStalfosGreen.drsb]
+- name: EnemyStalfosOrange
+  resources: [EnemyStalfosOrange.bfres, EnemyStalfosOrange.drsb, ObjStalfosBoneWeapon.bfres,
+    ObjStalfosBoneWeapon.drsb]
+- name: EnemyWizzrobe
+  resources: [EnemyWizzrobe.bfres, EnemyWizzrobe.drsb, ObjAuraSphere.drsb]
+- name: EnemyKuribo
+  resources: [EnemyKuribo.bfres, EnemyKuribo.drsb]
+- name: EnemySpark
+  resources: [EnemySpark.bfres, EnemySpark.drsb]
+- name: EnemyCreepee
+  resources: [EnemyCreepee.bfres, EnemyCreepee.drsb, ObjBomb.bfres, ObjBomb.drsb]
+- name: EnemyKirby
+  resources: [EnemyKirby.bfres, EnemyKirby.drsb]
+- name: EnemyHiploop
+  resources: [EnemyHiploop.bfres, EnemyHiploop.drsb, ObjHiploopMask.bfres]
+- name: EnemyHeiho
+  resources: [EnemyHeiho.bfres, EnemyHeiho.drsb]
+- name: EnemyKyorobo
+  resources: [EnemyKyorobo.bfres, EnemyKyorobo.drsb, ObjKyoroboMagic.drsb]
+- name: EnemyHover
+  resources: [EnemyHover.bfres, EnemyHover.drsb]
+- name: EnemyBallerine
+  resources: [EnemyBallerine.bfres, EnemyBallerine.drsb]
+- name: EnemyPukuPuku
+  resources: [EnemyPukuPuku.bfres, EnemyPukuPuku.drsb]
+- name: EnemyMinigler
+  resources: [EnemyMinigler.bfres, EnemyMinigler.drsb]
+- name: EnemyGesso
+  resources: [EnemyGesso.bfres, EnemyGesso.drsb]
+- name: EnemyBonePutter
+  resources: [EnemyBonePutter.bfres, EnemyBonePutter.drsb, ObjBomb.bfres, ObjBomb.drsb]
+- name: EnemyBonePutterBounce
+  resources: [EnemyBonePutter.bfres, EnemyBonePutter.drsb]
+- name: EnemyStretchyGhostGreen
+  resources: [EnemyStretchyGhostBlue.bfres, EnemyStretchyGhostGreen.drsb]
+- name: EnemyStretchyGhostRed
+  resources: [EnemyStretchyGhostBlue.bfres, EnemyStretchyGhostRed.drsb]
+- name: EnemyStretchyGhostBlue
+  resources: [EnemyStretchyGhostBlue.bfres, EnemyStretchyGhostBlue.drsb]
+- name: EnemyKarakoroGreen
+  resources: [EnemyKarakoroGreen.bfres, EnemyKarakoro.drsb]
+- name: EnemyKarakoroRed
+  resources: [EnemyKarakoroGreen.bfres, EnemyKarakoro.drsb]
+- name: EnemyKarakoroBlue
+  resources: [EnemyKarakoroGreen.bfres, EnemyKarakoro.drsb]
+- name: EnemyTeresa
+  resources: [EnemyTeresa.bfres, EnemyTeresa.drsb]
+- name: EnemyRola
+  resources: [EnemyRola.bfres, EnemyRola.drsb]
+- name: EnemyBossblin
+  resources: [EnemyBossblin.bfres, EnemyBossblin.drsb, ObjBossblinWeapon.bfres, ObjBossblinWeapon.drsb]
+- name: EnemyHinox
+  resources: [EnemyHinox.bfres, EnemyHinox.drsb, ObjBomb.bfres, ObjBomb.drsb]
+- name: EnemyBombKnuckle
+  resources: [EnemyBombKnuckle.bfres, EnemyBombKnuckle.drsb, ObjBomb.bfres, ObjBomb.drsb]
+- name: EnemySoldierIronBall
+  resources: [EnemySoldierIronBall.bfres, EnemySoldierIronBall.drsb, ObjChainIronBall.bfres,
+    ObjChainIronBall.drsb]
+- name: EnemyDodongo
+  resources: [EnemyDodongo.bfres, EnemyDodongo.drsb]
+- name: EnemyLanmola
+  resources: [EnemyLanmola.bfres, EnemyLanmola.drsb]
+- name: EnemyHiploopHover
+  resources: [EnemyHiploopHover.bfres, EnemyHiploopHover.drsb]
+- name: EnemyMasterStalfon
+  resources: [EnemyMasterStalfon.bfres, EnemyMasterStalfon.drsb, ItemHookShot.bfres]
+- name: EnemyGohma
+  resources: [EnemyGohma.bfres, EnemyGohma.drsb, ObjGohmaFireball.drsb]
+- name: EnemyDeguArmos
+  resources: [EnemyDeguArmos.bfres, EnemyDeguArmos.drsb]
+- name: EnemyJacky
+  resources: [EnemyJacky.bfres, EnemyJacky.drsb]
+- name: EnemyPiccoloMaster
+  resources: [EnemyPiccoloMaster.bfres, EnemyPiccoloMaster.drsb, EnemyPiccolo.bfres,
+    EnemyPiccolo.drsb]
+- name: EnemyTurtleRock
+  resources: [EnemyTurtleRock.bfres, EnemyTurtleRock.drsb]
+- name: EnemyMightPunch
+  resources: [EnemyMightPunch.bfres, EnemyMightPunch.drsb]
+- name: EnemyStoneHinox
+  resources: [EnemyStoneHinox.bfres, EnemyStoneHinox.drsb, ObjStoneHinoxRock.bfres,
+    ObjStoneHinoxRock.drsb]
+- name: EnemyBossBlob
+  resources: [EnemyBossBlob.bfres, EnemyBossBlob.drsb, ObjBossBlobLightning.drsb]
+- name: EnemyDonPawn
+  resources: [EnemyDonPawn.bfres, EnemyDonPawn.drsb, ObjCrossMagic.drsb, EnemyStalfosGreen.bfres,
+    EnemyStalfosGreen.drsb]
+- name: EnemyDeguTail
+  resources: [EnemyDeguTail.bfres, EnemyDeguTail.drsb]
+- name: EnemyPotDemonKing
+  resources: [EnemyPotDemonKing.bfres, EnemyPotDemonKing.drsb, EnemyPotDemonPot.bfres,
+    EnemyPotDemonPot.drsb, ObjPotDemonKingMagic.drsb]
+- name: EnemyDeguZol
+  resources: [EnemyDeguZol.bfres, EnemyDeguZol.drsb]
+- name: EnemyAngler
+  resources: [EnemyAngler.bfres, EnemyAngler.drsb, EnemyMinigler.bfres, EnemyMinigler.drsb,
+    ObjAnglerBlock.bfres, ObjAnglerBlock.drsb]
+- name: EnemyHooker
+  resources: [EnemyHooker.bfres, EnemyHookerFake.bfres, EnemyHookerTail.bfres, EnemyHooker.drsb]
+- name: EnemyMatFace
+  resources: [EnemyMatFace.bfres, EnemyMatFace.drsb]
+- name: EnemyAlbatoss
+  resources: [EnemyAlbatoss.bfres, EnemyAlbatoss.drsb, ObjAlbatossFeather.drsb, AreaAlbatossWind.drsb]
+- name: EnemyDeguFlame
+  resources: [EnemyDeguFlame.bfres, EnemyDeguFlame.drsb, ObjLavaSplash.drsb]
+- name: EnemyShadowZol
+  resources: [EnemyShadowZol.bfres, EnemyShadowZol.drsb]
+- name: EnemyShadowAgahnim
+  resources: [EnemyShadowAgahnim.bfres, EnemyShadowAgahnim.drsb, ObjAgahnimBullet.drsb,
+    ObjAgahnimMagic.drsb, ObjAgahnimBulletPiece.drsb, EnemyShadowZol.bfres, EnemyShadowComplement.drsb]
+- name: EnemyShadowDeguTail
+  resources: [EnemyShadowDeguTail.bfres, EnemyShadowDeguTail.drsb]
+- name: EnemyShadowGanon
+  resources: [EnemyShadowGanon.bfres, EnemyShadowGanon.drsb, ObjShadowGanonWeapon.bfres,
+    ObjGanonBat.bfres, ObjGanonBat.drsb]
+- name: EnemyShadowLanmola
+  resources: [EnemyShadowZol.bfres, EnemyShadowLanmola.drsb]
+- name: EnemyShadowDethI
+  resources: [EnemyShadowDethI.bfres, EnemyShadowDethI.drsb]
+- name: ItemSwordLv1
+  resources: []
+- name: ItemSwordLv2
+  resources: []
+- name: ItemShield
+  resources: []
+- name: ItemMirrorShield
+  resources: []
+- name: ItemBomb
+  resources: []
+- name: ItemBow
+  resources: []
+- name: ItemHookShot
+  resources: []
+- name: ItemBoomerang
+  resources: []
+- name: ItemMagicRod
+  resources: []
+- name: ItemShovel
+  resources: []
+- name: ItemSleepyMushroom
+  resources: []
+- name: ItemMagicPowder
+  resources: []
+- name: ItemRocsFeather
+  resources: []
+- name: ItemPowerBraceletLv1
+  resources: []
+- name: ItemPowerBraceletLv2
+  resources: []
+- name: ItemPegasusBoots
+  resources: []
+- name: ItemOcarina
+  resources: []
+- name: ItemClothesGreen
+  resources: []
+- name: ItemClothesRed
+  resources: []
+- name: ItemClothesBlue
+  resources: []
+- name: ItemFlippers
+  resources: []
+- name: ItemSecretMedicine
+  resources: []
+- name: ItemSecretSeashell
+  resources: []
+- name: ItemGoldenLeaf
+  resources: []
+- name: ItemTailKey
+  resources: []
+- name: ItemSlimeKey
+  resources: []
+- name: ItemAnglerKey
+  resources: []
+- name: ItemFaceKey
+  resources: []
+- name: ItemBirdKey
+  resources: []
+- name: ItemYoshiDoll
+  resources: []
+- name: ItemRibbon
+  resources: []
+- name: ItemDogFood
+  resources: []
+- name: ItemBananas
+  resources: []
+- name: ItemStick
+  resources: []
+- name: ItemHoneycomb
+  resources: []
+- name: ItemPineapple
+  resources: []
+- name: ItemHibiscus
+  resources: []
+- name: ItemLetter
+  resources: []
+- name: ItemBroom
+  resources: []
+- name: ItemFishingHook
+  resources: []
+- name: ItemPinkBra
+  resources: []
+- name: null
+  resources: []
+- name: ItemMermaidsScale
+  resources: []
+- name: ItemMagnifyingLens
+  resources: []
+- name: ItemFullMoonCello
+  resources: []
+- name: ItemConchHorn
+  resources: []
+- name: ItemSeaLilysBell
+  resources: []
+- name: ItemSurfHarp
+  resources: []
+- name: ItemWindMarimba
+  resources: []
+- name: ItemCoralTriangle
+  resources: []
+- name: ItemEveningCalmOrgan
+  resources: []
+- name: ItemThunderDrum
+  resources: []
+- name: ItemCompass
+  resources: []
+- name: ItemDungeonMap
+  resources: []
+- name: null
+  resources: []
+- name: ItemStoneBeak
+  resources: []
+- name: ItemSmallKey
+  resources: []
+- name: ItemNightmareKey
+  resources: []
+- name: ItemRupeeBlue
+  resources: []
+- name: ItemRupeeGreen
+  resources: []
+- name: ItemRupeeRed
+  resources: []
+- name: ItemRecoveryHeart
+  resources: []
+- name: ItemFairy
+  resources: []
+- name: ItemHeartPiece
+  resources: []
+- name: ItemHeartContainer
+  resources: []
+- name: ItemPowerPiece
+  resources: []
+- name: ItemGuardianAcorn
+  resources: []
+- name: ItemArrow
+  resources: []
+- name: ObjLawn
+  resources: [ObjLawn.bfres, ObjLawn.drsb]
+- name: ObjGrass
+  resources: [ObjGrass.bfres, ObjGrass.drsb]
+- name: EnemyBubble
+  resources: [EnemyBubble.bfres, EnemyBubble.drsb]
+- name: ObjRock
+  resources: [ObjRock.bfres, ObjRock.drsb]
+- name: EnemyPotDemonPot
+  resources: [EnemyPotDemonPot.bfres, EnemyPotDemonPot.drsb]
+- name: null
+  resources: []
+- name: ObjTree
+  resources: [ObjTree.bfres, ObjTree.drsb]
+- name: ObjPalmTree
+  resources: [ObjPalmTree.bfres, ObjPalmTree.drsb]
+- name: null
+  resources: []
+- name: ObjTabahlTree
+  resources: [ObjTabahlTree.bfres, ObjTabahlTree.drsb]
+- name: null
+  resources: []
+- name: ObjSpeakTree
+  resources: [ObjSpeakTree.bfres, ObjSpeakTree.drsb]
+- name: ObjBook
+  resources: [ObjBook.bfres]
+- name: ObjDesertTree
+  resources: [ObjDesertTree.bfres, ObjDesertTree.drsb]
+- name: ObjSignboard
+  resources: []
+- name: null
+  resources: []
+- name: ObjBookSecret
+  resources: [ObjBookSecret.bfres]
+- name: ObjFloorTipTail
+  resources: [ObjFloorTipTail.bfres, ObjFloorTipTail.drsb, FloorTip.bfevfl]
+- name: ObjWeathercock
+  resources: [ObjWeathercock.bfres, ObjWeathercock.drsb]
+- name: ObjRoosterBones
+  resources: []
+- name: PanelJointOpening
+  resources: [PanelJointOpening.bfres]
+- name: ObjBombOctolRock
+  resources: [ObjBombOctolRock.bfres, ObjBombOctolRock.drsb]
+- name: ObjGrave
+  resources: [ObjGrave.drsb, EnemyGhini.bfres, EnemyGhini.drsb, EnemyDeguGhini.bfres,
+    EnemyDeguGhini.drsb]
+- name: ObjGhostsGrave
+  resources: []
+- name: ObjFloorTipBottle
+  resources: [ObjFloorTipBottle.bfres, ObjFloorTipBottle.drsb, FloorTip.bfevfl]
+- name: ObjFloorTipAngler
+  resources: [ObjFloorTipAngler.bfres, ObjFloorTipAngler.drsb, FloorTip.bfevfl]
+- name: ObjFloorTipFace
+  resources: [ObjFloorTipFace.bfres, ObjFloorTipFace.drsb, FloorTip.bfevfl]
+- name: ObjFieldCrackedWall
+  resources: [ObjFieldCrackedWall.bfres, ObjFieldCrackedWall.drsb]
+- name: ObjFloorTipTurtle
+  resources: [ObjFloorTipTurtle.bfres, ObjFloorTipTurtle.drsb, FloorTip.bfevfl]
+- name: ObjFieldOwlStatue
+  resources: [ObjFieldOwlStatue.bfres, ObjFieldOwlStatue.drsb]
+- name: ObjMarthaStatue
+  resources: []
+- name: ObjBookColor
+  resources: [ObjBookColor.bfres]
+- name: null
+  resources: []
+- name: ObjRaft
+  resources: [ObjRaft.bfres, ObjRaft.drsb]
+- name: ObjBridge
+  resources: [ObjBridge.bfres]
+- name: null
+  resources: []
+- name: ObjTailLockStatue
+  resources: [ObjTailLockStatue.bfres, ObjTailLockStatue.drsb]
+- name: ObjTailCaveShutter
+  resources: [ObjTailCaveShutter.bfres, ObjTailCaveShutter.drsb]
+- name: ObjDungeonStandLamp
+  resources: [ObjDungeonStandLamp.bfres, ObjDungeonStandLamp.drsb, ObjFaceLampFire.drsb]
+- name: ObjSlimeLockStatue
+  resources: [ObjSlimeLockStatue.bfres, ObjSlimeLockStatue.drsb]
+- name: ObjKanaletCastleGate
+  resources: [ObjKanaletCastleGate.bfres, ObjKanaletCastleGate.drsb]
+- name: ObjKeyCavernShutter
+  resources: [ObjKeyCavernShutter.bfres, ObjKeyCavernShutter.drsb]
+- name: ObjAnglersKeyhole
+  resources: [ObjAnglersKeyhole.bfres, ObjAnglersKeyhole.drsb]
+- name: ObjAnglersWaterfall
+  resources: [ObjAnglersWaterfall.bfres, ObjAnglersWaterfall.drsb]
+- name: ObjFaceLockStatue
+  resources: [ObjFaceLockStatue.bfres, ObjFaceLockStatue.drsb]
+- name: ObjFaceShrineGate
+  resources: [ObjFaceShrineGate.bfres, ObjFaceShrineGate.drsb]
+- name: ObjEaglesLockRock
+  resources: [ObjEaglesLockRock.bfres, ObjEaglesLockRock.drsb]
+- name: ObjEaglesTower
+  resources: [ObjEaglesTower.bfres, ObjEaglesTower.drsb]
+- name: ObjWindFishsEgg
+  resources: [ObjWindFishsEgg.bfres]
+- name: ObjButterfly
+  resources: [ObjButterfly.bfres]
+- name: ObjFishingBoat
+  resources: [ObjFishingBoat.bfres, ObjFishingBoat.drsb]
+- name: TagSwitchChecker
+  resources: []
+- name: ObjCactus
+  resources: [ObjCactus.bfres]
+- name: ObjFallingRock
+  resources: [ObjFallingRock.bfres, ObjFallingRock.drsb]
+- name: ObjHousePot
+  resources: [ObjHousePot.bfres, ObjHousePot.drsb]
+- name: TagActivateChecker
+  resources: []
+- name: ObjLockDoor
+  resources: [ObjLockDoor.bfres, ObjLockDoor.drsb]
+- name: ObjBossDoor
+  resources: [ObjBossDoor.bfres, ObjBossDoor.drsb]
+- name: ObjClosedDoor
+  resources: [ObjClosedDoor.bfres, ObjClosedDoor.drsb]
+- name: TagHolocaustChecker
+  resources: []
+- name: ObjDungeonCrackedWall
+  resources: [ObjDungeonCrackedWall.bfres, ObjDungeonCrackedWall.drsb]
+- name: ObjFilledWall
+  resources: [ObjFilledWall.bfres, ObjFilledWall.drsb]
+- name: ObjDungeonWarpHole
+  resources: [ObjDungeonWarpHole.drsb]
+- name: ObjFieldTipTaltal1
+  resources: [ObjFieldTipTaltal1.bfres, ObjFieldTipTaltal1.drsb, FloorTip.bfevfl]
+- name: ObjSkullStone
+  resources: [ObjSkullStone.bfres, ObjSkullStone.drsb]
+- name: ObjCaveRock
+  resources: [ObjCaveRock.drsb]
+- name: ObjTreasureBox
+  resources: [ObjTreasureBox.bfres, ObjTreasureBox.drsb]
+- name: null
+  resources: []
+- name: ObjDungeonOwlStatue
+  resources: []
+- name: ObjBomb
+  resources: [ObjBomb.bfres, ObjBomb.drsb]
+- name: ObjDungeonFaceLamp
+  resources: [ObjDungeonFaceLamp.bfres, ObjDungeonFaceLamp.drsb, ObjFaceLampFire.drsb]
+- name: ObjFootSwitch
+  resources: [ObjFootSwitch.bfres, ObjFootSwitch.drsb]
+- name: ObjLever
+  resources: [ObjLever.bfres]
+- name: ObjCrystalSwitch
+  resources: [ObjCrystalSwitch.bfres, ObjCrystalSwitch.drsb]
+- name: ObjFieldTipTaltal2
+  resources: [ObjFieldTipTaltal2.bfres, ObjFieldTipTaltal2.drsb, FloorTip.bfevfl]
+- name: ObjSquareBlock
+  resources: [ObjSquareBlock.drsb]
+- name: ObjCrackedBlock
+  resources: [ObjCrackedBlock.bfres, ObjCrackedBlock.drsb]
+- name: ObjLockBlock
+  resources: [ObjLockBlock.drsb]
+- name: ObjFieldTipMysterious
+  resources: [ObjFieldTipMysterious.bfres, ObjFieldTipMysterious.drsb, FloorTip.bfevfl]
+- name: ObjMysteryLump
+  resources: [ObjMysteryLump.bfres, ObjMysteryLump.drsb]
+- name: ObjDungeonCollapseTile
+  resources: [ObjDungeonCollapseTile.bfres, ObjDungeonCollapseTile.drsb]
+- name: null
+  resources: []
+- name: ObjShiningTile
+  resources: [ObjShiningTile.bfres, ObjShiningTile.drsb]
+- name: ObjHookBridge
+  resources: [ObjHookBridge.bfres, ObjHookBridge.drsb]
+- name: ObjElephantStatue
+  resources: [ObjElephantStatue.bfres, ObjElephantStatue.drsb]
+- name: null
+  resources: []
+- name: ObjIronball
+  resources: [ObjIronBall.bfres, ObjIronBall.drsb]
+- name: ObjTowerPillar
+  resources: [ObjTowerPillar.bfres, ObjTowerPillar.drsb]
+- name: ObjKataKata
+  resources: [ObjKataKata.bfres, ObjKataKata.drsb, ObjKataKataFloor.bfres, ObjKataKataFloor.drsb]
+- name: ObjMovingFoothold
+  resources: [ObjMovingFoothold.bfres]
+- name: null
+  resources: []
+- name: ObjBigPot
+  resources: [ObjBigPot.bfres, ObjDungeonPot.drsb]
+- name: ObjOshin
+  resources: [ObjOshin.bfres, ObjOshin.drsb]
+- name: ObjDoshin
+  resources: [ObjDoshin.bfres, ObjDoshin.drsb]
+- name: ObjChainFoothold
+  resources: [ObjChainFoothold.bfres, ObjChainFoothold.drsb]
+- name: ObjMysteriousTree
+  resources: [ObjMysteriousTree.bfres, ObjMysteriousTree.drsb]
+- name: ObjIceBlock
+  resources: [ObjIceBlock.bfres, ObjIceBlock.drsb]
+- name: ObjColorBallSwitch
+  resources: [ObjColorBallSwitch.bfres, ObjColorBallSwitch.drsb]
+- name: ObjColorHole
+  resources: []
+- name: ObjColorPanel
+  resources: [ObjColorPanel.bfres, ObjColorPanel.drsb]
+- name: ObjBladeTrap
+  resources: [ObjBladeTrap.bfres, ObjBladeTrap.drsb]
+- name: ObjRollingSpike
+  resources: [ObjRollingSpike.bfres, ObjRollingSpike.drsb]
+- name: ObjSpikeTile
+  resources: [ObjSpikeTile.bfres, ObjSpikeTile.drsb]
+- name: null
+  resources: []
+- name: AreaAmbienceCapsule
+  resources: []
+- name: AreaAmbienceSphere
+  resources: []
+- name: null
+  resources: []
+- name: ObjDungeonCrackedWallCave
+  resources: [ObjDungeonCrackedWallCave.bfres, ObjDungeonCrackedWallCave.drsb]
+- name: ObjDungeonCrackedWallLv01
+  resources: [ObjDungeonCrackedWallLv01.bfres, ObjDungeonCrackedWallLv01.drsb]
+- name: ObjEyegoreFigure
+  resources: [ObjEyegoreFigure.bfres, ObjEyegoreFigure.drsb, ObjEyegoreLightBall.drsb]
+- name: ObjDungeonCrackedWallLv03
+  resources: [ObjDungeonCrackedWallLv03.bfres, ObjDungeonCrackedWallLv03.drsb]
+- name: ObjFlyingTile
+  resources: [ObjFlyingTile.bfres, ObjFlyingTile.drsb, ObjDungeonTileWall.bfres]
+- name: ObjBeamos
+  resources: [ObjBeamos.bfres, ObjBeamos.drsb, ObjBeam.drsb]
+- name: ObjFlameFountain
+  resources: [ObjFlameFountain.bfres, ObjFlameFountain.drsb, ObjFlameFountainFire.drsb]
+- name: null
+  resources: []
+- name: ObjDosun
+  resources: [ObjDosun.bfres, ObjDosun.drsb]
+- name: ObjKoton
+  resources: [ObjKoton.bfres, ObjKoton.drsb]
+- name: EnemyGiantBubble
+  resources: [EnemyGiantBubble.bfres, EnemyGiantBubble.drsb]
+- name: ObjPodoboo
+  resources: [ObjPodoboo.bfres, ObjPodoboo.drsb]
+- name: null
+  resources: []
+- name: AreaBasementSpikeTile
+  resources: []
+- name: null
+  resources: []
+- name: ObjBed
+  resources: []
+- name: ObjChest
+  resources: []
+- name: ObjDungeonCrackedWallLv06
+  resources: [ObjDungeonCrackedWallLv06.bfres, ObjDungeonCrackedWallLv06.drsb]
+- name: ObjDungeonCrackedWallLv07
+  resources: [ObjDungeonCrackedWallLv07.bfres, ObjDungeonCrackedWallLv07.drsb]
+- name: ObjDungeonCrackedWallLv08
+  resources: [ObjDungeonCrackedWallLv08.bfres, ObjDungeonCrackedWallLv08.drsb]
+- name: ObjAutoSlideBlock
+  resources: [ObjSquareBlock.bfres, ObjSquareBlock.drsb]
+- name: ItemGreenApple
+  resources: []
+- name: ItemApple
+  resources: []
+- name: ObjStalfosBoneWeapon
+  resources: [ObjStalfosBoneWeapon.bfres, ObjStalfosBoneWeapon.drsb]
+- name: ObjWorkbench
+  resources: [ObjWorkbench.bfres]
+- name: ObjDungeonCrackedWallLv10
+  resources: [ObjDungeonCrackedWallLv10.bfres, ObjDungeonCrackedWallLv10.drsb]
+- name: ObjTelephone
+  resources: []
+- name: ItemRupeePurple
+  resources: []
+- name: ObjEasel
+  resources: []
+- name: ObjFieldTipUkuku
+  resources: [ObjFieldTipUkuku.bfres, ObjFieldTipUkuku.drsb, FloorTip.bfevfl]
+- name: ItemRupeeSilver
+  resources: []
+- name: null
+  resources: []
+- name: ObjHouseFaceLamp
+  resources: [ObjHouseFaceLamp.bfres, ObjHouseFaceLamp.drsb]
+- name: ItemRupeeGold
+  resources: []
+- name: ObjHouseCollapseTile
+  resources: [ObjHouseCollapseTile.bfres, ObjHouseCollapseTile.drsb]
+- name: TagChangeEnvLampCheckerPanel
+  resources: []
+- name: ObjCrane
+  resources: [ObjCrane.bfres]
+- name: ObjCraneGameButton
+  resources: [ObjCraneGameButton.bfres]
+- name: ObjShellGauge
+  resources: [ObjShellGauge.bfres, ObjShellGauge.drsb]
+- name: ItemFeatherMagicPowder
+  resources: []
+- name: ItemFeatherRecoveryHeart
+  resources: []
+- name: ObjClosedPotDoor
+  resources: [ObjClosedPotDoor.bfres, ObjClosedPotDoor.drsb]
+- name: NpcMarin
+  resources: []
+- name: NpcTarin
+  resources: []
+- name: NpcMadamMeowMeow
+  resources: []
+- name: NpcBowWow
+  resources: []
+- name: NpcSmallBowWow
+  resources: []
+- name: NpcRibbonBowWow
+  resources: []
+- name: NpcGrandmaUlrira
+  resources: []
+- name: NpcGrandpaUlrira
+  resources: []
+- name: NpcToolShopkeeper
+  resources: []
+- name: NpcGameShopOwner
+  resources: []
+- name: NpcFisherman
+  resources: []
+- name: AreaEventBoxWithoutJump
+  resources: []
+- name: null
+  resources: []
+- name: NpcPapahl
+  resources: []
+- name: NpcQuadrupletsMother
+  resources: []
+- name: NpcQuadrupletGreen
+  resources: []
+- name: NpcQuadrupletRed
+  resources: [ObjBaseball.bfres]
+- name: NpcCucco
+  resources: [NpcCucco.bfres, NpcCucco.drsb]
+- name: NpcFox
+  resources: [NpcFox.bfres, NpcFox.drsb, Fox.bfevfl]
+- name: NpcOwl
+  resources: []
+- name: NpcSale
+  resources: []
+- name: NpcRaccoon
+  resources: []
+- name: NpcGreatFairy
+  resources: []
+- name: NpcSyrup
+  resources: []
+- name: NpcDrWrite
+  resources: []
+- name: NpcBirdOrange
+  resources: []
+- name: NpcBirdGreen
+  resources: []
+- name: null
+  resources: []
+- name: NpcCrazyTracy
+  resources: []
+- name: NpcMouse
+  resources: []
+- name: NpcMadBatter
+  resources: []
+- name: NpcRichard
+  resources: []
+- name: NpcRichardsFrog
+  resources: []
+- name: NpcKiki
+  resources: []
+- name: NpcSkeletalGuardBlue
+  resources: []
+- name: NpcSkeletalGuardRed
+  resources: []
+- name: NpcFairyQueen
+  resources: []
+- name: NpcChefBear
+  resources: []
+- name: NpcChristine
+  resources: []
+- name: NpcSchuleDonavitch
+  resources: []
+- name: NpcHippoModel
+  resources: []
+- name: NpcRabbit
+  resources: []
+- name: NpcWalrus
+  resources: []
+- name: NpcMoosh
+  resources: []
+- name: NpcToucan
+  resources: []
+- name: NpcManboTamegoro
+  resources: []
+- name: NpcManbosFish
+  resources: []
+- name: NpcGhost
+  resources: []
+- name: NpcMarthasBayFisherman
+  resources: []
+- name: NpcMermaidMartha
+  resources: []
+- name: NpcRaftShopMan
+  resources: []
+- name: NpcMamu
+  resources: []
+- name: NpcChorusFrog
+  resources: []
+- name: NpcSecretZora
+  resources: []
+- name: NpcGoriya
+  resources: []
+- name: NpcFlyingCucco
+  resources: []
+- name: NpcCuccoKeeper
+  resources: []
+- name: PlayerArrow
+  resources: [PlayerArrow.drsb]
+- name: NpcWindFish
+  resources: []
+- name: MapStatic
+  resources: []
+- name: MapKinematic
+  resources: []
+- name: ObjFieldTipKanalet
+  resources: [ObjFieldTipKanalet.bfres, ObjFieldTipKanalet.drsb, FloorTip.bfevfl]
+- name: ObjDesertBone
+  resources: []
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: ObjMoblinSpearWeapon
+  resources: [ObjMoblinSpearWeapon.bfres, ObjMoblinSpearWeapon.drsb]
+- name: ItemFeatherRupee
+  resources: []
+- name: TagPlayerStart
+  resources: []
+- name: AreaLevelOpen
+  resources: []
+- name: AreaEventBox
+  resources: []
+- name: AreaEventSphere
+  resources: []
+- name: null
+  resources: []
+- name: ObjSinkingSword
+  resources: []
+- name: null
+  resources: []
+- name: ItemFeatherArrow
+  resources: []
+- name: AreaZombieSpawnBox
+  resources: [EnemyZombie.bfres, EnemyZombie.drsb]
+- name: ObjDungeonCollapseTileLv01
+  resources: [ObjDungeonCollapseTileLv01.bfres, ObjDungeonCollapseTileLv01.drsb]
+- name: ObjDungeonCollapseTileLv02
+  resources: [ObjDungeonCollapseTileLv02.bfres, ObjDungeonCollapseTileLv02.drsb]
+- name: ObjDungeonCollapseTileLv05
+  resources: [ObjDungeonCollapseTileLv05.bfres, ObjDungeonCollapseTileLv05.drsb]
+- name: ObjFieldTipMaze
+  resources: [ObjFieldTipMaze.bfres, ObjFieldTipMaze.drsb]
+- name: ObjDungeonCollapseTileLv08
+  resources: [ObjDungeonCollapseTileLv08.bfres, ObjDungeonCollapseTileLv08.drsb]
+- name: ObjDungeonCollapseTileCave
+  resources: [ObjDungeonCollapseTileCave.bfres, ObjDungeonCollapseTileCave.drsb]
+- name: ObjDungeonCollapseTileDream
+  resources: [ObjDungeonCollapseTileDream.bfres, ObjDungeonCollapseTileDream.drsb]
+- name: ObjFieldTipTemple
+  resources: [ObjFieldTipTemple.bfres, ObjFieldTipTemple.drsb, FloorTip.bfevfl]
+- name: ObjDungeonCollapseTileMoriblin
+  resources: [ObjDungeonCollapseTileMoriblin.bfres, ObjDungeonCollapseTileMoriblin.drsb]
+- name: TagAreaEventTrigger
+  resources: []
+- name: ObjSlate
+  resources: []
+- name: ObjOnewayDoorObverse
+  resources: [ObjOnewayDoorObverse.bfres, ObjOnewayDoorObverse.drsb]
+- name: ObjOnewayDoorReverse
+  resources: [ObjOnewayDoorReverse.bfres, ObjOnewayDoorReverse.drsb]
+- name: ObjDungeonCollapseTileKanalet
+  resources: [ObjDungeonCollapseTileKanalet.bfres, ObjDungeonCollapseTileKanalet.drsb]
+- name: null
+  resources: []
+- name: ObjDungeonPot
+  resources: [ObjDungeonPot.bfres, ObjDungeonPot.drsb]
+- name: ObjSplitCaveRock
+  resources: [ObjSplitCaveRock.bfres, ObjSplitCaveRock.drsb]
+- name: ObjFishingLine
+  resources: []
+- name: ObjPurpleUnevenSwitch
+  resources: [ObjPurpleUnevenSwitch.bfres, ObjPurpleUnevenSwitch.drsb]
+- name: ObjOrangeUnevenSwitch
+  resources: [ObjOrangeUnevenSwitch.bfres, ObjOrangeUnevenSwitch.drsb]
+- name: null
+  resources: []
+- name: ObjPurpleQuartz
+  resources: [ObjPurpleQuartz.bfres, ObjPurpleQuartz.drsb]
+- name: TagSwitchEventTrigger
+  resources: []
+- name: null
+  resources: []
+- name: ObjSoldierSpearWeapon
+  resources: [ObjSoldierSpearWeapon.bfres, ObjSoldierSpearWeapon.drsb]
+- name: PanelJointPassageStraight
+  resources: [PanelJointPassageStraight.bfres]
+- name: PanelJointOpeningStraight
+  resources: [PanelJointOpeningStraight.bfres]
+- name: TagLight
+  resources: []
+- name: AreaOuterWall
+  resources: []
+- name: PlayerMagicRodBall
+  resources: [PlayerMagicRodBall.drsb]
+- name: ObjDungeonRoof
+  resources: [ObjDungeonRoof.bfres]
+- name: PanelJointPassageCorner
+  resources: [PanelJointPassageCorner.bfres]
+- name: PanelJointOpeningCorner
+  resources: [PanelJointOpeningCorner.bfres]
+- name: TagPopChecker
+  resources: []
+- name: ItemFeatherBomb
+  resources: []
+- name: ObjBookshelfDoReaction
+  resources: []
+- name: ObjBookshelfDashReaction
+  resources: []
+- name: PanelSwitchEventTrigger
+  resources: []
+- name: ObjCastleCrowlyTree
+  resources: [ObjTree.bfres, ObjTree.drsb]
+- name: null
+  resources: []
+- name: ObjHiploopMask
+  resources: [ObjHiploopMask.bfres]
+- name: TagTailorPlayer
+  resources: [TagTailorPlayer.drsb]
+- name: PanelFallGeneratorBomb
+  resources: [ObjBomb.bfres, ObjBomb.drsb]
+- name: ObjTotakekeTree
+  resources: [ObjPalmTree.bfres, ObjPalmTree.drsb]
+- name: ObjDownFoothold
+  resources: [ObjMovingFoothold.bfres]
+- name: null
+  resources: []
+- name: AreaWaterBox
+  resources: []
+- name: ObjHangedSkeleton
+  resources: [ObjHangedSkeleton.bfres]
+- name: ObjClothBag
+  resources: [ObjClothBag.bfres]
+- name: AreaBeltConveyor
+  resources: []
+- name: ObjGameBeltConveyor
+  resources: []
+- name: AreaWarpHoleEventBox
+  resources: [ObjWarpHole.drsb]
+- name: AreaAntlion
+  resources: []
+- name: ObjHolesDug
+  resources: [ObjHolesDug.bfres, ObjHolesDug.drsb]
+- name: ObjShellMansionPresent
+  resources: [ObjShellMansionPresent.bfres]
+- name: ObjShopItem
+  resources: [ObjSoldOutPlate.bfres]
+- name: NpcShellMansionMaster
+  resources: []
+- name: EnemyVireChild
+  resources: [EnemyVireChild.bfres, EnemyVireChild.drsb]
+- name: ObjOctorokRock
+  resources: [ObjOctorokRock.bfres, ObjOctorokRock.drsb]
+- name: null
+  resources: []
+- name: ObjTotakekeCoconut
+  resources: [ObjTotakekeCoconut.bfres, ObjTotakekeCoconut.drsb]
+- name: ObjMoriblinSpearWeapon
+  resources: [ObjMoriblinSpearWeapon.bfres, ObjMoriblinSpearWeapon.drsb]
+- name: ObjBossblinWeapon
+  resources: [ObjBossblinWeapon.bfres, ObjBossblinWeapon.drsb]
+- name: ObjAnaMoneaMagic
+  resources: [ObjAnaMoneaMagic.drsb]
+- name: NpcDanpei
+  resources: []
+- name: ObjFireball
+  resources: [ObjFireball.drsb]
+- name: ObjFaceLampFire
+  resources: [ObjFaceLampFire.drsb]
+- name: ObjEyegoreLightBall
+  resources: [ObjEyegoreLightBall.drsb]
+- name: ObjKyoroboMagic
+  resources: [ObjKyoroboMagic.drsb]
+- name: ObjStalKnightSpearWeapon
+  resources: [ObjStalKnightSpearWeapon.bfres, ObjStalKnightSpearWeapon.drsb]
+- name: ObjAuraSphere
+  resources: [ObjAuraSphere.drsb]
+- name: ObjVireMagic
+  resources: [ObjVireMagic.drsb]
+- name: ObjTableBananas
+  resources: []
+- name: PlayerHookshot
+  resources: [PlayerHookshot.drsb]
+- name: AreaZoroZoroSpawnBox
+  resources: [EnemyZoroZoro.bfres, EnemyZoroZoro.drsb]
+- name: ObjChainIronBall
+  resources: [ObjChainIronBall.bfres, ObjChainIronBall.drsb]
+- name: ObjJackyIronBall
+  resources: [ObjJackyIronBall.bfres, ObjJackyIronBall.drsb]
+- name: null
+  resources: []
+- name: ObjStoneHinoxRock
+  resources: [ObjStoneHinoxRock.bfres, ObjStoneHinoxRock.drsb]
+- name: ObjCrossMagic
+  resources: [ObjCrossMagic.drsb]
+- name: ObjPotDemonKingMagic
+  resources: [ObjPotDemonKingMagic.drsb]
+- name: ObjAnglerBlock
+  resources: [ObjAnglerBlock.bfres, ObjAnglerBlock.drsb]
+- name: ObjMatFaceFlyingTile
+  resources: [ObjFlyingTile.bfres, ObjMatFaceFlyingTile.drsb]
+- name: ObjMatFacePot
+  resources: [ObjDungeonPot.bfres, ObjMatFacePot.drsb]
+- name: ObjBeam
+  resources: [ObjBeam.drsb]
+- name: null
+  resources: []
+- name: AreaAlbatossWind
+  resources: [AreaAlbatossWind.drsb]
+- name: ObjAlbatossFeather
+  resources: [ObjAlbatossFeather.drsb]
+- name: ObjFlameFountainFire
+  resources: [ObjFlameFountainFire.drsb]
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: ObjGanonBat
+  resources: [ObjGanonBat.bfres, ObjGanonBat.drsb]
+- name: null
+  resources: []
+- name: AreaUpstairs
+  resources: []
+- name: AreaDownstairs
+  resources: []
+- name: MapFixture
+  resources: []
+- name: ObjEnemyBomb
+  resources: [ObjBomb.bfres, ObjBomb.drsb]
+- name: ItemBottle
+  resources: []
+- name: ObjMovingFloorCrane
+  resources: [ObjMovingFloorCrane.bfres]
+- name: PlayerSwordBeam
+  resources: [PlayerSwordBeam.drsb]
+- name: AreaHoleLowerLevel
+  resources: []
+- name: null
+  resources: []
+- name: PanelCrackedWallLv01
+  resources: [PanelPanelCrackedWallLv01.bfres, PanelCrackedWallLv01.drsb]
+- name: PanelCrackedWallLv02
+  resources: [PanelPanelCrackedWallLv02.bfres, PanelCrackedWallLv02.drsb]
+- name: PanelCrackedWallLv03
+  resources: [PanelPanelCrackedWallLv03.bfres, PanelCrackedWallLv03.drsb]
+- name: PanelCrackedWallLv04
+  resources: [PanelPanelCrackedWallLv04.bfres, PanelCrackedWallLv04.drsb]
+- name: PanelCrackedWallLv05
+  resources: [PanelPanelCrackedWallLv05.bfres, PanelCrackedWallLv05.drsb]
+- name: PanelCrackedWallLv06
+  resources: [PanelPanelCrackedWallLv06.bfres, PanelCrackedWallLv06.drsb]
+- name: PanelCrackedWallLv07
+  resources: [PanelPanelCrackedWallLv07.bfres, PanelCrackedWallLv07.drsb]
+- name: PanelCrackedWallLv08
+  resources: [PanelPanelCrackedWallLv08.bfres, PanelCrackedWallLv08.drsb]
+- name: PanelCrackedWallLv10
+  resources: [PanelPanelCrackedWallLv10.bfres, PanelCrackedWallLv10.drsb]
+- name: ObjMatFaceFallFloor
+  resources: [ObjMatFaceFallFloor.bfres, ObjMatFaceFallFloor.drsb]
+- name: AreaCraneGame
+  resources: []
+- name: ObjGohmaFireball
+  resources: [ObjGohmaFireball.drsb]
+- name: ObjBrokenFloorLv5
+  resources: [ObjBrokenFloorLv5.bfres, ObjBrokenFloorLv5.drsb]
+- name: ObjBrokenWallLv5
+  resources: [ObjBrokenWallLv5.bfres, ObjBrokenWallLv5.drsb]
+- name: ObjSmallFish
+  resources: [ObjSmallFish.bfres, ObjSmallFish.drsb]
+- name: ObjBigFish
+  resources: [ObjBigFish.bfres, ObjBigFish.drsb]
+- name: TagFishingManager
+  resources: [ObjSmallFish.bfres, ObjSmallFish.drsb, ObjBigFish.bfres, ObjBigFish.drsb,
+    EnemyPukuPuku.bfres, ObjFishingPukuPuku.drsb, EnemyGesso.bfres, ObjFishingGesso.drsb]
+- name: PlayerBoomerang
+  resources: [PlayerBoomerang.drsb]
+- name: ObjFishingRod
+  resources: [ObjFishingRod.bfres]
+- name: ObjFishingLure
+  resources: [ObjFishingLure.bfres, ObjFishingLure.drsb, NpcManbosFish.bfres, ObjFishingManbosFish.drsb,
+    ItemBottle.bfres, ObjFishingBottle.drsb]
+- name: CranePrize
+  resources: []
+- name: ObjHorseNeckPedestal
+  resources: [ObjHorseNeckPedestal.bfres, ObjHorseNeckL.bfres, ObjHorseNeckL.drsb,
+    ObjHorseNeckR.bfres, ObjHorseNeckR.drsb]
+- name: ObjBaseball
+  resources: [ObjBaseball.bfres]
+- name: ObjSoldOutPlate
+  resources: [ObjSoldOutPlate.bfres]
+- name: NpcGull
+  resources: []
+- name: ObjCraneFence
+  resources: [ObjCraneFence.bfres]
+- name: AreaMatFaceBattle
+  resources: [ObjFlyingTile.bfres, ObjMatFaceFlyingTile.drsb, ObjDungeonPot.bfres,
+    ObjMatFacePot.drsb, ObjMatFaceFallFloor.bfres, ObjMatFaceFallFloor.drsb]
+- name: AreaBarrierBox
+  resources: []
+- name: ObjWoodenBox
+  resources: [ObjWoodenBox.bfres, ObjWoodenBox.drsb]
+- name: ObjEyegoreSwitch
+  resources: [ObjEyegoreSwitch.bfres, ObjEyegoreSwitch.drsb]
+- name: PanelFallMaster
+  resources: [PanelPanelFallMaster.bfres, PanelFallMaster.drsb, FallMaster.bfevfl,
+    CommonFakeShadow.bfres]
+- name: PanelShadowLink
+  resources: [PanelShadowLink.bfres, PanelShadowLink.drsb, ShadowLink.bfevfl]
+- name: AreaWarterFlow
+  resources: []
+- name: TagChangeEnvironmentLampChecker
+  resources: []
+- name: ItemPanelDungeonPiece
+  resources: []
+- name: ItemPanelDungeonPieceSet
+  resources: []
+- name: ObjBed2
+  resources: []
+- name: ObjMarinLetter
+  resources: []
+- name: ObjRiverGate
+  resources: [ObjRiverGate.bfres]
+- name: TagRapidFlowGame
+  resources: []
+- name: ItemShellRader
+  resources: []
+- name: ObjClosedDoorLv07Side
+  resources: [ObjClosedDoorLv07Side.bfres]
+- name: null
+  resources: []
+- name: ObjPedestal
+  resources: [ObjPedestal.bfres]
+- name: AreaFallingRockSpawnBox
+  resources: [ObjFallingRock.bfres, ObjFallingRock.drsb]
+- name: ObjFishingPukuPuku
+  resources: [EnemyPukuPuku.bfres, ObjFishingPukuPuku.drsb]
+- name: ObjFishingGesso
+  resources: [EnemyGesso.bfres, ObjFishingGesso.drsb]
+- name: ObjFishingManbosFish
+  resources: [NpcManbosFish.bfres, ObjFishingManbosFish.drsb]
+- name: ObjFishingBottle
+  resources: [ItemBottle.bfres, ObjFishingBottle.drsb]
+- name: null
+  resources: []
+- name: null
+  resources: []
+- name: ObjWarpManbo
+  resources: [ObjWarpManbo.drsb]
+- name: AreaShellDropper
+  resources: []
+- name: ObjKataKataLava
+  resources: [ObjKataKata.bfres, ObjKataKata.drsb, ObjKataKataFloor.bfres, ObjKataKataFloor.drsb]
+- name: ObjKataKataFloor
+  resources: [ObjKataKataFloor.bfres, ObjKataKataFloor.drsb]
+- name: null
+  resources: []
+- name: NpcAlbatossPiccolo
+  resources: [EnemyPiccolo.bfres, EnemyPiccolo.drsb]
+- name: PanelJointOpeningDown
+  resources: [PanelJointOpeningDown.bfres]
+- name: PanelJointOpeningStraightDown
+  resources: [PanelJointOpeningStraightDown.bfres]
+- name: PanelJointOpeningCornerDown
+  resources: [PanelJointOpeningCornerDown.bfres]
+- name: ObjLavaSplash
+  resources: [ObjLavaSplash.drsb]
+- name: ObjBossBlobElectricShock
+  resources: [ObjBossBlobLightning.drsb]
+- name: PanelUpstairs
+  resources: [PanelUpstairs.bfres, PanelUpstairs.drsb]
+- name: PanelDownstairs
+  resources: [PanelDownstairs.bfres]
+- name: PanelWallUpstairs
+  resources: [PanelWallUpstairs.bfres]
+- name: PanelWallDownstairs
+  resources: [PanelWallDownstairs.bfres]
+- name: TagSwitchLight
+  resources: []
+- name: ItemBottleFairy
+  resources: []
+- name: AreaRapidFlow
+  resources: []
+- name: TagShadowLink
+  resources: [PanelShadowLink.bfres, PanelShadowLink.drsb, ShadowLink.bfevfl]
+- name: MapSkySea
+  resources: []
+- name: AreaEagleTower
+  resources: []
+- name: TagHistoricalHolocaustChecker
+  resources: []
+- name: AreaCameraOffsetChange
+  resources: []
+- name: FixedCameraActor
+  resources: []
+- name: ObjAgahnimBulletPiece
+  resources: [ObjAgahnimBulletPiece.drsb]
+- name: TagFieldWaveEffect
+  resources: []
+- name: PanelFallMasterManager
+  resources: [PanelPanelFallMaster.bfres, PanelFallMaster.drsb, FallMaster.bfevfl,
+    CommonFakeShadow.bfres]
+- name: ObjPanelSignboard
+  resources: [ObjPanelSignboard.bfres]
+- name: ObjAgahnimBullet
+  resources: [ObjAgahnimBullet.drsb, ObjAgahnimMagic.drsb]
+- name: PanelBlockedDoor
+  resources: [PanelPanelBlockedDoor.bfres]
+- name: ObjHorseNeckL
+  resources: [ObjHorseNeckL.bfres, ObjHorseNeckL.drsb]
+- name: ObjHorseNeckR
+  resources: [ObjHorseNeckR.bfres, ObjHorseNeckR.drsb]
+- name: EnemyShadowComplement
+  resources: [EnemyShadowZol.bfres, EnemyShadowComplement.drsb]
+- name: TagShadowManager
+  resources: []
+- name: ObjSirenInstrument
+  resources: []
+- name: PanelBossDoor
+  resources: [PanelBossDoor.bfres, PanelBossDoor.drsb]
+- name: ObjDisappearIsland
+  resources: []
+- name: EnemyDeguZolPhase1
+  resources: [EnemyDeguZol.bfres, EnemyDeguZol.drsb]
+- name: EnemyDeguZolPhase2
+  resources: [EnemyDeguZol.bfres, EnemyDeguZol.drsb]
+- name: ObjDungeonTileWall
+  resources: [ObjDungeonTileWall.bfres]
+- name: ObjTurtleRockWall
+  resources: []
+- name: ObjEventEagleTower
+  resources: [ObjEventEagleTower.bfres, ObjEventEagleTower.drsb]
+- name: PanelCrackedWallLv11
+  resources: [PanelPanelCrackedWallLv11.bfres, PanelCrackedWallLv11.drsb]
+- name: PanelDungeonRoof
+  resources: [ObjDungeonRoof.bfres, PanelDungeonRoof.bfres]
+- name: ObjLv9Stair
+  resources: []
+- name: ObjGrass2x2
+  resources: [ObjGrass.bfres, ObjGrass.drsb]
+- name: AreaOcarina
+  resources: []
+- name: PanelFallGeneratorRupee
+  resources: []
+- name: PanelFallGeneratorHeart
+  resources: []
+- name: PanelJointOpeningCrackedLv01
+  resources: [PanelPanelCrackedWallLv01.bfres]
+- name: PanelJointOpeningCrackedLv02
+  resources: [PanelPanelCrackedWallLv02.bfres]
+- name: PanelJointOpeningCrackedLv03
+  resources: [PanelPanelCrackedWallLv03.bfres]
+- name: PanelJointOpeningCrackedLv04
+  resources: [PanelPanelCrackedWallLv04.bfres]
+- name: PanelJointOpeningCrackedLv05
+  resources: [PanelPanelCrackedWallLv05.bfres]
+- name: PanelJointOpeningCrackedLv06
+  resources: [PanelPanelCrackedWallLv06.bfres]
+- name: PanelJointOpeningCrackedLv07
+  resources: [PanelPanelCrackedWallLv07.bfres]
+- name: PanelJointOpeningCrackedLv08
+  resources: [PanelPanelCrackedWallLv08.bfres]
+- name: PanelJointOpeningCrackedLv10
+  resources: [PanelPanelCrackedWallLv10.bfres]
+- name: PanelJointOpeningCrackedLv11
+  resources: [PanelPanelCrackedWallLv11.bfres]
+- name: ObjInvisibleWall
+  resources: []
+- name: AreaDisguisedZoneWall
+  resources: []
+- name: TagMysteriousWoodsFog
+  resources: [TagMysteriousWoodsFog.drsb]
+- name: PanelDeadEndChecker
+  resources: [PanelAdventure.bfevfl]
+- name: PanelJointOpeningRightStraight
+  resources: [PanelJointOpeningRightStraight.bfres]
+- name: PanelJointOpeningLeftStraight
+  resources: [PanelJointOpeningLeftStraight.bfres]
+- name: ItemPanelDungeonPlusChip
+  resources: []
+- name: AreaReturnAbyssIgnoreGrid
+  resources: []
